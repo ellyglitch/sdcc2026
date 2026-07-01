@@ -2,7 +2,7 @@ let events = [];
 
 let currentDay = "Wednesday";
 
-let currentCategory = "All";
+let activeFilters = [];
 
 // Wait for the page to load
 document.addEventListener("DOMContentLoaded", async () => {
@@ -15,21 +15,64 @@ document.addEventListener("DOMContentLoaded", async () => {
     displayEvents();
 
     // Day Buttons
-  document.querySelectorAll(".filter").forEach(button=>{
+document.querySelectorAll(".filter").forEach(button=>{
 
     button.addEventListener("click",()=>{
 
-        document.querySelectorAll(".filter")
-            .forEach(btn=>btn.classList.remove("active"));
+        const filter = button.dataset.filter;
 
-        button.classList.add("active");
+        // ALL button
 
-        currentCategory=button.dataset.filter;
+        if(filter==="All"){
+
+            activeFilters=[];
+
+            document
+                .querySelectorAll(".filter")
+                .forEach(btn=>btn.classList.remove("active"));
+
+            button.classList.add("active");
+
+            displayEvents();
+
+            return;
+
+        }
+
+        // deactivate ALL
+
+        document
+            .querySelector('[data-filter="All"]')
+            .classList.remove("active");
+
+        button.classList.toggle("active");
+
+        if(activeFilters.includes(filter)){
+
+            activeFilters=
+                activeFilters.filter(f=>f!==filter);
+
+        }else{
+
+            activeFilters.push(filter);
+
+        }
+
+        // if nothing selected
+
+        if(activeFilters.length===0){
+
+            document
+                .querySelector('[data-filter="All"]')
+                .classList.add("active");
+
+        }
 
         displayEvents();
 
     });
 
+});
 });  
 
     // Search
@@ -54,26 +97,13 @@ events.filter(event=>{
 
         event.location.toLowerCase().includes(searchText);
 
-    const matchesCategory =
+   const matchesCategory =
 
-        currentCategory==="All"
+activeFilters.length===0
 
-        ||
+||
 
-        event.category===currentCategory;
-
-    return(
-
-        matchesDay
-
-        &&
-
-        matchesSearch
-
-        &&
-
-        matchesCategory
-
+activeFilters.includes(event.category);
 
 });
         });
