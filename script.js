@@ -4,113 +4,141 @@ let currentDay = "Wednesday";
 
 let activeFilters = [];
 
-// Wait for the page to load
+// Load page
 document.addEventListener("DOMContentLoaded", async () => {
 
-    // Load the event database
+    // Load events
     const response = await fetch("events.json");
     events = await response.json();
 
-    // Display Wednesday first
     displayEvents();
 
-    // Day Buttons
-document.querySelectorAll(".filter").forEach(button=>{
+    // ------------------
+    // DAY BUTTONS
+    // ------------------
 
-    button.addEventListener("click",()=>{
+    document.querySelectorAll(".day").forEach(button => {
 
-        const filter = button.dataset.filter;
+        button.addEventListener("click", () => {
 
-        // ALL button
+            currentDay = button.dataset.day;
 
-        if(filter==="All"){
-
-            activeFilters=[];
-
-            document
-                .querySelectorAll(".filter")
-                .forEach(btn=>btn.classList.remove("active"));
+            document.querySelectorAll(".day")
+                .forEach(btn => btn.classList.remove("active"));
 
             button.classList.add("active");
 
             displayEvents();
 
-            return;
-
-        }
-
-        // deactivate ALL
-
-        document
-            .querySelector('[data-filter="All"]')
-            .classList.remove("active");
-
-        button.classList.toggle("active");
-
-        if(activeFilters.includes(filter)){
-
-            activeFilters=
-                activeFilters.filter(f=>f!==filter);
-
-        }else{
-
-            activeFilters.push(filter);
-
-        }
-
-        // if nothing selected
-
-        if(activeFilters.length===0){
-
-            document
-                .querySelector('[data-filter="All"]')
-                .classList.add("active");
-
-        }
-
-        displayEvents();
+        });
 
     });
 
-});
-});  
+    // ------------------
+    // FILTER BUTTONS
+    // ------------------
 
-    // Search
+    document.querySelectorAll(".filter").forEach(button => {
+
+        button.addEventListener("click", () => {
+
+            const filter = button.dataset.filter;
+
+            if (filter === "All") {
+
+                activeFilters = [];
+
+                document.querySelectorAll(".filter")
+                    .forEach(btn => btn.classList.remove("active"));
+
+                button.classList.add("active");
+
+                displayEvents();
+
+                return;
+
+            }
+
+            document
+                .querySelector('[data-filter="All"]')
+                .classList.remove("active");
+
+            button.classList.toggle("active");
+
+            if (activeFilters.includes(filter)) {
+
+                activeFilters = activeFilters.filter(f => f !== filter);
+
+            } else {
+
+                activeFilters.push(filter);
+
+            }
+
+            if (activeFilters.length === 0) {
+
+                document
+                    .querySelector('[data-filter="All"]')
+                    .classList.add("active");
+
+            }
+
+            displayEvents();
+
+        });
+
+    });
+
+    // ------------------
+    // SEARCH
+    // ------------------
+
     document
         .getElementById("search")
         .addEventListener("input", displayEvents);
 
 });
 
-const todaysEvents =
+// =======================================
+// DISPLAY EVENTS
+// =======================================
 
-events.filter(event=>{
+function displayEvents() {
 
-    const matchesDay =
-        event.day===currentDay;
+    const container = document.getElementById("events");
 
-    const matchesSearch =
+    container.innerHTML = "";
 
-        event.title.toLowerCase().includes(searchText)
+    const searchText =
+        document
+            .getElementById("search")
+            .value
+            .toLowerCase();
 
-        ||
+    const todaysEvents = events.filter(event => {
 
-        event.location.toLowerCase().includes(searchText);
+        const matchesDay =
+            event.day === currentDay;
 
-   const matchesCategory =
+        const matchesSearch =
+            event.title.toLowerCase().includes(searchText) ||
+            event.location.toLowerCase().includes(searchText);
 
-activeFilters.length===0
+        const matchesCategory =
+            activeFilters.length === 0 ||
+            activeFilters.includes(event.category);
 
-||
+        return (
+            matchesDay &&
+            matchesSearch &&
+            matchesCategory
+        );
 
-activeFilters.includes(event.category);
+    });
 
-});
-        });
+    if (todaysEvents.length === 0) {
 
-    if(todaysEvents.length===0){
-
-        container.innerHTML=`
+        container.innerHTML = `
             <div class="event-card">
                 <h2>No events found.</h2>
             </div>
@@ -120,45 +148,43 @@ activeFilters.includes(event.category);
 
     }
 
-    todaysEvents.forEach(event=>{
+    const colors = {
 
-        const card=document.createElement("div");
+        "Activation": "#2B8FFF",
 
-        card.className="event-card";
+        "Food": "#2EAF5D",
 
-        card.innerHTML=`
+        "Meetup": "#8B5CF6",
+
+        "Party": "#F68B2C",
+
+        "Show": "#E24848"
+
+    };
+
+    todaysEvents.forEach(event => {
+
+        const card = document.createElement("div");
+
+        card.className = "event-card";
+
+        card.style.borderLeft = `8px solid ${colors[event.category] || "#666"}`;
+
+        card.innerHTML = `
 
             <div class="event-time">
-
                 ${event.time}
-
             </div>
 
-            <h3>
-
-                ${event.title}
-
-            </h3>
+            <h3>${event.title}</h3>
 
             <div class="event-location">
-
                 📍 ${event.location}
-
             </div>
 
-            <p>
+            <p>${event.address}</p>
 
-                ${event.address}
-
-            </p>
-
-            <br>
-
-            <strong>
-
-                ${event.category}
-
-            </strong>
+            <strong>${event.category}</strong>
 
             <br>
 
@@ -166,24 +192,8 @@ activeFilters.includes(event.category);
 
         `;
 
-        // Category Color
+        container.appendChild(card);
 
-    const colors={
-
-    "Activation":"#2B8FFF",
-
-    "Food":"#2EAF5D",
-
-    "Meetup":"#8B5CF6",
-
-    "Party":"#F68B2C",
-
-    "Show":"#E24848"
-
-};
-
-card.style.borderLeftColor=
-
-colors[event.category] || "#666";
+    });
 
 }
