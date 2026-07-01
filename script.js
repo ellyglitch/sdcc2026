@@ -1,5 +1,8 @@
 let events = [];
+
 let currentDay = "Wednesday";
+
+let currentCategory = "All";
 
 // Wait for the page to load
 document.addEventListener("DOMContentLoaded", async () => {
@@ -12,22 +15,22 @@ document.addEventListener("DOMContentLoaded", async () => {
     displayEvents();
 
     // Day Buttons
-    document.querySelectorAll(".day").forEach(button => {
+  document.querySelectorAll(".filter").forEach(button=>{
 
-        button.addEventListener("click", () => {
+    button.addEventListener("click",()=>{
 
-            document.querySelectorAll(".day")
-                .forEach(btn => btn.classList.remove("active"));
+        document.querySelectorAll(".filter")
+            .forEach(btn=>btn.classList.remove("active"));
 
-            button.classList.add("active");
+        button.classList.add("active");
 
-            currentDay = button.dataset.day;
+        currentCategory=button.dataset.filter;
 
-            displayEvents();
-
-        });
+        displayEvents();
 
     });
+
+});  
 
     // Search
     document
@@ -36,30 +39,43 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 });
 
-function displayEvents(){
+const todaysEvents =
 
-    const container = document.getElementById("events");
+events.filter(event=>{
 
-    container.innerHTML = "";
+    const matchesDay =
+        event.day===currentDay;
 
-    const searchText =
-        document
-            .getElementById("search")
-            .value
-            .toLowerCase();
+    const matchesSearch =
 
-    const todaysEvents =
-        events.filter(event => {
+        event.title.toLowerCase().includes(searchText)
 
-            const matchesDay =
-                event.day === currentDay;
+        ||
 
-            const matchesSearch =
-                event.title.toLowerCase().includes(searchText) ||
-                event.location.toLowerCase().includes(searchText);
+        event.location.toLowerCase().includes(searchText);
 
-            return matchesDay && matchesSearch;
+    const matchesCategory =
 
+        currentCategory==="All"
+
+        ||
+
+        event.category===currentCategory;
+
+    return(
+
+        matchesDay
+
+        &&
+
+        matchesSearch
+
+        &&
+
+        matchesCategory
+
+
+});
         });
 
     if(todaysEvents.length===0){
@@ -122,39 +138,22 @@ function displayEvents(){
 
         // Category Color
 
-        switch(event.category){
+    const colors={
 
-            case "Activation":
-                card.style.borderColor="#8B5CF6";
-                break;
+    "Activation":"#2B8FFF",
 
-            case "Food":
-                card.style.borderColor="#2EAF5D";
-                break;
+    "Food":"#2EAF5D",
 
-            case "Meetup":
-                card.style.borderColor="#2B8FFF";
-                break;
+    "Meetup":"#8B5CF6",
 
-            case "Signing":
-                card.style.borderColor="#2B8FFF";
-                break;
+    "Party":"#F68B2C",
 
-            case "Party":
-                card.style.borderColor="#F68B2C";
-                break;
+    "Show":"#E24848"
 
-            case "Show":
-                card.style.borderColor="#E24848";
-                break;
+};
 
-            default:
-                card.style.borderColor="#6C4CE6";
+card.style.borderLeftColor=
 
-        }
-
-        container.appendChild(card);
-
-    });
+colors[event.category] || "#666";
 
 }
