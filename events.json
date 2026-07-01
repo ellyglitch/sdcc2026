@@ -227,11 +227,9 @@
   "ticketLink": "",
   "googleMaps": "",
   "description": "Magic: The Gathering Modern Horizons 3 Draft event.",
-  "tags": [
-    "Magic",
+  "tags": ["Magic",
     "MTG",
-    "Gaming"
-  ]
+    "Gaming"]
 },
 {
   "id": 16,
@@ -254,11 +252,9 @@
   "ticketLink": "",
   "googleMaps": "",
   "description": "Gaming-inspired Comic-Con kickoff party celebrating classic fighting games and martial arts cinema.",
-  "tags": [
-    "Gaming",
+  "tags": ["Gaming",
     "Nightlife",
-    "Kickoff"
-  ]
+    "Kickoff"]
 },
 {
   "id": 17,
@@ -281,11 +277,9 @@
   "ticketLink": "",
   "googleMaps": "",
   "description": "Live comedy seminar hosted by Chad Goes Deep during San Diego Comic-Con.",
-  "tags": [
-    "Comedy",
+  "tags": ["Comedy",
     "Podcast",
-    "Live Show"
-  ]
+    "Live Show"]
 },
 {
   "id": 18,
@@ -308,11 +302,9 @@
   "ticketLink": "",
   "googleMaps": "",
   "description": "Outdoor rooftop screening of Pretty Woman.",
-  "tags": [
-    "Movie",
+  "tags": ["Movie",
     "Cinema",
-    "Rooftop"
-  ]
+    "Rooftop"]
 },
 {
   "id": 19,
@@ -335,12 +327,10 @@
   "ticketLink": "",
   "googleMaps": "",
   "description": "An evening conversation with director Brad Bird and composer Michael Giacchino discussing animation, filmmaking and music.",
-  "tags": [
-    "Brad Bird",
+  "tags": ["Brad Bird",
     "Michael Giacchino",
     "Animation",
-    "Film"
-  ]
+    "Film"]
 },
 {
   "id": 20,
@@ -363,12 +353,10 @@
   "ticketLink": "",
   "googleMaps": "",
   "description": "Doug Benson brings his popular live movie podcast to Comic-Con with special guests.",
-  "tags": [
-    "Doug Benson",
+  "tags": ["Doug Benson",
     "Podcast",
     "Comedy",
-    "Movies"
-  ]
+    "Movies"]
 },
   {
   "id": 17,
