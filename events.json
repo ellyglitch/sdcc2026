@@ -3907,5 +3907,61 @@
   "googleMaps": "",
   "description": "Late-night rooftop screening of Challengers.",
   "tags": ["Movie","Drama","Cinema"]
+},
+{
+  "id": 167,
+  "day": "Sunday",
+  "date": "2026-07-26",
+  "title": "The San Diego Comic-Con Unofficial Blog Presents: Christmas in July",
+  "category": "Party",
+  "subcategory": "Dinner Event",
+  "time": "6:30 PM",
+  "endTime": "9:30 PM",
+  "location": "Garage Kitchen + Bar",
+  "address": "655 Fourth Ave, San Diego, CA 92101",
+  "price": "$95.00",
+  "free": false,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": true,
+  "featured": true,
+  "website": "",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Celebrate the end of Comic-Con weekend with the San Diego Comic-Con Unofficial Blog at its annual Christmas in July dinner featuring themed festivities, food, drinks, and the Comic-Con community.",
+  "tags": [
+    "SDCC Blog",
+    "Dinner",
+    "Community",
+    "Holiday"
+  ]
+},
+{
+  "id": 168,
+  "day": "Sunday",
+  "date": "2026-07-26",
+  "title": "Herogasm III",
+  "category": "Party",
+  "subcategory": "Nightlife",
+  "time": "6:00 PM",
+  "endTime": "1:00 AM",
+  "location": "Location Revealed After RSVP",
+  "address": "",
+  "price": "Free (Single Women) • $60 Couples • $80 Single Men",
+  "free": false,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": false,
+  "featured": false,
+  "website": "",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Adults-only cosplay and nightlife event inspired by The Boys. Location is provided after registration.",
+  "tags": [
+    "The Boys",
+    "21+",
+    "Nightlife",
+    "Cosplay"
+  ]
 }
 ]
