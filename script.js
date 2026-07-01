@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
         events = await response.json();
 
+console.log("Events loaded:", events.length);
+console.log(events.slice(0,5));
+
     } catch (err) {
 
         console.error("Could not load events.json", err);
