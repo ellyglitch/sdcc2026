@@ -68,6 +68,29 @@
     "description": "Interactive Clash of Clans challenge.",
     "tags": ["Gaming"]
   },
+   {
+    "id": 3,
+    "day": "Wednesday",
+    "date": "2026-07-22",
+    "title": "Ignition Press Room Pavillion",
+    "category": "Activation",
+    "subcategory": "Comics",
+    "time": "5pm",
+    "endTime": "9pm",
+    "location": "San Diego Wine & Culinary Center,"
+    "address": "200 Harbor Drive, #120, San Diego",
+    "price": "Free",
+    "free": true,
+    "badgeRequired": false,
+    "ticketRequired": true,
+    "familyFriendly": true,
+    "featured": true,
+    "website": "",
+    "ticketLink": "",
+    "googleMaps": "",
+    "description": "A gathering place for fans, creators, and press.",
+    "tags": ["Comics"]
+  },
   {
     "id": 4,
     "day": "Wednesday",
@@ -449,6 +472,29 @@
   "googleMaps": "",
   "description": "Interactive fan zone featuring Hello Kitty Truck, Labu'Tique Shop and MaruMart.",
   "tags": ["Hello Kitty", "Shopping", "Interactive"]
+},
+{
+    "id": 21,
+    "day": "Thursday",
+    "date": "2026-07-22",
+    "title": "Ignition Press Room Pavillion",
+    "category": "Activation",
+    "subcategory": "Comics",
+    "time": "12pm",
+    "endTime": "8pm",
+    "location": "San Diego Wine & Culinary Center,"
+    "address": "200 Harbor Drive, #120, San Diego",
+    "price": "Free",
+    "free": true,
+    "badgeRequired": false,
+    "ticketRequired": true,
+    "familyFriendly": true,
+    "featured": true,
+    "website": "",
+    "ticketLink": "",
+    "googleMaps": "",
+    "description": "A gathering place for fans, creators, and press.",
+    "tags": ["Comics"]
 },
 {
   "id": 21,
@@ -1348,6 +1394,29 @@
   "tags": ["Hello Kitty", "Interactive", "Shopping"]
 },
 {
+    "id": 59,
+    "day": "Friday",
+    "date": "2026-07-22",
+    "title": "Ignition Press Room Pavillion",
+    "category": "Activation",
+    "subcategory": "Comics",
+    "time": "12pm",
+    "endTime": "8pm",
+    "location": "San Diego Wine & Culinary Center,"
+    "address": "200 Harbor Drive, #120, San Diego",
+    "price": "Free",
+    "free": true,
+    "badgeRequired": false,
+    "ticketRequired": true,
+    "familyFriendly": true,
+    "featured": true,
+    "website": "",
+    "ticketLink": "",
+    "googleMaps": "",
+    "description": "A gathering place for fans, creators, and press.",
+    "tags": ["Comics"]
+},
+{
   "id": 60,
   "day": "Friday",
   "date": "2026-07-24",
@@ -2243,6 +2312,29 @@
   "googleMaps": "",
   "description": "Marvel gaming lounge featuring exclusive Towers experiences.",
   "tags": ["Marvel","Gaming"]
+},
+{
+    "id": 98,
+    "day": "Saturday",
+    "date": "2026-07-22",
+    "title": "Ignition Press Room Pavillion",
+    "category": "Activation",
+    "subcategory": "Comics",
+    "time": "12pm",
+    "endTime": "8pm",
+    "location": "San Diego Wine & Culinary Center,"
+    "address": "200 Harbor Drive, #120, San Diego",
+    "price": "Free",
+    "free": true,
+    "badgeRequired": false,
+    "ticketRequired": true,
+    "familyFriendly": true,
+    "featured": true,
+    "website": "",
+    "ticketLink": "",
+    "googleMaps": "",
+    "description": "A gathering place for fans, creators, and press.",
+    "tags": ["Comics"]
 },
 {
   "id": 99,
@@ -3232,6 +3324,29 @@
   "googleMaps": "",
   "description": "Interactive fan zone featuring the Hello Kitty Truck, Labu'Tique Shop and MaruMart.",
   "tags": ["Hello Kitty","Interactive","Shopping"]
+},
+{
+    "id": 141,
+    "day": "Sunday",
+    "date": "2026-07-22",
+    "title": "Ignition Press Room Pavillion",
+    "category": "Activation",
+    "subcategory": "Comics",
+    "time": "12pm",
+    "endTime": "6pm",
+    "location": "San Diego Wine & Culinary Center,"
+    "address": "200 Harbor Drive, #120, San Diego",
+    "price": "Free",
+    "free": true,
+    "badgeRequired": false,
+    "ticketRequired": true,
+    "familyFriendly": true,
+    "featured": true,
+    "website": "",
+    "ticketLink": "",
+    "googleMaps": "",
+    "description": "A gathering place for fans, creators, and press.",
+    "tags": ["Comics"]
 },
 {
   "id": 142,
