@@ -1020,11 +1020,7 @@ function renderPlanner() {
 
                 "planner-item";
 
-            item.innerHTML =
-
-            `
-
-           item.innerHTML = `
+       item.innerHTML = `
 
 <div class="planner-event">
 
