@@ -228,7 +228,7 @@
     "googleMaps": "",
     "description": "Meet Patrick Horvath and get books signed.",
     "tags": ["Comics", "Signing"]
-  },
+},
 {
   "id": 15,
   "day": "Wednesday",
@@ -381,7 +381,7 @@
     "Comedy",
     "Movies"]
 },
-  {
+{
   "id": 17,
   "day": "Thursday",
   "date": "2026-07-23",
