@@ -505,7 +505,8 @@
       "Lorcana",
       "TCG"
     ]
-  }  {
+  },
+  {
     "id": "thursday-indigi-con",
     "series": "indigi-con",
     "day": "Thursday",
@@ -679,7 +680,7 @@
   },
   {
     "id": "thursday-lumpia-con-mixer",
-    "series": "lumpia-con",
+    "series": "lumpia-con-mixer",
     "day": "Thursday",
     "title": "Lumpia Con - Mixer with Special Guests",
     "category": "Party",
