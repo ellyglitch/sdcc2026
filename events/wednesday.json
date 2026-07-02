@@ -211,7 +211,7 @@
     "endTime": "7:00 PM",
     "location": "Gaslamp Quarter",
     "address": "San Diego, CA",
-    "price": "Free",
+    "price": "$24.50",
     "free": true,
     "badgeRequired": false,
     "ticketRequired": false,
