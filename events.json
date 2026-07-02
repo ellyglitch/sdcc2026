@@ -77,7 +77,7 @@
     "subcategory": "Comics",
     "time": "5pm",
     "endTime": "9pm",
-    "location": "San Diego Wine & Culinary Center,"
+    "location": "San Diego Wine & Culinary Center",
     "address": "200 Harbor Drive, #120, San Diego",
     "price": "Free",
     "free": true,
@@ -482,7 +482,7 @@
     "subcategory": "Comics",
     "time": "12pm",
     "endTime": "8pm",
-    "location": "San Diego Wine & Culinary Center,"
+    "location": "San Diego Wine & Culinary Center",
     "address": "200 Harbor Drive, #120, San Diego",
     "price": "Free",
     "free": true,
@@ -1396,13 +1396,13 @@
 {
     "id": 59,
     "day": "Friday",
-    "date": "2026-07-22",
+    "date": "2026-07-23",
     "title": "Ignition Press Room Pavillion",
     "category": "Activation",
     "subcategory": "Comics",
     "time": "12pm",
     "endTime": "8pm",
-    "location": "San Diego Wine & Culinary Center,"
+    "location": "San Diego Wine & Culinary Center",
     "address": "200 Harbor Drive, #120, San Diego",
     "price": "Free",
     "free": true,
@@ -2316,13 +2316,13 @@
 {
     "id": 98,
     "day": "Saturday",
-    "date": "2026-07-22",
+    "date": "2026-07-24",
     "title": "Ignition Press Room Pavillion",
     "category": "Activation",
     "subcategory": "Comics",
     "time": "12pm",
     "endTime": "8pm",
-    "location": "San Diego Wine & Culinary Center,"
+    "location": "San Diego Wine & Culinary Center",
     "address": "200 Harbor Drive, #120, San Diego",
     "price": "Free",
     "free": true,
@@ -3328,13 +3328,13 @@
 {
     "id": 141,
     "day": "Sunday",
-    "date": "2026-07-22",
+    "date": "2026-07-25",
     "title": "Ignition Press Room Pavillion",
     "category": "Activation",
     "subcategory": "Comics",
     "time": "12pm",
     "endTime": "6pm",
-    "location": "San Diego Wine & Culinary Center,"
+    "location": "San Diego Wine & Culinary Center",
     "address": "200 Harbor Drive, #120, San Diego",
     "price": "Free",
     "free": true,
