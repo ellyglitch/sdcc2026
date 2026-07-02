@@ -220,9 +220,7 @@ function toggleSchedule(event) {
 
     website: event.website,
 
-    ticketLink: event.ticketLink,
-
-    googleMaps: event.googleMaps,
+    ticketLink: event.ticketLink, 
 
     featured: event.featured
 
@@ -338,7 +336,11 @@ document.addEventListener(
 
         loadPlanner();
 
-        await loadEvents(currentDay);
+      await loadEvents(currentDay);
+
+renderPlanner();
+
+displayEvents();
 
         initializeDayButtons();
 
@@ -1079,22 +1081,6 @@ function renderPlanner() {
 </div>
 
 `;
-
-                <button
-
-                    class="planner-remove"
-
-                    data-id="${event.id}"
-
-                >
-
-                    Remove
-
-                </button>
-
-            </div>
-
-            `;
 
             container.appendChild(
 
