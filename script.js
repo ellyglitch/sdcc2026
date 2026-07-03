@@ -329,18 +329,18 @@ async function loadEvents(day) {
 // ======================================================
 
 document.addEventListener(
-
     "DOMContentLoaded",
-
     async () => {
 
         loadPlanner();
 
-      await loadEvents(currentDay);
+        await loadEvents(currentDay);
 
-renderPlanner();
+        renderPlanner();
 
-displayEvents();
+        displayEvents();
+
+        renderMySchedule();
 
         initializeDayButtons();
 
@@ -350,11 +350,102 @@ displayEvents();
 
         initializePlanner();
 
-        displayEvents();
+    }
+);
+// ======================================================
+// RENDER MY SCHEDULE
+// ======================================================
+
+function renderMySchedule() {
+
+    const container = document.getElementById("myScheduleEvents");
+
+    if (!container) return;
+
+    const dayOrder = {
+    Wednesday: 0,
+    Thursday: 1,
+    Friday: 2,
+    Saturday: 3,
+    Sunday: 4
+};
+
+const scheduledEvents = [...planner.schedule];
+
+scheduledEvents.sort((a, b) => {
+
+    const dayDifference =
+        dayOrder[a.day] - dayOrder[b.day];
+
+    if (dayDifference !== 0) {
+
+        return dayDifference;
 
     }
 
-);// ======================================================
+    return convertTime(a.time) - convertTime(b.time);
+
+});
+    container.innerHTML = scheduledEvents.map(event => `
+
+        <div class="schedule-card">
+
+            <strong>${event.time}</strong><br>
+
+            ${event.title}<br>
+
+            <small>${event.location}</small>
+
+        </div>
+
+    `).join("");
+
+}
+
+// ======================================================
+// CONVERT TIME FOR SORTING
+// ======================================================
+
+function convertTime(time) {
+
+    if (!time) return 999999;
+
+    if (
+        time === "TBA" ||
+        time === "Assigned" ||
+        time === "Ticketed"
+    ) {
+
+        return 999999;
+
+    }
+
+    const match = time.match(/(\d+):(\d+)\s*(AM|PM)/i);
+
+    if (!match) return 999999;
+
+    let hour = parseInt(match[1]);
+
+    const minute = parseInt(match[2]);
+
+    const period = match[3].toUpperCase();
+
+    if (period === "PM" && hour !== 12) {
+
+        hour += 12;
+
+    }
+
+    if (period === "AM" && hour === 12) {
+
+        hour = 0;
+
+    }
+
+    return hour * 60 + minute;
+
+}
+// ======================================================
 // DAY BUTTONS
 // ======================================================
 
@@ -379,10 +470,11 @@ function initializeDayButtons() {
             );
 
             button.classList.add("active");
+await loadEvents(currentDay);
 
-            await loadEvents(currentDay);
+displayEvents();
 
-            displayEvents();
+renderMySchedule();
 
         });
 
@@ -803,25 +895,21 @@ function createEventCard(event) {
     );
 
     card
+    .querySelector(".schedule-btn")
+    .addEventListener(
+        "click",
+        () => {
 
-        .querySelector(".schedule-btn")
+            toggleSchedule(event);
 
-        .addEventListener(
+            renderMySchedule();
 
-            "click",
+            renderPlanner();
 
-            () => {
+            displayEvents();
 
-                toggleSchedule(event);
-
-                renderPlanner();
-
-                displayEvents();
-
-            }
-
-        );
-
+        }
+    );
     card
 
         .querySelector(".favorite-btn")
@@ -833,6 +921,10 @@ function createEventCard(event) {
             () => {
 
                 toggleFavorite(event.id);
+
+                renderPlanner();
+
+                renderMySchedule();
 
                 displayEvents();
 
@@ -883,6 +975,8 @@ function initializePlanner() {
                 updatePlannerCounter();
 
                 renderPlanner();
+
+                renderMySchedule();
 
                 displayEvents();
 
@@ -1125,6 +1219,8 @@ function renderPlanner() {
                 updatePlannerCounter();
 
                 renderPlanner();
+                
+                renderMySchedule();
 
                 displayEvents();
 
@@ -1215,6 +1311,8 @@ function refreshApplication() {
     updatePlannerCounter();
 
     renderPlanner();
+
+    renderMySchedule();    
 
     displayEvents();
 
