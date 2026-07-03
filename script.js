@@ -346,8 +346,6 @@ document.addEventListener(
 
         await loadEvents(currentDay);
 
-        renderPlanner();
-
         displayEvents();
 
         initializeDayButtons();
@@ -892,8 +890,6 @@ function createEventCard(event) {
 
             }
 
-            renderPlanner();
-
             displayEvents();
 
         }
@@ -910,8 +906,6 @@ function createEventCard(event) {
 
                 toggleFavorite(event.id);
 
-                renderPlanner();
-
                 displayEvents();
 
             }
@@ -926,59 +920,31 @@ function createEventCard(event) {
 
 function initializePlanner() {
 
-    updatePlannerCounter();
-
-    renderPlanner();
-
     const clearButton =
+        document.getElementById("clear-planner");
 
-        document.getElementById(
+    if (!clearButton) return;
 
-            "clear-planner"
+    clearButton.addEventListener("click", () => {
 
-        );
+        if (!confirm("Clear your entire schedule?"))
+            return;
 
-    if (clearButton) {
+        planner.schedule = [];
 
-        clearButton.addEventListener(
+        savePlanner();
 
-            "click",
+        if (currentDay === "Planner") {
 
-            () => {
+            events = [];
 
-                const confirmed = confirm(
+        }
 
-                    "Clear your entire schedule?"
+        displayEvents();
 
-                );
-
-                if (!confirmed) return;
-
-                planner.schedule = [];
-
-                savePlanner();
-
-                updatePlannerCounter();
-               
-                if (currentDay === "Planner") {
-
-    events = [...planner.schedule];
+    });
 
 }
-
-                renderPlanner();
-
-                displayEvents();
-
-            }
-
-        );
-
-    }
-
-}
-
-
 
 // ======================================================
 // PLANNER COUNTER
@@ -1005,225 +971,7 @@ function updatePlannerCounter() {
         `${total} Event${total === 1 ? "" : "s"}`;
 
 }
-
-
-
 // ======================================================
-// RENDER PLANNER
-// ======================================================
-
-function renderPlanner() {
-
-    const container =
-
-        document.getElementById(
-
-            "planner-events"
-
-        );
-
-    if (!container) return;
-
-    container.innerHTML = "";
-
-    if (planner.schedule.length === 0) {
-
-        container.innerHTML =
-
-        `
-
-        <p>
-
-            Your schedule is empty.
-
-        </p>
-
-        `;
-
-        updatePlannerCounter();
-
-        return;
-
-    }
-
-    const days = [
-
-        "Wednesday",
-
-        "Thursday",
-
-        "Friday",
-
-        "Saturday",
-
-        "Sunday"
-
-    ];
-
-    days.forEach(day => {
-
-        const todaysEvents =
-
-            planner.schedule.filter(
-
-                event =>
-
-                    event.day === day
-
-            );
-
-        if (todaysEvents.length === 0)
-
-            return;
-
-        const heading =
-
-            document.createElement(
-
-                "h3"
-
-            );
-
-        heading.textContent = day;
-
-        container.appendChild(
-
-            heading
-
-        );
-
-        todaysEvents.forEach(event => {
-
-            const item =
-
-                document.createElement(
-
-                    "div"
-
-                );
-
-            item.className =
-
-                "planner-item";
-
-       item.innerHTML = `
-
-<div class="planner-event">
-
-    <div class="planner-time">
-
-        ${event.time}
-
-    </div>
-
-    <div class="planner-title">
-
-        ${event.title}
-
-    </div>
-
-    <div class="planner-location">
-
-        📍 ${event.location}
-
-    </div>
-
-    <div class="planner-description">
-
-        ${event.description || ""}
-
-    </div>
-
-    <div class="planner-links">
-
-        ${event.website
-            ? `<a href="${event.website}" target="_blank">Website</a>`
-            : ""}
-
-        ${event.ticketLink
-            ? `<a href="${event.ticketLink}" target="_blank">Tickets</a>`
-            : ""}
-
-        ${event.googleMaps
-            ? `<a href="${event.googleMaps}" target="_blank">Map</a>`
-            : ""}
-
-    </div>
-
-    <button
-
-        class="planner-remove"
-
-        data-id="${event.id}"
-
-    >
-
-        Remove
-
-    </button>
-
-</div>
-
-`;
-
-            container.appendChild(
-
-                item
-
-            );
-
-        });
-
-    });
-
-    const removeButtons =
-
-        container.querySelectorAll(
-
-            ".planner-remove"
-
-        );
-
-    removeButtons.forEach(button => {
-
-        button.addEventListener(
-
-            "click",
-
-            () => {
-
-planner.schedule =
-
-    planner.schedule.filter(
-
-        event =>
-
-            event.id !==
-
-            button.dataset.id
-
-    );
-
-savePlanner();
-
-updatePlannerCounter();
-
-if (currentDay === "Planner") {
-
-    events = [...planner.schedule];
-
-}
-
-renderPlanner();
-
-displayEvents();
-            }
-
-        );
-
-    });
-
-}// ======================================================
 // UTILITY FUNCTIONS
 // ======================================================
 
@@ -1310,8 +1058,6 @@ function refreshApplication() {
 }
 
 updatePlannerCounter();
-
-renderPlanner();
 
 displayEvents();
 
