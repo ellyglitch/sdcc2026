@@ -1,25 +1,93 @@
-/* ===========================
+/* =====================================================
    SDCC OFF-SITES 2026
-   Stylesheet
-=========================== */
+   Created by Elly Glitch
+===================================================== */
+
+/* =====================================================
+   RESET
+===================================================== */
 
 *{
+
     margin:0;
+
     padding:0;
+
     box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
 }
 
 body{
 
     font-family:'Poppins',sans-serif;
 
-    background:#f6f5fb;
+    background:#F6F5FB;
 
-    color:#2b2b2b;
+    color:#2B2B2B;
+
+    line-height:1.6;
 
 }
 
-/* ---------------- Header ---------------- */
+/* =====================================================
+   TYPOGRAPHY
+===================================================== */
+
+h1{
+
+    font-size:2.5rem;
+
+    font-weight:700;
+
+}
+
+h2{
+
+    font-size:1.75rem;
+
+    font-weight:700;
+
+}
+
+h3{
+
+    font-size:1.2rem;
+
+    font-weight:600;
+
+}
+
+p{
+
+    margin-bottom:16px;
+
+}
+
+a{
+
+    color:#6C4CE6;
+
+    text-decoration:none;
+
+    transition:.2s;
+
+}
+
+a:hover{
+
+    opacity:.8;
+
+}
+
+/* =====================================================
+   HEADER
+===================================================== */
 
 header{
 
@@ -27,57 +95,101 @@ header{
 
     color:white;
 
-    padding:35px;
-
     text-align:center;
 
-    box-shadow:0 3px 12px rgba(0,0,0,.15);
+    padding:42px 20px;
+
+    box-shadow:0 4px 18px rgba(0,0,0,.15);
 
 }
 
-header h1{
+.logo{
 
-    font-size:2.3rem;
+    max-width:900px;
 
-    margin-bottom:8px;
-
-}
-
-header p{
-
-    opacity:.9;
+    margin:auto;
 
 }
 
-/* ---------------- Hero ---------------- */
+.logo p{
+
+    margin-top:12px;
+
+    opacity:.92;
+
+    font-size:1.05rem;
+
+}
+
+/* =====================================================
+   HERO
+===================================================== */
 
 .hero{
 
-    text-align:center;
+    max-width:900px;
 
-    padding:40px 20px;
+    margin:40px auto;
+
+    padding:0 20px;
+
+    text-align:center;
 
 }
 
 .hero h2{
 
-    font-size:2rem;
-
-    margin-bottom:10px;
+    margin-bottom:20px;
 
 }
 
 .hero p{
 
-    max-width:700px;
-
-    margin:auto;
-
     color:#666;
 
 }
 
-/* ---------------- Search ---------------- */
+/* =====================================================
+   DONATIONS
+===================================================== */
+
+.donations{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    margin:25px 0;
+
+}
+
+.donations a{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:14px 22px;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+
+    font-weight:600;
+
+}
+
+.donations a:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* =====================================================
+   SEARCH
+===================================================== */
 
 .controls{
 
@@ -85,37 +197,57 @@ header p{
 
     justify-content:center;
 
-    margin-bottom:25px;
+    padding:0 20px;
+
+    margin-bottom:30px;
 
 }
 
 #search{
 
-    width:min(700px,90%);
+    width:100%;
 
-    padding:16px;
+    max-width:750px;
 
-    border-radius:12px;
-
-    border:1px solid #ddd;
+    padding:16px 20px;
 
     font-size:16px;
 
+    border-radius:14px;
+
+    border:1px solid #DDD;
+
+    outline:none;
+
+    transition:.2s;
+
 }
 
-/* ---------------- Day Buttons ---------------- */
+#search:focus{
+
+    border-color:#6C4CE6;
+
+    box-shadow:0 0 0 4px rgba(108,76,230,.15);
+
+}
+
+/* =====================================================
+   DAY BUTTONS
+===================================================== */
 
 .calendar{
 
     display:flex;
 
-    flex-wrap:wrap;
-
     justify-content:center;
 
-    gap:12px;
+    flex-wrap:wrap;
 
-    margin-bottom:25px;
+    gap:14px;
+
+    padding:0 20px;
+
+    margin-bottom:30px;
 
 }
 
@@ -127,7 +259,9 @@ header p{
 
     border-radius:14px;
 
-    padding:15px 24px;
+    padding:16px 24px;
+
+    min-width:125px;
 
     cursor:pointer;
 
@@ -135,19 +269,7 @@ header p{
 
     transition:.25s;
 
-    box-shadow:0 2px 8px rgba(0,0,0,.08);
-
-}
-
-.day span{
-
-    display:block;
-
-    font-size:13px;
-
-    font-weight:400;
-
-    margin-top:4px;
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
 
 }
 
@@ -165,30 +287,55 @@ header p{
 
 }
 
-/* ---------------- Filters ---------------- */
+.day span{
+
+    display:block;
+
+    margin-top:5px;
+
+    font-size:13px;
+
+    font-weight:400;
+
+    opacity:.85;
+
+}/* =====================================================
+   FILTERS
+===================================================== */
 
 .filters{
 
     display:flex;
-    flex-wrap:wrap;
+
     justify-content:center;
+
+    flex-wrap:wrap;
+
     gap:12px;
-    margin-bottom:30px;
+
+    padding:0 20px;
+
+    margin-bottom:35px;
 
 }
 
 .filter{
 
     border:none;
-    border-radius:40px;
+
+    border-radius:999px;
+
     padding:12px 22px;
+
     cursor:pointer;
+
     font-size:15px;
+
     font-weight:600;
 
-    transition:.2s;
-
     color:white;
+
+    transition:.2s;
 
 }
 
@@ -200,11 +347,17 @@ header p{
 
 .filter.active{
 
-    outline:4px solid #222;
+    outline:3px solid #222;
 
 }
 
-/* COLORS */
+/* Filter Colors */
+
+.filter[data-filter="All"]{
+
+    background:#444;
+
+}
 
 .activation{
 
@@ -224,6 +377,12 @@ header p{
 
 }
 
+.signing{
+
+    background:#C056D8;
+
+}
+
 .party{
 
     background:#F68B2C;
@@ -236,99 +395,159 @@ header p{
 
 }
 
-.filter[data-filter="All"]{
-
-    background:#444;
-
-}
-
-/* ---------------- Main Layout ---------------- */
+/* =====================================================
+   MAIN LAYOUT
+===================================================== */
 
 main{
 
-    display:grid;
+    width:100%;
 
-    grid-template-columns:300px 1fr;
+    max-width:1600px;
 
-    gap:30px;
+    margin:0 auto;
 
-    width:min(1400px,95%);
-
-    margin:auto;
-
-    margin-bottom:60px;
+    padding:0 20px 40px;
 
 }
 
-/* ---------------- Sidebar ---------------- */
+/* =====================================================
+   PLANNER CONTROLS
+===================================================== */
 
-.sidebar{
+#planner-controls{
 
-    background:white;
+    display:flex;
 
-    border-radius:18px;
+    justify-content:flex-end;
 
-    padding:25px;
-
-    box-shadow:0 3px 15px rgba(0,0,0,.08);
-
-    height:fit-content;
+    margin-bottom:20px;
 
 }
 
-.sidebar h3{
+#clear-planner{
 
-    margin-bottom:15px;
+    background:#E24848;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:12px 18px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.2s;
 
 }
 
-/* ---------------- Event Area ---------------- */
+#clear-planner:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* =====================================================
+   EVENTS
+===================================================== */
 
 #events{
 
-    display:grid;
+    display:flex;
 
-    gap:18px;
+    flex-direction:column;
+
+    gap:24px;
+
+    width:100%;
 
 }
 
-/* Event Cards */
+/* =====================================================
+   EVENT CARD
+===================================================== */
 
 .event-card{
+
+    width:100%;
 
     background:white;
 
     border-radius:18px;
 
-    padding:22px;
+    padding:24px;
 
-    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    box-shadow:0 5px 18px rgba(0,0,0,.08);
 
-    border-left:8px solid #6C4CE6;
+    transition:.25s;
 
 }
 
-.event-card h3{
+.event-card:hover{
 
-    margin-bottom:8px;
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 28px rgba(0,0,0,.12);
+
+}
+
+/* =====================================================
+   EVENT HEADER
+===================================================== */
+
+.event-header{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
 
 }
 
 .event-time{
 
-    font-weight:700;
-
     color:#6C4CE6;
 
-    margin-bottom:10px;
+    font-weight:700;
+
+    font-size:1rem;
+
+}
+
+.event-header h2{
+
+    margin:0;
+
+    line-height:1.3;
+
+}
+
+.event-day{
+
+    font-size:.95rem;
+
+    color:#777;
+
+    font-weight:500;
+
+}
+
+.event-category{
+
+    color:#666;
+
+    font-size:.95rem;
 
 }
 
 .event-location{
 
-    color:#666;
-
-    margin-bottom:8px;
+    color:#555;
 
 }
 
@@ -336,9 +555,209 @@ main{
 
     font-weight:600;
 
+    color:#2EAF5D;
+
 }
 
-/* ---------------- Footer ---------------- */
+/* =====================================================
+   BADGES
+===================================================== */
+
+.event-meta{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+}
+
+.featured-badge,
+
+.badge-required,
+
+.family-friendly{
+
+    display:inline-block;
+
+    padding:6px 12px;
+
+    border-radius:999px;
+
+    font-size:.85rem;
+
+    font-weight:600;
+
+}
+
+.featured-badge{
+
+    background:#FFF2C6;
+
+}
+
+.badge-required{
+
+    background:#E6E2FF;
+
+}
+
+.family-friendly{
+
+    background:#DFF6E5;
+
+}
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.event-buttons{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-top:22px;
+
+}
+
+.event-buttons button{
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:12px 18px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.2s;
+
+}
+
+.details-btn{
+
+    background:#EEE;
+
+}
+
+.schedule-btn{
+
+    background:#6C4CE6;
+
+    color:white;
+
+}
+
+.favorite-btn{
+
+    background:#F6F5FB;
+
+}
+
+.event-buttons button:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* =====================================================
+   DETAILS PANEL
+===================================================== */
+
+.event-details{
+
+    margin-top:24px;
+
+    padding-top:20px;
+
+    border-top:1px solid #EEE;
+
+}
+
+.event-details p{
+
+    margin-bottom:16px;
+
+}
+
+.event-details strong{
+
+    color:#333;
+
+}
+
+/* =====================================================
+   LINKS
+===================================================== */
+
+.event-links{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-top:16px;
+
+    margin-bottom:20px;
+
+}
+
+.event-links a{
+
+    background:#6C4CE6;
+
+    color:white;
+
+    padding:10px 16px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+}
+
+.event-links a:hover{
+
+    opacity:.9;
+
+}
+
+/* =====================================================
+   TAGS
+===================================================== */
+
+.event-tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+}
+
+.tag{
+
+    background:#F1F1F1;
+
+    padding:6px 12px;
+
+    border-radius:999px;
+
+    font-size:.85rem;
+
+}/* =====================================================
+   FOOTER
+===================================================== */
 
 footer{
 
@@ -348,54 +767,340 @@ footer{
 
     text-align:center;
 
-    padding:35px;
+    padding:40px 20px;
+
+    margin-top:50px;
 
 }
 
-/* ---------------- Mobile ---------------- */
+footer p{
 
-@media(max-width:900px){
+    margin:8px 0;
 
-main{
-
-grid-template-columns:1fr;
+    opacity:.9;
 
 }
 
-.sidebar{
+/* =====================================================
+   TABLET
+===================================================== */
 
-order:2;
+@media (max-width:1024px){
+
+    header{
+
+        padding:36px 20px;
+
+    }
+
+    h1{
+
+        font-size:2.1rem;
+
+    }
+
+    .hero{
+
+        padding:0 20px;
+
+    }
+
+    .hero h2{
+
+        font-size:1.7rem;
+
+    }
+
+    main{
+
+        padding:0 16px 35px;
+
+    }
+
+    .event-card{
+
+        padding:22px;
+
+    }
 
 }
 
-#events{
+/* =====================================================
+   MOBILE
+===================================================== */
 
-order:1;
+@media (max-width:768px){
+
+    header{
+
+        padding:30px 16px;
+
+    }
+
+    h1{
+
+        font-size:1.8rem;
+
+    }
+
+    .hero{
+
+        margin:28px auto;
+
+    }
+
+    .hero h2{
+
+        font-size:1.45rem;
+
+    }
+
+    .hero p{
+
+        font-size:.95rem;
+
+    }
+
+    .controls{
+
+        padding:0 12px;
+
+    }
+
+    #search{
+
+        font-size:16px;
+
+    }
+
+    /* Horizontal scrolling day buttons */
+
+    .calendar{
+
+        justify-content:flex-start;
+
+        flex-wrap:nowrap;
+
+        overflow-x:auto;
+
+        overflow-y:hidden;
+
+        padding:0 12px 10px;
+
+        scrollbar-width:thin;
+
+        -webkit-overflow-scrolling:touch;
+
+    }
+
+    .calendar::-webkit-scrollbar{
+
+        height:8px;
+
+    }
+
+    .calendar::-webkit-scrollbar-thumb{
+
+        background:#BBB;
+
+        border-radius:20px;
+
+    }
+
+    .day{
+
+        flex:0 0 auto;
+
+        min-width:135px;
+
+    }
+
+    .filters{
+
+        padding:0 12px;
+
+        gap:10px;
+
+    }
+
+    .filter{
+
+        font-size:14px;
+
+        padding:10px 18px;
+
+    }
+
+    main{
+
+        padding:0 12px 30px;
+
+    }
+
+    .event-card{
+
+        padding:18px;
+
+        border-radius:16px;
+
+    }
+
+    .event-header{
+
+        gap:10px;
+
+    }
+
+    .event-header h2{
+
+        font-size:1.2rem;
+
+    }
+
+    .event-meta{
+
+        gap:8px;
+
+    }
+
+    .featured-badge,
+
+    .badge-required,
+
+    .family-friendly{
+
+        font-size:.75rem;
+
+        padding:5px 10px;
+
+    }
+
+    .event-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .event-buttons button{
+
+        width:100%;
+
+    }
+
+    .event-links{
+
+        flex-direction:column;
+
+    }
+
+    .event-links a{
+
+        text-align:center;
+
+    }
 
 }
 
-.calendar{
+/* =====================================================
+   SMALL PHONES
+===================================================== */
 
-padding:0 15px;
+@media (max-width:480px){
+
+    h1{
+
+        font-size:1.55rem;
+
+    }
+
+    .hero h2{
+
+        font-size:1.25rem;
+
+    }
+
+    .hero p{
+
+        font-size:.92rem;
+
+    }
+
+    .day{
+
+        min-width:120px;
+
+        padding:14px 18px;
+
+    }
+
+    .filter{
+
+        width:100%;
+
+    }
+
+    .event-card{
+
+        padding:16px;
+
+    }
+
+    .event-header h2{
+
+        font-size:1.1rem;
+
+    }
 
 }
 
-.day{
+/* =====================================================
+   ANIMATIONS
+===================================================== */
 
-flex:1 1 40%;
+button{
+
+    transition:
+        background .2s,
+        color .2s,
+        transform .2s,
+        box-shadow .2s;
+
+}
+
+button:hover{
+
+    box-shadow:0 6px 18px rgba(0,0,0,.12);
 
 }
 
-header h1{
+button:active{
 
-font-size:1.8rem;
+    transform:scale(.98);
+
+}
+
+.event-card{
+
+    animation:fadeIn .25s ease;
 
 }
 
-.hero h2{
+@keyframes fadeIn{
 
-font-size:1.5rem;
+    from{
 
-}
+        opacity:0;
+
+        transform:translateY(10px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
 
 }
