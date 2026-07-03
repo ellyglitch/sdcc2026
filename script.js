@@ -306,12 +306,20 @@ async function loadEvents(day) {
             responses.map(response => response.json())
         );
 
-        allEvents = json.flat();
+      allEvents = json.flat();
 
-        events = allEvents.filter(
-            event => event.day === day
-        );
+if (day === "Planner") {
 
+    events = [...planner.schedule];
+
+}
+else {
+
+    events = allEvents.filter(
+        event => event.day === day
+    );
+
+}
     }
 
     catch (error) {
@@ -342,8 +350,6 @@ document.addEventListener(
 
         displayEvents();
 
-        renderMySchedule();
-
         initializeDayButtons();
 
         initializeCategoryButtons();
@@ -354,65 +360,6 @@ document.addEventListener(
 
     }
 );
-// ======================================================
-// RENDER MY SCHEDULE
-// ======================================================
-
-function renderMySchedule() {
-
-    const container = document.getElementById("myScheduleEvents");
-
-    if (!container) return;
-
-    const dayOrder = {
-        Wednesday: 0,
-        Thursday: 1,
-        Friday: 2,
-        Saturday: 3,
-        Sunday: 4
-    };
-
-    const scheduledEvents = [...planner.schedule];
-
-    if (scheduledEvents.length === 0) {
-
-        container.innerHTML =
-            "<p>No events in your schedule yet.</p>";
-
-        return;
-
-    }
-
-    scheduledEvents.sort((a, b) => {
-
-        const dayDifference =
-            dayOrder[a.day] - dayOrder[b.day];
-
-        if (dayDifference !== 0) {
-
-            return dayDifference;
-
-        }
-
-        return convertTime(a.time) - convertTime(b.time);
-
-    });
-
-    container.innerHTML = scheduledEvents.map(event => `
-
-        <div class="schedule-card">
-
-            <strong>${event.time}</strong><br>
-
-            ${event.title}<br>
-
-            <small>${event.location}</small>
-
-        </div>
-
-    `).join("");
-
-}
 
 // ======================================================
 // CONVERT TIME FOR SORTING
@@ -482,11 +429,18 @@ function initializeDayButtons() {
             );
 
             button.classList.add("active");
-await loadEvents(currentDay);
+if (selectedDay === "Planner") {
+
+    events = [...planner.schedule];
+
+}
+else {
+
+    await loadEvents(selectedDay);
+
+}
 
 displayEvents();
-
-renderMySchedule();
 
         });
 
@@ -612,11 +566,15 @@ function displayEvents() {
 
     const sourceEvents =
 
-    searchText.trim() === ""
+    currentDay === "Planner"
 
-        ? events
+        ? planner.schedule
 
-        : allEvents;
+        : (searchText.trim() === ""
+
+            ? events
+
+            : allEvents);
 
 const filteredEvents =
 
@@ -928,7 +886,11 @@ function createEventCard(event) {
 
             toggleSchedule(event);
 
-            renderMySchedule();
+            if (currentDay === "Planner") {
+
+                events = [...planner.schedule];
+
+            }
 
             renderPlanner();
 
@@ -949,8 +911,6 @@ function createEventCard(event) {
                 toggleFavorite(event.id);
 
                 renderPlanner();
-
-                renderMySchedule();
 
                 displayEvents();
 
@@ -999,10 +959,14 @@ function initializePlanner() {
                 savePlanner();
 
                 updatePlannerCounter();
+               
+                if (currentDay === "Planner") {
+
+    events = [...planner.schedule];
+
+}
 
                 renderPlanner();
-
-                renderMySchedule();
 
                 displayEvents();
 
@@ -1228,28 +1192,31 @@ function renderPlanner() {
 
             () => {
 
-                planner.schedule =
+planner.schedule =
 
-                    planner.schedule.filter(
+    planner.schedule.filter(
 
-                        event =>
+        event =>
 
-                            event.id !==
+            event.id !==
 
-                            button.dataset.id
+            button.dataset.id
 
-                    );
+    );
 
-                savePlanner();
+savePlanner();
 
-                updatePlannerCounter();
+updatePlannerCounter();
 
-                renderPlanner();
-                
-                renderMySchedule();
+if (currentDay === "Planner") {
 
-                displayEvents();
+    events = [...planner.schedule];
 
+}
+
+renderPlanner();
+
+displayEvents();
             }
 
         );
@@ -1336,11 +1303,17 @@ function refreshApplication() {
 
     updatePlannerCounter();
 
-    renderPlanner();
+    if (currentDay === "Planner") {
 
-    renderMySchedule();    
+    events = [...planner.schedule];
 
-    displayEvents();
+}
+
+updatePlannerCounter();
+
+renderPlanner();
+
+displayEvents();
 
 }
 
