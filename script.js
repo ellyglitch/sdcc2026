@@ -947,6 +947,31 @@ function initializePlanner() {
 }
 
 // ======================================================
+// PLANNER COUNTER
+// ======================================================
+
+function updatePlannerCounter() {
+
+    const counter =
+
+        document.getElementById(
+
+            "planner-count"
+
+        );
+
+    if (!counter) return;
+
+    const total =
+
+        planner.schedule.length;
+
+    counter.textContent =
+
+        `${total} Event${total === 1 ? "" : "s"}`;
+
+}
+// ======================================================
 // UTILITY FUNCTIONS
 // ======================================================
 
@@ -1015,6 +1040,29 @@ function sortEventsByTime(eventsToSort) {
     });
 
 }
+
+
+
+// ======================================================
+// REFRESH APPLICATION
+// ======================================================
+
+function refreshApplication() {
+
+    updatePlannerCounter();
+
+    if (currentDay === "Planner") {
+
+    events = [...planner.schedule];
+
+}
+
+updatePlannerCounter();
+
+displayEvents();
+
+}
+
 
 
 // ======================================================
