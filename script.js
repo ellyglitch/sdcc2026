@@ -54,6 +54,8 @@ const STORAGE_KEY = "sdccPlanner";
 
 let events = [];
 
+let allEvents = [];
+
 let currentDay = "Wednesday";
 
 let activeFilters = [];
@@ -292,23 +294,23 @@ function toggleCompleted(id) {
 
 async function loadEvents(day) {
 
-    const file = DAY_FILES[day];
-
     try {
 
-        const response = await fetch(file);
+        const files = Object.values(DAY_FILES);
 
-        if (!response.ok) {
+        const responses = await Promise.all(
+            files.map(file => fetch(file))
+        );
 
-            throw new Error(
+        const json = await Promise.all(
+            responses.map(response => response.json())
+        );
 
-                `Unable to load ${file}`
+        allEvents = json.flat();
 
-            );
-
-        }
-
-        events = await response.json();
+        events = allEvents.filter(
+            event => event.day === day
+        );
 
     }
 
@@ -317,11 +319,11 @@ async function loadEvents(day) {
         console.error(error);
 
         events = [];
+        allEvents = [];
 
     }
 
 }
-
 
 
 // ======================================================
@@ -363,29 +365,39 @@ function renderMySchedule() {
     if (!container) return;
 
     const dayOrder = {
-    Wednesday: 0,
-    Thursday: 1,
-    Friday: 2,
-    Saturday: 3,
-    Sunday: 4
-};
+        Wednesday: 0,
+        Thursday: 1,
+        Friday: 2,
+        Saturday: 3,
+        Sunday: 4
+    };
 
-const scheduledEvents = [...planner.schedule];
+    const scheduledEvents = [...planner.schedule];
 
-scheduledEvents.sort((a, b) => {
+    if (scheduledEvents.length === 0) {
 
-    const dayDifference =
-        dayOrder[a.day] - dayOrder[b.day];
+        container.innerHTML =
+            "<p>No events in your schedule yet.</p>";
 
-    if (dayDifference !== 0) {
-
-        return dayDifference;
+        return;
 
     }
 
-    return convertTime(a.time) - convertTime(b.time);
+    scheduledEvents.sort((a, b) => {
 
-});
+        const dayDifference =
+            dayOrder[a.day] - dayOrder[b.day];
+
+        if (dayDifference !== 0) {
+
+            return dayDifference;
+
+        }
+
+        return convertTime(a.time) - convertTime(b.time);
+
+    });
+
     container.innerHTML = scheduledEvents.map(event => `
 
         <div class="schedule-card">
@@ -598,9 +610,17 @@ function displayEvents() {
 
     container.innerHTML = "";
 
-    const filteredEvents =
+    const sourceEvents =
 
-        events.filter(event => {
+    searchText.trim() === ""
+
+        ? events
+
+        : allEvents;
+
+const filteredEvents =
+
+    sourceEvents.filter(event => {
 
             const matchesSearch =
 
@@ -778,22 +798,28 @@ function createEventCard(event) {
 
             </div>
 
-            <h2>
+          <h2>
 
-                ${event.title}
+    ${event.title}
 
-            </h2>
+</h2>
 
-            <div class="event-meta">
+<div class="event-day">
 
-                ${featured}
+    📅 ${event.day}
 
-                ${badge}
+</div>
 
-                ${family}
+<div class="event-meta">
 
-            </div>
+    ${featured}
 
+    ${badge}
+
+    ${family}
+
+</div>
+              
             <div class="event-category">
 
                 ${event.category}
