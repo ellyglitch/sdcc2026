@@ -394,7 +394,8 @@
       "Animals",
       "Coffee"
     ]
-  },  {
+  },  
+  {
     "id": "thursday-superhero-tea",
     "series": "superhero-tea",
     "day": "Thursday",
@@ -990,7 +991,6 @@
     "Warner Bros."
   ]
 },
-  },
   {
     "id": "thursday-david-koechner",
     "series": "david-koechner",
