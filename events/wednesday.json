@@ -309,7 +309,8 @@
       "Signing",
       "Patrick Horvath"
     ]
-  },  {
+  },  
+  {
     "id": "wednesday-mtg-modern-horizons-3-draft",
     "series": "mtg-modern-horizons-3-draft",
     "day": "Wednesday",
@@ -355,9 +356,8 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": false,
-    
     "website": "",
-    "ticketLink": "",
+    "ticketLink": "https://www.eventbrite.com/e/ready-party-one-the-final-level-2026-sdcc-kick-off-party-tickets-1990829738339",
     "googleMaps": "",
     "description": "Kick off Comic-Con weekend with a gaming-inspired nightclub event featuring entertainment, DJs and cosplay.",
     "notes": "Inspired by classic arcade fighting games and martial arts cinema.",
@@ -374,7 +374,7 @@
     "series": "chad-goes-deep",
     "day": "Wednesday",
     "title": "Chill Towards Enlightenment: A Stoke Seminar with Chad Goes Deep",
-    "category": "Show",
+    "category": "Showss",
     "subcategory": "Live Show",
     "time": "6:30 PM",
     "endTime": "",
@@ -385,9 +385,8 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": false,
-    
     "website": "",
-    "ticketLink": "",
+    "ticketLink": "https://www.ticketweb.com/event/chill-towards-enlightenment-a-stoke-music-box-tickets/14911693?REFID=google.com%2F",
     "googleMaps": "",
     "description": "Live comedy and conversation with Chad Goes Deep.",
     "notes": "",
@@ -402,7 +401,7 @@
     "series": "rooftop-cinema-pretty-woman",
     "day": "Wednesday",
     "title": "Rooftop Cinema: Pretty Woman",
-    "category": "Show",
+    "category": "Shows",
     "subcategory": "Movie",
     "time": "7:00 PM",
     "endTime": "",
@@ -429,7 +428,7 @@
     "series": "brad-bird-michael-giacchino",
     "day": "Wednesday",
     "title": "Up Close: A Conversation with Brad Bird & Michael Giacchino",
-    "category": "Show",
+    "category": "Shows",
     "subcategory": "Live Conversation",
     "time": "7:30 PM",
     "endTime": "",
@@ -459,7 +458,7 @@
     "series": "doug-loves-movies",
     "day": "Wednesday",
     "title": "Doug Loves Movies: San Diego Comic-Con 2026",
-    "category": "Show",
+    "category": "Shows",
     "subcategory": "Live Podcast",
     "time": "8:00 PM",
     "endTime": "",
@@ -488,7 +487,7 @@
     "series": "chad-goes-deep",
     "day": "Wednesday",
     "title": "Chill Towards Enlightenment: A Stoke Seminar with Chad Goes Deep",
-    "category": "Show",
+    "category": "Shows",
     "subcategory": "Live Seminar",
     "time": "8:30 PM",
     "endTime": "",
@@ -508,7 +507,7 @@
     "tags": [
       "Comedy",
       "Podcast",
-      "Live Show"
+      "Live Shows"
     ]
   },
   {
@@ -516,7 +515,7 @@
     "series": "rooftop-cinema-jennifers-body",
     "day": "Wednesday",
     "title": "Rooftop Cinema: Jennifer's Body",
-    "category": "Show",
+    "category": "Shows",
     "subcategory": "Movie",
     "time": "10:00 PM",
     "endTime": "",
