@@ -760,8 +760,6 @@ function createEventCard(event) {
 
 <div class="event-meta">
 
-    ${featured}
-
     ${badge}
 
     ${family}
