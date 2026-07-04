@@ -141,8 +141,8 @@
       "Signings"
     ]
   },  {
-    "id": "wednesday-Kitties-and-Coffee",
-    "series": "Kitties-and-Coffee",
+    "id": "wednesday-kitties-and-coffee",
+    "series": "kitties-and-coffee",
     "day": "Wednesday",
     "title": "Kitties and Coffee for Comic Con",
     "category": "Food",
@@ -158,7 +158,7 @@
     "familyFriendly": true,
     
     "website": "",
-    "ticketLink": "https://fareharbor.com/embeds/book/catcafesd/items/127723/date/2025-07-23/?ref=https://catcafesd.com&back=https://catcafesd.com/kitties-and-coffee-for-comic-con/&g4=yes",
+    "ticketLink": "https://www.catcafesd.com/events",
     "googleMaps": "",
     "description": "Book a 50-minute slot to enjoy a food or drink item from their menu and get some pet therapy from their adoptable cats.",
     "notes": "",
