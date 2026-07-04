@@ -224,8 +224,6 @@ function toggleSchedule(event) {
 
     ticketLink: event.ticketLink, 
 
-    featured: event.featured
-
         });
 
     }
@@ -668,12 +666,6 @@ function createEventCard(event) {
 
     card.style.borderLeft =
         `8px solid ${CATEGORY_COLORS[event.category] || "#777"}`;
-
-    const featured = event.featured
-
-        ? `<span class="featured-badge">⭐ Featured</span>`
-
-        : "";
 
     const badge = event.badgeRequired
 
