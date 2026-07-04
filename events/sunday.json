@@ -315,8 +315,8 @@
     "ticketRequired": true,
     "familyFriendly": true,
     
-    "website": "https://www.catcafesd.com/events",
-    "ticketLink": "",
+    "website": "",
+    "ticketLink": "https://www.catcafesd.com/events",
     "googleMaps": "",
     "description": "Book a 50-minute visit with adoptable cats while enjoying coffee or snacks.",
     "notes": "Reservation required.",
@@ -345,7 +345,7 @@
     "familyFriendly": true,
     
     "website": "",
-    "ticketLink": "",
+    "ticketLink": "https://bucketlisters.com/experience/candy-land-cafe-sd",
     "googleMaps": "",
     "description": "Step inside a real-life Candy Land with colorful immersive sets, interactive moments, themed food, and family-friendly fun.",
     "notes": "90-minute ticketed experience.",
