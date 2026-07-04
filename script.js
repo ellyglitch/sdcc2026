@@ -222,7 +222,7 @@ function toggleSchedule(event) {
 
     website: event.website,
 
-    ticketLink: event.ticketLink, 
+    ticketLink: event.ticketLink
 
         });
 
@@ -296,9 +296,19 @@ async function loadEvents(day) {
 
         const files = Object.values(DAY_FILES);
 
-        const responses = await Promise.all(
-            files.map(file => fetch(file))
-        );
+      const responses = await Promise.all(
+
+    files.map(async file => {
+
+        const response = await fetch(file);
+
+        console.log(file, response.status);
+
+        return response;
+
+    })
+
+);
 
         const json = await Promise.all(
             responses.map(response => response.json())
@@ -308,7 +318,36 @@ async function loadEvents(day) {
 
 if (day === "Planner") {
 
+    const dayOrder = {
+
+        Wednesday: 0,
+
+        Thursday: 1,
+
+        Friday: 2,
+
+        Saturday: 3,
+
+        Sunday: 4
+
+    };
+
     events = [...planner.schedule];
+
+    events.sort((a, b) => {
+
+        const dayDifference =
+            dayOrder[a.day] - dayOrder[b.day];
+
+        if (dayDifference !== 0) {
+
+            return dayDifference;
+
+        }
+
+        return convertTime(a.time) - convertTime(b.time);
+
+    });
 
 }
 else {
@@ -425,16 +464,7 @@ function initializeDayButtons() {
             );
 
             button.classList.add("active");
-if (selectedDay === "Planner") {
-
-    events = [...planner.schedule];
-
-}
-else {
-
-    await loadEvents(selectedDay);
-
-}
+await loadEvents(selectedDay);
 
 displayEvents();
 
@@ -866,13 +896,43 @@ function createEventCard(event) {
 
             toggleSchedule(event);
 
-            if (currentDay === "Planner") {
+          if (currentDay === "Planner") {
 
-                events = [...planner.schedule];
+    const dayOrder = {
 
-            }
+        Wednesday: 0,
+
+        Thursday: 1,
+
+        Friday: 2,
+
+        Saturday: 3,
+
+        Sunday: 4
+
+    };
+
+    events = [...planner.schedule];
+
+    events.sort((a, b) => {
+
+        const dayDifference =
+            dayOrder[a.day] - dayOrder[b.day];
+
+        if (dayDifference !== 0) {
+
+            return dayDifference;
+
+        }
+
+        return convertTime(a.time) - convertTime(b.time);
+
+    });
+
+}
 
             displayEvents();
+            updatePlannerCounter();
 
         }
     );
@@ -1011,15 +1071,11 @@ function clearCompleted() {
 
 function sortEventsByTime(eventsToSort) {
 
-    return eventsToSort.sort((a, b) => {
+    return eventsToSort.sort((a, b) =>
 
-        return (a.time || "").localeCompare(
+        convertTime(a.time) - convertTime(b.time)
 
-            b.time || ""
-
-        );
-
-    });
+    );
 
 }
 
@@ -1031,14 +1087,40 @@ function sortEventsByTime(eventsToSort) {
 
 function refreshApplication() {
 
-    updatePlannerCounter();
-
     if (currentDay === "Planner") {
+
+    const dayOrder = {
+
+        Wednesday: 0,
+
+        Thursday: 1,
+
+        Friday: 2,
+
+        Saturday: 3,
+
+        Sunday: 4
+
+    };
 
     events = [...planner.schedule];
 
-}
+    events.sort((a, b) => {
 
+        const dayDifference =
+            dayOrder[a.day] - dayOrder[b.day];
+
+        if (dayDifference !== 0) {
+
+            return dayDifference;
+
+        }
+
+        return convertTime(a.time) - convertTime(b.time);
+
+    });
+
+}
 updatePlannerCounter();
 
 displayEvents();
