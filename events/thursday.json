@@ -84,7 +84,8 @@
       "Museum",
       "Family"
     ]
-  },  {
+  },  
+  {
     "id": "thursday-petco-interactive-zone",
     "series": "petco-interactive-zone",
     "day": "Thursday",
@@ -932,7 +933,8 @@
       "Pop Culture",
       "Stand-Up"
     ]
-  },  {
+  },  
+  {
     "id": "thursday-rainbow-kitten-surprise",
     "series": "rainbow-kitten-surprise",
     "day": "Thursday",
@@ -959,6 +961,7 @@
       "Music",
       "Gallagher Square"
     ]
+  },
     {
   "id": "thursday-adult-swim-night-of-new",
   "series": "adult-swim-on-the-green",
