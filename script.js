@@ -674,15 +674,35 @@ const filteredEvents =
 
     }
 
-    filteredEvents.forEach(event => {
+    filteredEvents.forEach((event, index) => {
 
-        const card =
+    const card = createEventCard(event);
 
-            createEventCard(event);
+    container.appendChild(card);
 
-        container.appendChild(card);
+    // Insert an ad after every 12 events
+    if ((index + 1) % 12 === 0) {
 
-    });
+        const ad = document.createElement("div");
+
+        ad.className = "ad-container";
+
+        ad.innerHTML = `
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-7148700198081170"
+                 data-ad-slot="8952207573"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+        `;
+
+        container.appendChild(ad);
+
+        (adsbygoogle = window.adsbygoogle || []).push({});
+
+    }
+
+});
 
 }// ======================================================
 // CREATE EVENT CARD
