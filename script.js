@@ -38,7 +38,7 @@ const CATEGORY_COLORS = {
 
     Party: "#F68B2C",
 
-    Show: "#E24848"
+    Shows: "#E24848"
 
 };
 
