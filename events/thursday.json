@@ -223,7 +223,36 @@
       "Clash of Clans",
       "Interactive"
     ]
-  },  {
+  },
+  {
+    "id": "thursday-comic-con-donut-bar",
+    "series": "comic-con-donut-bar",
+    "day": "Thursday",
+    "title": "Comic-Con Donut Bar",
+    "category": "Food",
+    "subcategory": "Pop-Up",
+    "time": "7:00 AM",
+    "endTime": "",
+    "location": "Donut Bar",
+    "address": "401 W A St, San Diego, CA 92101",
+    "price": "$5/donut",
+    "free": false,
+    "badgeRequired": false,
+    "ticketRequired": false,
+    "familyFriendly": true,
+    "website": "instagram.com/donutbarsd",
+    "ticketLink": "",
+    "googleMaps": "",
+    "description": "Comic-Con themed specialty donuts available during SDCC week.",
+    "notes": "Arrive early. Popular items frequently sell out before noon.",
+    "tags": [
+      "Food",
+      "Donuts",
+      "Breakfast",
+      "Comic-Con"
+    ]
+  },
+  {
     "id": "thursday-false-idol-geeki-tikis",
     "series": "false-idol-geeki-tikis",
     "day": "Thursday",
