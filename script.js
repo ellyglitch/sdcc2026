@@ -38,7 +38,7 @@ const CATEGORY_COLORS = {
 
     Party: "#F68B2C",
 
-    Shows: "#E24848"
+    Show: "#E24848"
 
 };
 
@@ -759,6 +759,8 @@ function createEventCard(event) {
 </div>
 
 <div class="event-meta">
+
+    ${featured}
 
     ${badge}
 
