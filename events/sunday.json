@@ -15,7 +15,7 @@
   "badgeRequired": false,
   "ticketRequired": true,
   "familyFriendly": true,
-  "featured": true,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -42,7 +42,7 @@
   "badgeRequired": false,
   "ticketRequired": true,
   "familyFriendly": true,
-  "featured": false,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -69,7 +69,7 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": true,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -96,7 +96,7 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": false,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -123,7 +123,7 @@
   "badgeRequired": true,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": true,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -150,7 +150,7 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": true,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -176,7 +176,7 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": false,
-  "featured": true,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -202,7 +202,7 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": true,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -230,7 +230,7 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    "featured": false,
+    
     "website": "",
     "ticketLink": "",
     "googleMaps": "",
@@ -258,7 +258,7 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    "featured": false,
+    
     "website": "",
     "ticketLink": "",
     "googleMaps": "",
@@ -286,7 +286,7 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    "featured": true,
+    
     "website": "",
     "ticketLink": "",
     "googleMaps": "",
@@ -314,8 +314,8 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": true,
-    "featured": true,
-    "website": "https://fareharbor.com/embeds/book/catcafesd/items/127723/date/2025-07-23/?ref=https://catcafesd.com&back=https://catcafesd.com/kitties-and-coffee-for-comic-con/&g4=yes",
+    
+    "website": "https://www.catcafesd.com/events",
     "ticketLink": "",
     "googleMaps": "",
     "description": "Book a 50-minute visit with adoptable cats while enjoying coffee or snacks.",
@@ -343,7 +343,7 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": true,
-    "featured": true,
+    
     "website": "",
     "ticketLink": "",
     "googleMaps": "",
@@ -372,7 +372,7 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": true,
-    "featured": true,
+    
     "website": "",
     "ticketLink": "",
     "googleMaps": "",
@@ -401,7 +401,7 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": false,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -429,7 +429,7 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": true,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -457,7 +457,7 @@
   "badgeRequired": true,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": false,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -486,7 +486,7 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": false,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -513,7 +513,7 @@
   "badgeRequired": true,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": false,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -540,7 +540,7 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
-  "featured": true,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -568,7 +568,7 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": false,
-  "featured": false,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -595,7 +595,7 @@
   "badgeRequired": false,
   "ticketRequired": true,
   "familyFriendly": true,
-  "featured": true,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -624,7 +624,7 @@
   "badgeRequired": false,
   "ticketRequired": true,
   "familyFriendly": false,
-  "featured": false,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
@@ -654,7 +654,7 @@
   "badgeRequired": false,
   "ticketRequired": true,
   "familyFriendly": true,
-  "featured": false,
+  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
