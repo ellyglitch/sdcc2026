@@ -412,9 +412,8 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": false,
-    
     "website": "",
-    "ticketLink": "",
+    "ticketLink": "https://rooftopcinemaclub.com/us/san-diego/little-italy",
     "googleMaps": "",
     "description": "Outdoor rooftop screening of Pretty Woman.",
     "notes": "",
@@ -526,7 +525,6 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": false,
-    
     "website": "https://rooftopcinemaclub.com/us/san-diego/little-italy",
     "ticketLink": "",
     "googleMaps": "",
