@@ -757,16 +757,6 @@ function createEventCard(event) {
     📅 ${event.day}
 
 </div>
-
-<div class="event-meta">
-
-    ${featured}
-
-    ${badge}
-
-    ${family}
-
-</div>
               
             <div class="event-category">
 
