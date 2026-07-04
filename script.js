@@ -792,9 +792,11 @@ function createEventCard(event) {
 
             <div class="event-time">
 
-                ${event.time}
+    ${event.time}
 
-            </div>
+    ${event.endTime ? ` - ${event.endTime}` : ""}
+
+</div>
 
           <h2>
 
