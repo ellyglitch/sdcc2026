@@ -148,9 +148,9 @@
     "category": "Food",
     "subcategory": "Pop-Up",
     "time": "9:00 AM",
-    "endTime": "3:00PM",
-    "location": "Donut Bar",
-    "address": "The Cat Cafe, 302 Island Avenue #101, San Diego, CA",
+    "endTime": "3:00 PM",
+    "location": "The Cat Cafe",
+    "address": "302 Island Avenue #101, San Diego, CA",
     "price": "$29.68",
     "free": false,
     "badgeRequired": false,
@@ -177,7 +177,7 @@
     "category": "Food",
     "subcategory": "Pop-Up",
     "time": "7:00 AM",
-    "endTime": "Sold Out",
+    "endTime": "",
     "location": "Donut Bar",
     "address": "401 W A St, San Diego, CA 92101",
     "price": "Varies",
@@ -185,7 +185,6 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    
     "website": "",
     "ticketLink": "",
     "googleMaps": "",
@@ -196,35 +195,6 @@
       "Donuts",
       "Breakfast",
       "Comic-Con"
-    ]
-  },
-  {
-    "id": "wednesday-cat-cafe",
-    "series": "cat-cafe",
-    "day": "Wednesday",
-    "title": "The Cat Cafe",
-    "category": "Food",
-    "subcategory": "Cafe",
-    "time": "10:00 AM",
-    "endTime": "8:00 PM",
-    "location": "The Cat Cafe",
-    "address": "302 Island Ave, San Diego, CA 92101",
-    "price": "Varies",
-    "free": false,
-    "badgeRequired": false,
-    "ticketRequired": true,
-    "familyFriendly": true,
-    
-    "website": "",
-    "ticketLink": "",
-    "googleMaps": "",
-    "description": "Enjoy coffee, snacks and spend time with adoptable rescue cats.",
-    "notes": "Reservations are recommended during Comic-Con.",
-    "tags": [
-      "Cats",
-      "Coffee",
-      "Cafe",
-      "Animals"
     ]
   },
   {
@@ -267,14 +237,13 @@
     "endTime": "3:00 PM",
     "location": "The Westgate Hotel",
     "address": "1055 Second Ave, San Diego, CA 92101",
-    "price": "Reservation Required",
+    "price": "$95.00",
     "free": false,
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": true,
-    
     "website": "",
-    "ticketLink": "",
+    "ticketLink": "https://www.westgatehotel.com/event/superhero-tea-2/2026-07-22/",
     "googleMaps": "",
     "description": "Comic-Con themed afternoon tea featuring specialty desserts, teas and themed décor.",
     "notes": "Reservations strongly recommended.",
@@ -284,7 +253,8 @@
       "Dessert",
       "Afternoon Tea"
     ]
-  },  {
+  },  
+  {
     "id": "wednesday-addams-family-cosplay-photoshoot",
     "series": "addams-family-cosplay-photoshoot",
     "day": "Wednesday",
@@ -300,8 +270,7 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    
-    "website": "",
+    "website": "https://www.facebook.com/events/1401006137672047/",
     "ticketLink": "",
     "googleMaps": "",
     "description": "Group cosplay meetup and photo session celebrating The Addams Family.",
@@ -329,8 +298,7 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    
-    "website": "",
+    "website": "https://sdccblog.com/events-default/patrick-horvath-signing-now-or-never-comics/",
     "ticketLink": "",
     "googleMaps": "",
     "description": "Patrick Horvath celebrates the hardcover releases of 'Beneath the Trees Where Nobody Sees' and 'Beneath the Trees Where Nobody Sees: Rite of Spring'.",
