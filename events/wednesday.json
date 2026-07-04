@@ -140,7 +140,8 @@
       "Publisher",
       "Signings"
     ]
-  },  {
+  },  
+  {
     "id": "wednesday-kitties-and-coffee",
     "series": "kitties-and-coffee",
     "day": "Wednesday",
@@ -169,7 +170,8 @@
       "Coffee",
       "Breakfast" 
     ]
-  },{
+  },
+  {
     "id": "wednesday-comic-con-donut-bar",
     "series": "comic-con-donut-bar",
     "day": "Wednesday",
@@ -422,7 +424,8 @@
       "Cinema",
       "Rooftop"
     ]
-  },  {
+  }, 
+  {
     "id": "wednesday-brad-bird-michael-giacchino",
     "series": "brad-bird-michael-giacchino",
     "day": "Wednesday",
