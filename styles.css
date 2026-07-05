@@ -1109,7 +1109,7 @@ button:active{
 
 #backToTop {
 
-    display: none;
+    display: block;
 
     position: fixed;
 
