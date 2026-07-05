@@ -314,7 +314,7 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    "website": "instagram.com/donutbarsd",
+    "website": "https://instagram.com/donutbarsd",
     "ticketLink": "",
     "googleMaps": "",
     "description": "",
@@ -472,7 +472,7 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": false,
-    "website": "falseidoltiki.com",
+    "website": "https://falseidoltiki.com"
     "ticketLink": "",
     "googleMaps": "",
     "description": "Exclusive Geeki Tiki anniversary event featuring collectible mugs, swag bags, raffles and themed cocktails.",
