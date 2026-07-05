@@ -306,9 +306,13 @@ for (const file of files) {
 
     console.log(file, response.status);
 
-    const data = await response.json();
+   console.log("Parsing:", file);
 
-    json.push(data);
+const data = await response.json();
+
+console.log("Parsed successfully:", file);
+
+json.push(data);
 
 }
 
