@@ -1102,3 +1102,69 @@ button:active{
     }
 
 }
+
+/* ===========================
+   Back To Top Button
+=========================== */
+
+#backToTop {
+
+    display: none;
+
+    position: fixed;
+
+    bottom: 25px;
+
+    right: 25px;
+
+    width: 55px;
+
+    height: 55px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #6C4CE6;
+
+    color: white;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,.25);
+
+    transition: all .25s ease;
+
+    z-index: 9999;
+
+}
+
+#backToTop:hover {
+
+    background: #5638d8;
+
+    transform: translateY(-3px);
+
+}
+
+@media (max-width: 768px) {
+
+    #backToTop {
+
+        width: 50px;
+
+        height: 50px;
+
+        font-size: 22px;
+
+        bottom: 20px;
+
+        right: 20px;
+
+    }
+
+}
