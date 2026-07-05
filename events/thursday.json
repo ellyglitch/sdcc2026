@@ -241,7 +241,7 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    "website": "instagram.com/donutbarsd",
+    "website": "https://instagram.com/donutbarsd"
     "ticketLink": "",
     "googleMaps": "",
     "description": "Comic-Con themed specialty donuts available during SDCC week.",
@@ -270,7 +270,7 @@
     "ticketRequired": true,
     "familyFriendly": false,
     
-    "website": "falseidoltiki.com",
+    "website": "https://falseidoltiki.com"
     "ticketLink": "",
     "googleMaps": "",
     "description": "Celebrate the Geeki Tikis 10th Anniversary with exclusive drinks, merchandise, giveaways, raffles and limited-edition collectibles.",
@@ -434,10 +434,10 @@
     "subcategory": "Pop-Up Experience",
     "time": "10:00 AM",
     "endTime": "7:00 PM",
-    "location": "Bayside Kitchen + Bar: 2137 Pacific Hwy, San Diego, CA 92101",
-    "address": "San Diego, CA",
+    "location": "Bayside Kitchen + Bar",
+    "address": "2137 Pacific Hwy, San Diego, CA 92101",
     "price": "$24.50",
-    "free": true,
+    "free": false,
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": true,
@@ -510,7 +510,7 @@
   },
    {
     "id": "thursday-lunar-distribution-retailer-meet-and-greet",
-    "series": "one-lunar-distribution-meet-and-greet",
+    "series": "lunar-distribution-meet-and-greet",
     "day": "Thursday",
     "title": "Lunar Distribution Comic Book Retailer Meet-And-Greet",
     "category": "Meetup",
@@ -537,7 +537,7 @@
   },
   {
     "id": "thursday-doctor-who-quiz",
-    "series": "one-doctor-who",
+    "series": "doctor-who",
     "day": "Thursday",
     "title": "Doctor Who Quiz Night",
     "category": "Meetup",
@@ -1030,8 +1030,8 @@
     "subcategory": "Movie Screening",
     "time": "8:00 PM",
     "endTime": "",
-    "location": "Manchester Grand Hyatt Rooftop Cinema Club",
-    "address": "1 Market Pl, San Diego, CA 92101",
+    "location": "Rooftop Cinema Club - Little Italy"
+    "address": "1835 Columbia St 5th Floor, San Diego, CA 92101",
     "price": "$21+",
     "free": false,
     "badgeRequired": false,
@@ -1086,8 +1086,8 @@
     "subcategory": "Movie Screening",
     "time": "10:30 PM",
     "endTime": "",
-    "location": "Manchester Grand Hyatt Rooftop Cinema Club",
-    "address": "1 Market Pl, San Diego, CA 92101",
+    "location": "Rooftop Cinema Club - Little Italy"
+    "address": "1835 Columbia St 5th Floor, San Diego, CA 92101",
     "price": "$21+",
     "free": false,
     "badgeRequired": false,
