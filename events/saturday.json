@@ -206,7 +206,7 @@
   "address": "333 W Harbor Dr, San Diego, CA 92101",
   "price": "SDCC Badge Required",
   "free": true,
-  "badgeRequired": true,
+  "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
   
@@ -392,7 +392,7 @@
   "category": "Food",
   "subcategory": "Breakfast",
   "time": "7:00 AM",
-  "endTime": "Sold Out",
+  "endTime": "",
   "location": "PopUp Bagels Volkswagen Bus",
   "address": "Outside Pendry Hotel, 550 J Street, San Diego, CA 92101",
   "price": "",
