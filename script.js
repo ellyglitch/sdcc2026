@@ -1245,29 +1245,31 @@ window.sdccPlanner = {
 // Back To Top Button
 // ===========================
 
-const backToTop = document.getElementById("backToTop");
+document.addEventListener("DOMContentLoaded", () => {
 
-window.addEventListener("scroll", () => {
+    const backToTop = document.getElementById("backToTop");
 
-    if (window.scrollY > 400) {
-
-        backToTop.style.display = "block";
-
-    } else {
-
-        backToTop.style.display = "none";
-
+    if (!backToTop) {
+        console.error("Back To Top button not found.");
+        return;
     }
 
-});
+    window.addEventListener("scroll", () => {
 
-backToTop.addEventListener("click", () => {
+        backToTop.style.display =
+            window.scrollY > 400 ? "block" : "none";
 
-    window.scrollTo({
+    });
 
-        top: 0,
+    backToTop.addEventListener("click", () => {
 
-        behavior: "smooth"
+        window.scrollTo({
+
+            top: 0,
+
+            behavior: "smooth"
+
+        });
 
     });
 
