@@ -1245,14 +1245,9 @@ window.sdccPlanner = {
 // Back To Top Button
 // ===========================
 
-document.addEventListener("DOMContentLoaded", () => {
+const backToTop = document.getElementById("backToTop");
 
-    const backToTop = document.getElementById("backToTop");
-
-    if (!backToTop) {
-        console.error("Back To Top button not found.");
-        return;
-    }
+if (backToTop) {
 
     window.addEventListener("scroll", () => {
 
@@ -1273,7 +1268,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-});
+}
 // ======================================================
 // END OF FILE
 // ======================================================
