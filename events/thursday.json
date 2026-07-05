@@ -1030,7 +1030,7 @@
     "subcategory": "Movie Screening",
     "time": "8:00 PM",
     "endTime": "",
-    "location": "Rooftop Cinema Club - Little Italy"
+    "location": "Rooftop Cinema Club - Little Italy",
     "address": "1835 Columbia St 5th Floor, San Diego, CA 92101",
     "price": "$21+",
     "free": false,
@@ -1086,7 +1086,7 @@
     "subcategory": "Movie Screening",
     "time": "10:30 PM",
     "endTime": "",
-    "location": "Rooftop Cinema Club - Little Italy"
+    "location": "Rooftop Cinema Club - Little Italy",
     "address": "1835 Columbia St 5th Floor, San Diego, CA 92101",
     "price": "$21+",
     "free": false,
