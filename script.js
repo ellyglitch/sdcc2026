@@ -308,9 +308,15 @@ for (const file of files) {
 
    console.log("Parsing:", file);
 
-const data = await response.json();
+console.log("About to parse:", file);
 
-console.log("Parsed successfully:", file);
+const text = await response.text();
+
+console.log(text.substring(31850, 31980));
+
+const data = JSON.parse(text);
+
+console.log("Parsed:", file);
 
 json.push(data);
 
