@@ -296,26 +296,24 @@ async function loadEvents(day) {
 
         const files = Object.values(DAY_FILES);
 
-      const responses = await Promise.all(
+const json = [];
 
-    files.map(async file => {
+for (const file of files) {
 
-        const response = await fetch(file);
+    console.log("Loading:", file);
 
-        console.log(file, response.status);
+    const response = await fetch(file);
 
-        return response;
+    console.log(file, response.status);
 
-    })
+    const data = await response.json();
 
-);
+    json.push(data);
 
-        const json = await Promise.all(
-            responses.map(response => response.json())
-        );
+}
 
-      allEvents = json.flat();
-
+allEvents = json.flat();
+        
 if (day === "Planner") {
 
     const dayOrder = {
@@ -361,12 +359,13 @@ else {
 
     catch (error) {
 
-        console.error(error);
+    console.error("Failed loading events:", error);
 
-        events = [];
-        allEvents = [];
+    events = [];
 
-    }
+    allEvents = [];
+
+}
 
 }
 
