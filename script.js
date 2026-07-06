@@ -58,7 +58,7 @@ let events = [];
 
 let allEvents = [];
 
-let currentDay = "Wednesday";
+let currentDay = "Tuesday";
 
 let activeFilters = [];
 
