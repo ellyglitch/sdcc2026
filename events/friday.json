@@ -914,6 +914,37 @@
     "tags": ["funko"]
   },
   {
+  "id": "friday-dark-moon-blood-night-enhypen",
+  "series": "dark-moon-blood-night-enhypen",
+  "day": "Friday",
+  "title": "DARK MOON BLOOD NIGHT with ENHYPEN",
+  "category": "Party",
+  "subcategory": "Fan Event",
+  "time": "7:00 PM",
+  "endTime": "10:00 PM",
+  "location": "House of Blues San Diego",
+  "address": "1055 Fifth Avenue, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": false,
+  "website": "https://docs.google.com/forms/d/e/1FAIpQLSe_chrdEPeJ0Ez1uEFZtTibQy6AsCu0vDbNTihWNNCSEvo6aw/viewform",
+  "ticketLink": "https://docs.google.com/forms/d/e/1FAIpQLSe_chrdEPeJ0Ez1uEFZtTibQy6AsCu0vDbNTihWNNCSEvo6aw/viewform",
+  "googleMaps": "",
+  "description": "Official DARK MOON BLOOD NIGHT fan event with ENHYPEN during San Diego Comic-Con weekend.",
+  "notes": "Seating: All-standing (no seats). Dress code: Vampire 🦇. Official line-up begins at 6:00 PM PDT. Queueing or camping before 6:00 PM is strictly prohibited. Application period: July 5, 2026, 7:00 PM – July 8, 2026, 10:00 PM PDT. Winners will be notified individually by email on July 13, 2026.",
+  "tags": [
+    "ENHYPEN",
+    "K-Pop",
+    "DARK MOON",
+    "Fan Event",
+    "House of Blues",
+    "Vampire",
+    "Reservation Required"
+  ]
+},
+  {
     "id": "friday-adult-swim-live-table-reads",
     "series": "adult-swim-live-table-reads",
     "day": "Friday",
