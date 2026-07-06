@@ -69,15 +69,19 @@
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
-  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
-  "description": "Outdoor interactive zone featuring Hello Kitty Truck, Labu'Tique Shop and MaruMart.",
-  "notes": "",
-  "tags": [
-    "Hello Kitty",
-    "Petco Park"
+   "description": "A free, interactive fan zone experience where fans can explore larger-than-life displays featuring Hello Kitty Truck, Labu'Tique Shop, MaruMart, KAYOU interactive zone, and additional Comic-Con experiences.",
+    "notes": "",
+    "tags": [
+      "Petco Park",
+      "Interactive",
+      "Hello Kitty",
+      "Kayou",
+      "Labubu",
+      "My Little Pony",
+      "Shopping"
   ]
 },
 {
