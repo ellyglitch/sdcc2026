@@ -1165,6 +1165,27 @@ button:active{
 
         right: 20px;
 
-    }
+}
+.planner-day-heading {
+
+    margin: 40px 0 20px;
+
+    padding: 12px 20px;
+
+    background: linear-gradient(90deg, #6C4CE6, #8A63FF);
+
+    color: white;
+
+    border-radius: 12px;
+
+}
+
+.planner-day-heading h2 {
+
+    margin: 0;
+
+    color: white;
+
+    font-size: 1.8rem;
 
 }
