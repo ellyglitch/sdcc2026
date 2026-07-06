@@ -302,14 +302,6 @@ const json = [];
 
 for (const file of files) {
 
-    console.log("Loading:", file);
-
-    const response = await fetch(file);
-
-    console.log(file, response.status);
-
-   console.log("Parsing:", file);
-
 console.log("About to parse:", file);
 
 const text = await response.text();
@@ -617,17 +609,13 @@ function displayEvents() {
 
     container.innerHTML = "";
 
-    const sourceEvents =
+   const sourceEvents =
 
-        currentDay === "Planner"
+    searchText.trim() === ""
 
-            ? planner.schedule
+        ? events
 
-            : (searchText.trim() === ""
-
-                ? events
-
-                : allEvents);
+        : allEvents;
 
     const filteredEvents =
 
