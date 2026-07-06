@@ -15,7 +15,6 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": true,
-    
     "website": "",
     "ticketLink": "https://artpower.ucsd.edu/event/shredding-the-multiverse/",
     "googleMaps": "",
@@ -43,7 +42,6 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    
     "website": "",
     "ticketLink": "https://calendar.ucsd.edu/event/clarion-science-fiction-and-fantasy-writers-masterclass-5724#",
     "googleMaps": "",
@@ -74,7 +72,6 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": true,
-    
     "website": "",
     "ticketLink": "https://www.ticketmaster.com/event/0A00648BD78EC21F?spMailingID=13662656&spUserID=NzA5OTA0MjY3NzQ5S0&spJobID=2440366260&spReportId=MjQ0MDM2NjI2MAS2",
     "googleMaps": "",
@@ -92,7 +89,7 @@
     "series": "disney-lorcana-prerelease",
     "day": "Tuesday",
     "title": "Disney Lorcana: Attack of the Vine Pre-Release",
-    "category": "Event",
+    "category": "Meetup",
     "subcategory": "Trading Card Game",
     "time": "2:00 PM",
     "endTime": "",
@@ -103,7 +100,6 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": true,
-    
     "website": "",
     "ticketLink": "https://bardsandcards.com/collections/event-reservations/products/disney-lorcana-attack-of-the-vine-prerelease-sat-jul-18-disney-lorcana",
     "googleMaps": "",
@@ -132,7 +128,6 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": true,
-    
     "website": "",
     "ticketLink": "https://go.seated.com/tour-events/26ebe274-7b89-42f7-8a28-9575f5c73ad2?utm_referrer=https%3A%2F%2Fwww.edsheeran.com%2F",
     "googleMaps": "",
@@ -149,7 +144,7 @@
     "series": "pawmicon",
     "day": "Tuesday",
     "title": "PAWmicon 2026",
-    "category": "Event",
+    "category": "Meetup",
     "subcategory": "Pet Event",
     "time": "4:30 PM",
     "endTime": "7:00 PM",
@@ -160,7 +155,6 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    
     "website": "",
     "ticketLink": "https://www.eventbrite.com/e/pawmicon-2026-tickets-1992599309173?aff=ebdssbdestsearch",
     "googleMaps": "",
@@ -189,7 +183,6 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    
     "website": "",
     "ticketLink": "https://patrickballesteros.com/new-page",
     "googleMaps": "",
