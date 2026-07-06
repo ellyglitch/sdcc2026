@@ -485,6 +485,35 @@
     ]
   },
   {
+  "id": "sdcc-away-team-tiki-meetup",
+  "series": "sdcc-away-team-tiki-meetup",
+  "day": "Thursday",
+  "title": "SDCC Away Team Tiki Meet Up",
+  "category": "Meetup",
+  "subcategory": "Fan Meetup",
+  "time": "4:00 PM",
+  "location": "Omni San Diego Hotel at the Ballpark",
+  "address": "675 L St, San Diego, CA 92101-7022",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://fb.me/e/6fPkWKqHe",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "The annual tiki 'away mission' for Star Trek fans during San Diego Comic-Con. Fans are invited to gather for an afternoon of tropical drinks and Trek-themed camaraderie.",
+  "notes": "Star Trek attire is appreciated but not required. Final event time is still pending and may be updated.",
+  "tags": [
+    "Star Trek",
+    "Tiki",
+    "Meetup",
+    "Fan Event",
+    "SDCC",
+    "Omni Hotel"
+  ]
+},
+  {
     "id": "thursday-bar-crawl",
     "series": "bar-crawl",
     "day": "Thursday",
