@@ -302,17 +302,19 @@ const json = [];
 
 for (const file of files) {
 
-console.log("About to parse:", file);
+    const response = await fetch(file);
 
-const text = await response.text();
+    if (!response.ok) {
 
-console.log(text.substring(31850, 31980));
+        throw new Error(`Failed to load ${file}`);
 
-const data = JSON.parse(text);
+    }
 
-console.log("Parsed:", file);
+    const text = await response.text();
 
-json.push(data);
+    const data = JSON.parse(text);
+
+    json.push(data);
 
 }
 
@@ -1047,19 +1049,14 @@ function createEventCard(event) {
 
           if (currentDay === "Planner") {
 
-    const dayOrder = {
-
-        Wednesday: 0,
-
-        Thursday: 1,
-
-        Friday: 2,
-
-        Saturday: 3,
-
-        Sunday: 4
-
-    };
+   const dayOrder = {
+    Tuesday: 0,
+    Wednesday: 1,
+    Thursday: 2,
+    Friday: 3,
+    Saturday: 4,
+    Sunday: 5
+};
 
     events = [...planner.schedule];
 
@@ -1239,18 +1236,13 @@ function refreshApplication() {
     if (currentDay === "Planner") {
 
     const dayOrder = {
-
-        Wednesday: 0,
-
-        Thursday: 1,
-
-        Friday: 2,
-
-        Saturday: 3,
-
-        Sunday: 4
-
-    };
+    Tuesday: 0,
+    Wednesday: 1,
+    Thursday: 2,
+    Friday: 3,
+    Saturday: 4,
+    Sunday: 5
+};
 
     events = [...planner.schedule];
 
