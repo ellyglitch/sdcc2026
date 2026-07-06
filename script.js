@@ -609,79 +609,83 @@ function initializeSearch() {
 
 function displayEvents() {
 
-    const container =
-
-        document.getElementById("events");
+    const container = document.getElementById("events");
 
     container.innerHTML = "";
 
     const sourceEvents =
 
-    currentDay === "Planner"
+        currentDay === "Planner"
 
-        ? planner.schedule
+            ? planner.schedule
 
-        : (searchText.trim() === ""
+            : (searchText.trim() === ""
 
-            ? events
+                ? events
 
-            : allEvents);
+                : allEvents);
 
-const filteredEvents =
+    const filteredEvents =
 
-    sourceEvents.filter(event => {
+        sourceEvents
 
-            const matchesSearch =
+            .filter(event => {
 
-                (event.title || "")
+                const matchesSearch =
 
-                    .toLowerCase()
+                    (event.title || "")
+                        .toLowerCase()
+                        .includes(searchText)
 
-                    .includes(searchText)
+                    ||
 
-                ||
+                    (event.location || "")
+                        .toLowerCase()
+                        .includes(searchText)
 
-                (event.location || "")
+                    ||
 
-                    .toLowerCase()
+                    (event.description || "")
+                        .toLowerCase()
+                        .includes(searchText);
 
-                    .includes(searchText)
+                const matchesCategory =
 
-                ||
+                    activeFilters.length === 0 ||
 
-                (event.description || "")
+                    activeFilters.some(filter => {
 
-                    .toLowerCase()
+                        if (filter === "Party & Events") {
 
-                    .includes(searchText);
+                            return (
 
-            const matchesCategory =
+                                event.category === "Party" ||
 
-    activeFilters.length === 0 ||
+                                event.category === "Event"
 
-    activeFilters.some(filter => {
+                            );
 
-        if (filter === "Party & Events") {
+                        }
 
-            return event.category === "Party" ||
+                        return filter === event.category;
 
-                   event.category === "Event";
+                    });
 
-        }
+                return (
 
-        return filter === event.category;
+                    matchesSearch &&
 
-    });
+                    matchesCategory
 
-            return (
+                );
 
-                matchesSearch &&
+            })
 
-                matchesCategory
+            .sort((a, b) => {
 
-            );
+                return convertTime(a.time) - convertTime(b.time);
 
-        });
+            });
 
     if (filteredEvents.length === 0) {
 
@@ -707,33 +711,36 @@ const filteredEvents =
 
     filteredEvents.forEach((event, index) => {
 
-    const card = createEventCard(event);
+        const card = createEventCard(event);
 
-    container.appendChild(card);
+        container.appendChild(card);
 
-    // Insert an ad after every 12 events
-    if ((index + 1) % 12 === 0) {
+        // Insert an ad after every 12 events
 
-        const ad = document.createElement("div");
+        if ((index + 1) % 12 === 0) {
 
-        ad.className = "ad-container";
+            const ad = document.createElement("div");
 
-        ad.innerHTML = `
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-7148700198081170"
-                 data-ad-slot="8952207573"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-        `;
+            ad.className = "ad-container";
 
-        container.appendChild(ad);
+            ad.innerHTML = `
 
-        (adsbygoogle = window.adsbygoogle || []).push({});
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-7148700198081170"
+                     data-ad-slot="8952207573"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
 
-    }
+            `;
 
-});
+            container.appendChild(ad);
+
+            (adsbygoogle = window.adsbygoogle || []).push({});
+
+        }
+
+    });
 
 }// ======================================================
 // CREATE EVENT CARD
