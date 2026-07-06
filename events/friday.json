@@ -570,6 +570,35 @@
     ]
   },
   {
+  "id": "ghostbusters-muster-cosplay-meetup",
+  "series": "ghostbusters-muster",
+  "day": "Friday",
+  "title": "Ghostbusters Muster Cosplay Meet Up & Group Photo",
+  "category": "Meetup",
+  "subcategory": "Cosplay Meetup",
+  "time": "5:30 PM",
+  "location": "Embarcadero",
+  "address": "Embarcadero, San Diego, CA",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "The 4th annual San Diego Comic-Con Ghostbusters Muster, featuring a cosplay meetup and group photo for Ghostbusters fans and costumers.",
+  "notes": "Please arrive a little early. If you have Ghostbusters patches, bring extras to trade. Questions or concerns can be directed to info@sandiegoghostbusters.com.",
+  "tags": [
+    "Ghostbusters",
+    "Cosplay",
+    "Meetup",
+    "Group Photo",
+    "Fan Event",
+    "SDCC"
+  ]
+},
+  {
     "id": "friday-inflatable-dinosaur-cosplay-meetup",
     "series": "inflatable-dinosaur-cosplay-meetup",
     "day": "Friday",
