@@ -408,46 +408,60 @@ document.addEventListener(
 );
 
 // ======================================================
-// CONVERT TIME FOR SORTING
+// CONVERT TIME TO MINUTES (FOR SORTING)
 // ======================================================
 
 function convertTime(time) {
 
-    if (!time) return 999999;
+    if (!time) {
+
+        return 999999;
+
+    }
 
     if (
+
         time === "TBA" ||
+
         time === "Assigned" ||
+
         time === "Ticketed"
+
     ) {
 
         return 999999;
 
     }
 
-    const match = time.match(/(\d+):(\d+)\s*(AM|PM)/i);
+    const match = time
+        .trim()
+        .match(/^(\d{1,2}):(\d{2})\s*(AM|PM)$/i);
 
-    if (!match) return 999999;
+    if (!match) {
 
-    let hour = parseInt(match[1]);
+        return 999999;
 
-    const minute = parseInt(match[2]);
+    }
+
+    let hours = parseInt(match[1], 10);
+
+    const minutes = parseInt(match[2], 10);
 
     const period = match[3].toUpperCase();
 
-    if (period === "PM" && hour !== 12) {
+    if (period === "AM" && hours === 12) {
 
-        hour += 12;
-
-    }
-
-    if (period === "AM" && hour === 12) {
-
-        hour = 0;
+        hours = 0;
 
     }
 
-    return hour * 60 + minute;
+    if (period === "PM" && hours !== 12) {
+
+        hours += 12;
+
+    }
+
+    return (hours * 60) + minutes;
 
 }
 // ======================================================
