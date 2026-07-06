@@ -330,15 +330,17 @@ if (day === "Planner") {
 
     const dayOrder = {
 
-        Wednesday: 0,
+        Tuesday: 0,
 
-        Thursday: 1,
+        Wednesday: 1,
 
-        Friday: 2,
+        Thursday: 2,
 
-        Saturday: 3,
+        Friday: 3,
 
-        Sunday: 4
+        Saturday: 4,
+
+        Sunday: 5
 
     };
 
@@ -346,12 +348,13 @@ if (day === "Planner") {
 
     events.sort((a, b) => {
 
-        const dayDifference =
-            dayOrder[a.day] - dayOrder[b.day];
+        const dayA = dayOrder[a.day] ?? 999;
 
-        if (dayDifference !== 0) {
+        const dayB = dayOrder[b.day] ?? 999;
 
-            return dayDifference;
+        if (dayA !== dayB) {
+
+            return dayA - dayB;
 
         }
 
@@ -360,6 +363,7 @@ if (day === "Planner") {
     });
 
 }
+    
 else {
 
     events = allEvents.filter(
@@ -679,13 +683,54 @@ function displayEvents() {
 
                 );
 
-            })
-
-            .sort((a, b) => {
-
-                return convertTime(a.time) - convertTime(b.time);
-
             });
+
+    // Sort planner by day first, then by time.
+    // Sort individual day pages by time only.
+
+    if (currentDay === "Planner") {
+
+        const dayOrder = {
+
+            Tuesday: 0,
+
+            Wednesday: 1,
+
+            Thursday: 2,
+
+            Friday: 3,
+
+            Saturday: 4,
+
+            Sunday: 5
+
+        };
+
+        filteredEvents.sort((a, b) => {
+
+            const dayDifference =
+
+                dayOrder[a.day] - dayOrder[b.day];
+
+            if (dayDifference !== 0) {
+
+                return dayDifference;
+
+            }
+
+            return convertTime(a.time) - convertTime(b.time);
+
+        });
+
+    } else {
+
+        filteredEvents.sort((a, b) =>
+
+            convertTime(a.time) - convertTime(b.time)
+
+        );
+
+    }
 
     if (filteredEvents.length === 0) {
 
@@ -709,15 +754,71 @@ function displayEvents() {
 
     }
 
+    let currentHeading = "";
+
+    const dayDates = {
+
+        Tuesday: "July 21",
+
+        Wednesday: "July 22",
+
+        Thursday: "July 23",
+
+        Friday: "July 24",
+
+        Saturday: "July 25",
+
+        Sunday: "July 26"
+
+    };
+
     filteredEvents.forEach((event, index) => {
+
+        // Planner day headings
+
+        if (
+
+            currentDay === "Planner" &&
+
+            event.day !== currentHeading
+
+        ) {
+
+            currentHeading = event.day;
+
+            const heading = document.createElement("div");
+
+            heading.className = "planner-day-heading";
+
+            heading.innerHTML = `
+
+                <h2>
+
+                    📅 ${event.day} • ${dayDates[event.day]}
+
+                </h2>
+
+            `;
+
+            container.appendChild(heading);
+
+        }
+
+        // Event card
 
         const card = createEventCard(event);
 
         container.appendChild(card);
 
-        // Insert an ad after every 12 events
+        // Ads only on day pages
 
-        if ((index + 1) % 12 === 0) {
+        if (
+
+            currentDay !== "Planner" &&
+
+            (index + 1) % 12 === 0
+
+        ) {
 
             const ad = document.createElement("div");
 
