@@ -12,6 +12,8 @@
 
 const DAY_FILES = {
 
+    Tuesday: "events/tuesday.json",
+        
     Wednesday: "events/wednesday.json",
 
     Thursday: "events/thursday.json",
