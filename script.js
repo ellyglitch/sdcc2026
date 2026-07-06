@@ -643,15 +643,21 @@ const filteredEvents =
 
             const matchesCategory =
 
-                activeFilters.length === 0
+    activeFilters.length === 0 ||
 
-                ||
+    activeFilters.some(filter => {
 
-                activeFilters.includes(
+        if (filter === "Party & Events") {
 
-                    event.category
+            return event.category === "Party" ||
 
-                );
+                   event.category === "Event";
+
+        }
+
+        return filter === event.category;
+
+    });
 
             return (
 
