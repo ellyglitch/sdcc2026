@@ -417,6 +417,35 @@
     "Cosplay"
   ]
 },
+  {
+  "id": "sunday-nirvanna-the-band-the-show-meetup",
+  "series": "nirvanna-the-band-the-show-meetup",
+  "day": "Sunday",
+  "title": "Nirvanna the Band the Show San Diego Meet Up",
+  "category": "Meetup",
+  "subcategory": "Fan Meet-Up",
+  "time": "1:30 PM",
+  "endTime": "",
+  "location": "RSVP for Location",
+  "address": "San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://partiful.com/e/fptyrucrOkAxTUv2e4va",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Fans of Nirvanna the Band the Show can meet with fellow fans during San Diego Comic-Con.",
+  "notes": "Location provided after RSVP.",
+  "tags": [
+    "Meetup",
+    "Fan Event",
+    "Comedy",
+    "Television",
+    "Community"
+  ]
+},
 {
   "id": "sunday-the-vampire-lestat-interview-with-the-vampire-fan-meetup",
   "series": "vampire-lestat-interview-with-the-vampire-fan-meetup",
@@ -581,6 +610,35 @@
   "tags": [
     "Adult Swim",
     "Smiling Friends"
+  ]
+},
+  {
+  "id": "sunday-ryan-archuleta-nate-donovan-comedy-costume-contest",
+  "series": "ryan-archuleta-nate-donovan-comedy-costume-contest",
+  "day": "Sunday",
+  "title": "Ryan Archuleta & Nate Donovan's Comic-Con Comedy Costume Contest",
+  "category": "Event",
+  "subcategory": "Comedy Show",
+  "time": "5:30 PM",
+  "endTime": "7:00 PM",
+  "location": "National Lampoon: The Yellow Door",
+  "address": "701 Fifth Avenue, 3rd Floor, San Diego, CA 92101",
+  "price": "$14.64",
+  "free": false,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": false,
+  "website": "https://www.eventbrite.com/e/ryan-archuleta-nate-donovan-comic-con-comedy-costume-contest-tickets-1992300064123",
+  "ticketLink": "https://www.eventbrite.com/e/ryan-archuleta-nate-donovan-comic-con-comedy-costume-contest-tickets-1992300064123",
+  "googleMaps": "",
+  "description": "Join comedians Ryan Archuleta and Nate Donovan for a comedy show and Comic-Con costume contest featuring prizes, giveaways, and audience participation. Guests are welcome whether or not they come in costume.",
+  "notes": "",
+  "tags": [
+    "Comedy",
+    "Costume Contest",
+    "Cosplay",
+    "Live Show",
+    "Giveaways"
   ]
 },
 {
