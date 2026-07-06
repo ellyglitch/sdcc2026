@@ -1187,36 +1187,6 @@
   ]
 },
 {
-  "id": "saturday-the-sandlot-qa-patrick-renna",
-  "series": "the-sandlot-qa",
-  "day": "Saturday",
-  "title": "The Sandlot Screening & Q&A with Patrick Renna",
-  "category": "Show",
-  "subcategory": "Movie Screening",
-  "time": "7:00 PM",
-  "endTime": "",
-  "location": "Balboa Theatre",
-  "address": "868 Fourth Avenue, San Diego, CA 92101",
-  "price": "$50-$93",
-  "free": false,
-  "badgeRequired": false,
-  "ticketRequired": true,
-  "familyFriendly": true,
-  "website": "",
-  "ticketLink": "https://www.sandiegotheatres.org/events/detail/the-sandlot-2026",
-  "googleMaps": "",
-  "description": "Celebrate the beloved baseball classic with a special screening of The Sandlot followed by a live Q&A featuring actor Patrick Renna.",
-  "notes": "Presale code: SMALLS",
-  "tags": [
-    "Movie",
-    "Q&A",
-    "Patrick Renna",
-    "The Sandlot",
-    "Film",
-    "Family Friendly"
-  ]
-},
-{
   "id": "saturday-jason-mewes-diary-of-a-manchild",
   "series": "kevin-smith-live",
   "day": "Saturday",
