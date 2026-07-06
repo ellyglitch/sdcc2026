@@ -311,7 +311,37 @@
       "Signing",
       "Patrick Horvath"
     ]
-  },  
+  },
+  {
+  "id": "wednesday-filam-creator-mini-con",
+  "series": "filam-creator-mini-con",
+  "day": "Wednesday",
+  "title": "FiLAm Creator Mini-Con",
+  "category": "Event",
+  "subcategory": "Pop-Up Convention",
+  "time": "4:00 PM",
+  "endTime": "10:00 PM",
+  "location": "Pizza Kaiju",
+  "address": "1985 National Avenue, Suite 115, San Diego, CA",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://sdccblog.com/events-default/filam-creator-mini-con/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "FilAm CreatorCon hosts a two-day pop-up Mini-Con celebrating Filipino American creators across comic books, literature, filmmaking, and other creative arts.",
+  "notes": "Two-day event (July 22–23).",
+  "tags": [
+    "Filipino American",
+    "Comics",
+    "Artists",
+    "Creators",
+    "Pop-Up",
+    "Convention"
+  ]
+},
   {
     "id": "wednesday-mtg-modern-horizons-3-draft",
     "series": "mtg-modern-horizons-3-draft",
