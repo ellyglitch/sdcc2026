@@ -1,5 +1,39 @@
 
 [
+   {
+    "id": "thursday-paramount-lodge",
+    "series": "paramount-lodge",
+    "day": "Thursday",
+    "title": "Paramount+'s The Lodge (Not Yet Announced)",
+    "category": "Activation",
+    "subcategory": "Immersive Experience",
+    "time": "9:00 AM",
+    "endTime": "7:00 PM",
+    "location": "Happy Does Bar",
+    "address": "340 Fifth Ave, San Diego, CA 92101",
+    "price": "Free - Ticketed - Sold Out, Stand By Available",
+    "free": true,
+    "badgeRequired": false,
+    "ticketRequired": true,
+    "familyFriendly": true,
+    "website": "https://sdccblog.com/2026/07/paramounts-the-lodge-returns-to-san-diego-comic-con-for-2026/",
+    "ticketLink": "",
+    "googleMaps": "",
+    "description": "Official Paramount+ immersive off-site experience featuring multiple Paramount properties.",
+    "notes": "Standby line available if tickets remain.",
+    "tags": [
+      "Paramount+",
+      "Immersive",
+      "TV",
+      "Activation",
+      "Star Trek",
+      "Strange New Worlds",
+      "Avatar",
+      "Avatar the last airbender",
+      "south park",
+      "paramount"
+    ]
+  },
   {
   "id": "princess-donut-food-truck",
   "series": "audible-dungeon-crawler-carl",
