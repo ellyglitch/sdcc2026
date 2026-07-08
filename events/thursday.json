@@ -1,5 +1,37 @@
 [
   {
+  "id": "isla-monstro-pardy-harder",
+  "series": "isla-monstro",
+  "day": "Thursday",
+  "title": "Isla Monstro: Pardy Harder in San Diego",
+  "category": "Party",
+  "subcategory": "21+ Party",
+  "time": "9:00 PM",
+  "endTime": "12:00 AM",
+  "location": "Madhouse Comedy Club",
+  "address": "502 Horton Plaza, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": false,
+  "website": "",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Celebrate the adult animated sci-fi comedy Isla Monstro with a free 21+ Comic-Con party featuring themed drinks, giveaways, cast and crew appearances, and exclusive surprises.",
+  "notes": "Must be 21+. No San Diego Comic-Con badge is required. Themed drinks, giveaways, special guests, and opportunities to meet members of the cast and creative team.",
+  "tags": [
+    "Isla Monstro",
+    "Party",
+    "21+",
+    "Adult Animation",
+    "Giveaways",
+    "Cast Appearance",
+    "Comedy",
+    "Free"
+  ]
+},
+  {
   "id": "peanuts-super7-pop-up-thursday",
   "series": "peanuts-super7-pop-up",
   "day": "Thursday",
