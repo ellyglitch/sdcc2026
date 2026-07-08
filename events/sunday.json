@@ -1,4 +1,37 @@
 [
+  {
+  "id": "peanuts-super7-pop-up-sunday",
+  "series": "peanuts-super7-pop-up",
+  "day": "Sunday",
+  "title": "Peanuts x Super7 Pop-Up",
+  "category": "Activation",
+  "subcategory": "Pop-Up Shop",
+  "time": "10:00 AM",
+  "endTime": "4:00 PM",
+  "location": "Wine & Culinary Center",
+  "address": "200 W Harbor Dr, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Peanuts and Super7 celebrate San Diego Comic-Con with an interactive pop-up featuring Snoopy, his siblings, and the wider Peanuts cast.",
+  "notes": "Features the Adopt-a-Puppy experience with exclusive 8-inch Super Duper Plush collectibles, adoption certificates, puppy bandanas created with Best Friends Animal Society, Comic-Con exclusives, Snoopy & Lucy mascot photo opportunities, giveaways, and surprises.",
+  "tags": [
+    "Peanuts",
+    "Snoopy",
+    "Super7",
+    "Pop-Up",
+    "Activation",
+    "Photo Ops",
+    "Shopping",
+    "Exclusive Merchandise",
+    "Family Friendly"
+  ]
+},
 {
   "id": "sunday-paramount-the-lodge",
   "series": "paramount-the-lodge",
