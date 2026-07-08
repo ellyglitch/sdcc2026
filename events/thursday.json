@@ -758,7 +758,7 @@
     "location": "Bards & Cards Game Shop",
     "address": "936 Fifth Ave, San Diego, CA",
     "price": "$45.00",
-    "free": true,
+    "free": false,
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
@@ -787,7 +787,7 @@
     "address": "",
     "price": "Free - RSVP",
     "free": true,
-    "badgeRequired": true,
+    "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
     
