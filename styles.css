@@ -272,22 +272,33 @@ header {
    DAY BUTTONS
 ===================================================== */
 
-.calendar{
+/* =====================================================
+   DAY BUTTONS
+===================================================== */
 
-    display:flex;
+.calendar {
 
-    justify-content:center;
+    display: flex;
 
-    flex-wrap:wrap;
+    justify-content: center;
 
-    gap:14px;
+    align-items: center;
 
-    padding:0 20px;
+    flex-wrap: wrap;
 
-    margin-bottom:30px;
+    gap: 12px;
+
+    width: 100%;
+
+    max-width: 1400px;
+
+    margin: 25px auto;
+
+    padding: 0 20px;
+
+    box-sizing: border-box;
 
 }
-
 .day{
 
     background:white;
