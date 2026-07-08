@@ -1,5 +1,39 @@
 [
   {
+  "id": "sdcc-26-geek-out-meetup",
+  "series": "sdcc-geek-out",
+  "day": "Thursday",
+  "title": "SDCC '26 Geek Out",
+  "category": "Meetup",
+  "subcategory": "Fan Meetup",
+  "time": "8:30 PM",
+  "endTime": "",
+  "location": "Coin-Op Gaslamp",
+  "address": "789 Sixth Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": false,
+  "website": "https://www.instagram.com/p/DagfAmWRB20/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Kick off San Diego Comic-Con weekend at the annual SDCC '26 Geek Out meetup with free arcade games, drinks, and fellow fans. Hosted by Giant Size Productions and The Uncanny Experience in partnership with Long Beach Comic Con.",
+  "notes": "FREE arcade games. Hosted by @giantsizeproductions, @theuncannyexp, and @longbeachcomiccon. You must be 21 or older to enter Coin-Op Gaslamp. Event time has not yet been announced.",
+  "tags": [
+    "Meetup",
+    "Coin-Op",
+    "Arcade",
+    "Free Arcade Games",
+    "21+",
+    "Giant Size Productions",
+    "The Uncanny Experience",
+    "Long Beach Comic Con",
+    "Fan Meetup",
+    "Free"
+  ]
+}
+  {
   "id": "isla-monstro-pardy-harder",
   "series": "isla-monstro",
   "day": "Thursday",
