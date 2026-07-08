@@ -86,26 +86,6 @@ a:hover{
 }
 
 /* =====================================================
-   HEADER BANNER
-===================================================== */
-
-
-@media (max-width: 768px) {
-
-    header {
-
-        aspect-ratio: 3 / 2;
-
-        background-size: contain;
-
-        background-position: center top;
-
-        max-width: 100%;
-
-    }
-
-}
-/* =====================================================
    HEADER
 ===================================================== */
 
@@ -119,13 +99,13 @@ header {
 
     height: 300px;
 
-    background: #d76ac7;
+    background-color: #d76ac7;
 
     background-image: url("images/offsitebanner.jpg");
 
     background-repeat: no-repeat;
 
-    background-position: center;
+    background-position: center center;
 
     background-size: cover;
 
@@ -239,10 +219,6 @@ header {
     box-shadow:0 0 0 4px rgba(108,76,230,.15);
 
 }
-
-/* =====================================================
-   DAY BUTTONS
-===================================================== */
 
 /* =====================================================
    DAY BUTTONS
@@ -805,9 +781,9 @@ footer p{
 
 @media (max-width:1024px){
 
-    header{
+   header{
 
-        padding:36px 20px;
+    height:260px;
 
     }
 
@@ -851,15 +827,17 @@ footer p{
 
     header{
 
+        height:220px;
+
         background-image:url("images/offsitebanner-mobile.jpg");
 
         background-repeat:no-repeat;
 
-        background-position:center;
+        background-position:center center;
 
         background-size:contain;
 
-        height:240px;
+        background-color:#d76ac7;
 
     }
 
@@ -901,17 +879,27 @@ footer p{
 
     .calendar{
 
-    justify-content:center;
+        display:flex;
 
-    flex-wrap:wrap;
+        justify-content:center;
 
-    overflow:visible;
+        align-items:center;
 
-}
+        flex-wrap:wrap;
+
+        gap:12px;
+
+        width:100%;
+
+        margin:25px auto;
+
+        padding:0 12px;
+
+    }
 
     .day{
 
-        min-width:135px;
+        min-width:130px;
 
     }
 
@@ -956,7 +944,6 @@ footer p{
     }
 
 }
-
 /* =====================================================
    SMALL PHONES
 ===================================================== */
