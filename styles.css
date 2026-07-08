@@ -131,35 +131,25 @@ a:hover{
    HEADER
 ===================================================== */
 
-header{
+header {
 
-    background:#000000;
+    background: #d05cc6;
 
-    color:white;
+    background-image: url("images/offsitebanner.jpg");
 
-    text-align:center;
+    background-repeat: no-repeat;
 
-    padding: 15px 20px;
+    background-position: center center;
 
-    box-shadow:0 4px 18px rgba(0,0,0,.15);
+    background-size: contain;
 
-}
+    aspect-ratio: 1600 / 300;
 
-.logo{
+    width: 100%;
 
-    max-width:900px;
+    max-width: 1600px;
 
-    margin:auto;
-
-}
-
-.logo p{
-
-    margin-top:12px;
-
-    opacity:.92;
-
-    font-size:1.05rem;
+    margin: 0 auto;
 
 }
 
