@@ -84,39 +84,11 @@ a:hover{
     opacity:.8;
 
 }
-/* =====================================================
-   HEADER IMAGE
-===================================================== */
-
-.header-image {
-
-    width: 100%;
-
-    max-height: 450px;
-
-    object-fit: cover;
-
-    display: block;
-
-}
 
 /* =====================================================
    HEADER BANNER
 ===================================================== */
 
-.header-image {
-
-    width: 100%;
-
-    height: 240px;
-
-    object-fit: cover;
-
-    object-position: center;
-
-    display: block;
-
-}
 
 @media (max-width: 768px) {
 
@@ -875,19 +847,22 @@ footer p{
    MOBILE
 ===================================================== */
 
-   @media (max-width:768px){
+@media (max-width:768px){
 
     header{
 
         background-image:url("images/offsitebanner-mobile.jpg");
 
-        height:260px;
+        background-repeat:no-repeat;
+
+        background-position:center;
 
         background-size:contain;
 
+        height:240px;
+
     }
 
-}
     h1{
 
         font-size:1.8rem;
@@ -924,43 +899,17 @@ footer p{
 
     }
 
-    /* Horizontal scrolling day buttons */
-
     .calendar{
 
-        justify-content:flex-start;
+    justify-content:center;
 
-        flex-wrap:nowrap;
+    flex-wrap:wrap;
 
-        overflow-x:auto;
+    overflow:visible;
 
-        overflow-y:hidden;
-
-        padding:0 12px 10px;
-
-        scrollbar-width:thin;
-
-        -webkit-overflow-scrolling:touch;
-
-    }
-
-    .calendar::-webkit-scrollbar{
-
-        height:8px;
-
-    }
-
-    .calendar::-webkit-scrollbar-thumb{
-
-        background:#BBB;
-
-        border-radius:20px;
-
-    }
+}
 
     .day{
-
-        flex:0 0 auto;
 
         min-width:135px;
 
@@ -992,38 +941,6 @@ footer p{
 
         padding:18px;
 
-        border-radius:16px;
-
-    }
-
-    .event-header{
-
-        gap:10px;
-
-    }
-
-    .event-header h2{
-
-        font-size:1.2rem;
-
-    }
-
-    .event-meta{
-
-        gap:8px;
-
-    }
-
-    .featured-badge,
-
-    .badge-required,
-
-    .family-friendly{
-
-        font-size:.75rem;
-
-        padding:5px 10px;
-
     }
 
     .event-buttons{
@@ -1035,18 +952,6 @@ footer p{
     .event-buttons button{
 
         width:100%;
-
-    }
-
-    .event-links{
-
-        flex-direction:column;
-
-    }
-
-    .event-links a{
-
-        text-align:center;
 
     }
 
@@ -1204,19 +1109,21 @@ button:active{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px){
 
-    #backToTop {
+    #backToTop{
 
-        width: 50px;
+        width:50px;
 
-        height: 50px;
+        height:50px;
 
-        font-size: 22px;
+        font-size:22px;
 
-        bottom: 20px;
+        bottom:20px;
 
-        right: 20px;
+        right:20px;
+
+    }
 
 }
 .planner-day-heading {
