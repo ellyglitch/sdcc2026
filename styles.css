@@ -864,17 +864,15 @@ footer p{
    MOBILE
 ===================================================== */
 
-@media (max-width: 768px) {
+   @media (max-width:768px){
 
-    header {
+    header{
 
-        height: 180px;
+        background-image:url("images/offsitebanner-mobile.jpg");
 
-        background-size: contain;
+        height:260px;
 
-        background-position: center top;
-
-        background-repeat: no-repeat;
+        background-size:contain;
 
     }
 
