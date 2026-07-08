@@ -93,21 +93,9 @@ header {
 
     width: 100%;
 
-    max-width: 1600px;
-
-    margin: 0 auto;
-
     height: 300px;
 
-    background-color: #d76ac7;
-
-    background-image: url("images/offsitebanner.jpg");
-
-    background-repeat: no-repeat;
-
-    background-position: center center;
-
-    background-size: cover;
+    background: #d76ac7 url("images/offsitebanner.jpg") center center / cover no-repeat;
 
 }
 /* =====================================================
@@ -785,8 +773,7 @@ footer p{
 
     height:260px;
 
-    }
-
+}
     h1{
 
         font-size:2.1rem;
@@ -825,22 +812,19 @@ footer p{
 
 @media (max-width:768px){
 
-    header{
+   header{
 
-        height:220px;
+    height:220px;
 
-        background-image:url("images/offsitebanner-mobile.jpg");
+    background:#d76ac7 url("images/offsitebanner-mobile.jpg");
 
-        background-repeat:no-repeat;
+    background-repeat:no-repeat;
 
-        background-position:center center;
+    background-position:center center;
 
-        background-size:contain;
+    background-size:contain;
 
-        background-color:#d76ac7;
-
-    }
-
+}
     h1{
 
         font-size:1.8rem;
@@ -879,23 +863,21 @@ footer p{
 
     .calendar{
 
-        display:flex;
+    display:flex;
 
-        justify-content:center;
+    justify-content:center;
 
-        align-items:center;
+    align-items:center;
 
-        flex-wrap:wrap;
+    flex-wrap:wrap;
 
-        gap:12px;
+    gap:12px;
 
-        width:100%;
+    margin:25px auto;
 
-        margin:25px auto;
+    width:100%;
 
-        padding:0 12px;
-
-    }
+}
 
     .day{
 
