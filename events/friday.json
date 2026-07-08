@@ -94,35 +94,6 @@
   ]
 },
   {
-    "id": "friday-paramount-lodge",
-    "series": "paramount-lodge",
-    "day": "Friday",
-    "title": "Paramount+'s The Lodge (Not Yet Announced)",
-    "category": "Activation",
-    "subcategory": "Immersive Experience",
-    "time": "TBA",
-    "endTime": "",
-    "location": "Happy Does Bar",
-    "address": "340 Fifth Ave, San Diego, CA 92101",
-    "price": "Free - Ticketed / Standby Available",
-    "free": true,
-    "badgeRequired": false,
-    "ticketRequired": true,
-    "familyFriendly": true,
-    
-    "website": "",
-    "ticketLink": "",
-    "googleMaps": "",
-    "description": "Official Paramount+ immersive off-site experience featuring multiple Paramount properties.",
-    "notes": "",
-    "tags": [
-      "Paramount+",
-      "Immersive",
-      "TV",
-      "Activation"
-    ]
-  },
-  {
     "id": "friday-dungeon-crawler-carl-event (Not Yet Announced)",
     "series": "dungeon-crawler-carl-event",
     "day": "Friday",
