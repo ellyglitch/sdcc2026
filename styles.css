@@ -139,26 +139,25 @@ a:hover{
 
 header {
 
-    background: #d05cc6;
-
-    background-image: url("images/offsitebanner.jpg");
-
-    background-repeat: no-repeat;
-
-    background-position: center center;
-
-    background-size: contain;
-
-    aspect-ratio: 1600 / 300;
-
     width: 100%;
 
     max-width: 1600px;
 
     margin: 0 auto;
 
-}
+    height: 300px;
 
+    background: #d76ac7;
+
+    background-image: url("images/offsitebanner.jpg");
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+}
 /* =====================================================
    HERO
 ===================================================== */
@@ -865,14 +864,21 @@ footer p{
    MOBILE
 ===================================================== */
 
-@media (max-width:768px){
+@media (max-width: 768px) {
 
-    header{
+    header {
 
-        padding:33px 16px;
+        height: 180px;
+
+        background-size: contain;
+
+        background-position: center top;
+
+        background-repeat: no-repeat;
 
     }
 
+}
     h1{
 
         font-size:1.8rem;
