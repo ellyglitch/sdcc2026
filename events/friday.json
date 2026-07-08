@@ -853,34 +853,6 @@
     ]
   },
   {
-    "id": "friday-den-of-geek-tiktok-shop-event",
-    "series": "den-of-geek-tiktok-shop-event",
-    "day": "Friday",
-    "title": "Den of Geek / TikTok Shop Collectibles Event (Not Yet Announced)",
-    "category": "Meetup",
-    "subcategory": "Collectibles",
-    "time": "TBA",
-    "endTime": "",
-    "location": "TBA",
-    "address": "",
-    "price": "Free",
-    "free": true,
-    "badgeRequired": false,
-    "ticketRequired": false,
-    "familyFriendly": true,
-    
-    "website": "",
-    "ticketLink": "",
-    "googleMaps": "",
-    "description": "",
-    "notes": "",
-    "tags": [
-      "Den of Geek",
-      "TikTok Shop",
-      "Collectibles"
-    ]
-  },
-  {
     "id": "friday-maveric-studio-night-market",
     "series": "maveric-studio-night-market",
     "day": "Friday",
