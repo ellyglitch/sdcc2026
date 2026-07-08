@@ -1,6 +1,39 @@
 
 [
   {
+  "id": "audible-level-up-lounge",
+  "series": "audible-level-up-lounge",
+  "day": "Saturday",
+  "title": "Audible Level Up Lounge with Dungeon Crawler Carl and Heads Will Roll",
+  "category": "Activation",
+  "subcategory": "Interactive Experience",
+  "time": "11:00 am",
+  "endTime": "7:00 PM",
+  "location": "Swing Social",
+  "address": "527 Fifth Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://sdccblog.com/2026/07/audible-levels-up-san-diego-comic-con-2026-with-dungeon-crawler-carl-kate-mckinnon-offsite-more/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Audible's interactive Level Up Lounge celebrates Dungeon Crawler Carl and Bobiverse with themed experiences, exclusive prizes, listening lounges, cosplay touch-up stations, phone charging, photo opportunities, and more.",
+  "notes": "Guests can complete themed activities to earn XP, redeemable for exclusive loot and prizes. Features include a Bobiverse-inspired BobNet zone, Dungeon Crawler Carl survival station, listening lounges, cosplay repair station, charging stations, and photo opportunities.",
+  "tags": [
+    "Audible",
+    "Dungeon Crawler Carl",
+    "Bobiverse",
+    "Activation",
+    "Photo Ops",
+    "Cosplay",
+    "LitRPG",
+    "Gaming",
+    "Free"
+  ]
+},
+  {
     "id": "saturday-paramount-the-lodge",
     "series": "paramount-the-lodge",
     "day": "Saturday",
