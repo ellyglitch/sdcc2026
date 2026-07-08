@@ -105,6 +105,25 @@ function loadPlanner() {
     try {
 
         planner = JSON.parse(saved);
+        if (
+
+    planner.schedule.length > 0 &&
+
+    typeof planner.schedule[0] === "object"
+
+) {
+
+    planner.schedule =
+
+        planner.schedule.map(
+
+            event => event.id
+
+        );
+
+    savePlanner();
+
+}
 
     }
 
@@ -148,11 +167,7 @@ function savePlanner() {
 
 function isScheduled(id) {
 
-    return planner.schedule.some(
-
-        event => event.id === id
-
-    );
+    return planner.schedule.includes(id);
 
 }
 
@@ -176,19 +191,13 @@ function isCompleted(id) {
 
 function toggleSchedule(event) {
 
-    const exists = planner.schedule.find(
-
-        item => item.id === event.id
-
-    );
-
-    if (exists) {
+    if (planner.schedule.includes(event.id)) {
 
         planner.schedule =
 
             planner.schedule.filter(
 
-                item => item.id !== event.id
+                id => id !== event.id
 
             );
 
@@ -196,37 +205,7 @@ function toggleSchedule(event) {
 
     else {
 
-      planner.schedule.push({
-
-    id: event.id,
-
-    day: event.day,
-
-    title: event.title,
-
-    time: event.time,
-
-    endTime: event.endTime,
-
-    location: event.location,
-
-    address: event.address,
-
-    category: event.category,
-
-    subcategory: event.subcategory,
-
-    price: event.price,
-
-    description: event.description,
-
-    notes: event.notes,
-
-    website: event.website,
-
-    ticketLink: event.ticketLink
-
-        });
+        planner.schedule.push(event.id);
 
     }
 
@@ -325,20 +304,23 @@ if (day === "Planner") {
     const dayOrder = {
 
         Tuesday: 0,
-
         Wednesday: 1,
-
         Thursday: 2,
-
         Friday: 3,
-
         Saturday: 4,
-
         Sunday: 5
 
     };
 
-    events = [...planner.schedule];
+    events = planner.schedule
+
+        .map(id =>
+
+            allEvents.find(event => event.id === id)
+
+        )
+
+        .filter(Boolean);
 
     events.sort((a, b) => {
 
@@ -1047,37 +1029,16 @@ function createEventCard(event) {
 
             toggleSchedule(event);
 
-          if (currentDay === "Planner") {
+            if (currentDay === "Planner") {
 
-   const dayOrder = {
-    Tuesday: 0,
-    Wednesday: 1,
-    Thursday: 2,
-    Friday: 3,
-    Saturday: 4,
-    Sunday: 5
-};
+                refreshApplication();
 
-    events = [...planner.schedule];
+                return;
 
-    events.sort((a, b) => {
-
-        const dayDifference =
-            dayOrder[a.day] - dayOrder[b.day];
-
-        if (dayDifference !== 0) {
-
-            return dayDifference;
-
-        }
-
-        return convertTime(a.time) - convertTime(b.time);
-
-    });
-
-}
+            }
 
             displayEvents();
+
             updatePlannerCounter();
 
         }
@@ -1165,7 +1126,15 @@ function updatePlannerCounter() {
 
 function getScheduledEvents() {
 
-    return planner.schedule;
+    return planner.schedule
+
+        .map(id =>
+
+            allEvents.find(event => event.id === id)
+
+        )
+
+        .filter(Boolean);
 
 }
 
@@ -1244,7 +1213,15 @@ function refreshApplication() {
     Sunday: 5
 };
 
-    events = [...planner.schedule];
+    events = planner.schedule
+
+    .map(id =>
+
+        allEvents.find(event => event.id === id)
+
+    )
+
+    .filter(Boolean);
 
     events.sort((a, b) => {
 
