@@ -13,7 +13,7 @@
   "address": "333 W Harbor Dr, San Diego, CA 92101",
   "price": "Free with SDCC Badge",
   "free": true,
-  "badgeRequired": true,
+  "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
   "website": "",
