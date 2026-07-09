@@ -1,6 +1,40 @@
 
 [
    {
+  "id": "stuart-fails-to-save-the-universe-friday",
+  "series": "stuart-fails-to-save-the-universe",
+  "day": "Friday",
+  "title": "STUART FAILS TO SAVE THE UNIVERSE",
+  "category": "Activation",
+  "subcategory": "TV",
+  "time": "11:00 AM",
+  "endTime": "7:00 PM",
+  "location": "Sparks Gallery",
+  "address": "530 Sixth Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Step inside Stuart's 'The Comic Center of Pasadena' from THE BIG BANG THEORY universe in this immersive HBO Max activation inspired by STUART FAILS TO SAVE THE UNIVERSE. Journey through multiple realities while discovering your hero archetype.",
+  "notes": "Features portal walkthroughs, interactive story moments, hero archetype experiences, photo opportunities with a replica machine from the series, exclusive merchandise, and personalized collectible takeaways. Open to the public while capacity allows.",
+  "tags": [
+    "HBO Max",
+    "Warner Bros.",
+    "Stuart Fails to Save the Universe",
+    "The Big Bang Theory",
+    "TV",
+    "Immersive",
+    "Photo Opportunity",
+    "Merchandise",
+    "Free",
+    "No Badge Required"
+  ]
+},
+   {
   "id": "marvel-contest-of-champions-friday",
   "series": "marvel-contest-of-champions",
   "day": "Friday",
