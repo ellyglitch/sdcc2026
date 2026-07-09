@@ -118,14 +118,14 @@
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
-  "description": "This event's details haven't been announced yet",
-  "notes": "",
-  "tags": [
-    "Den of Geek",
-    "DoG",
-    "Mission Brewery"
-  ]
-},
+  "description": "Live podcast featuring Fourth Wing video and board game discussion.",
+    "notes": "",
+    "tags": [
+      "Podcast",
+      "Fourth Wing",
+      "Science"
+    ]
+  },
   {
     "id": "friday-dungeon-crawler-carl-event (Not Yet Announced)",
     "series": "dungeon-crawler-carl-event",
@@ -959,33 +959,6 @@
       "Riftbound",
       "TCG",
       "Tournament"
-    ]
-  },
-  {
-    "id": "friday-den-of-geek-science-meets-pop-culture",
-    "series": "den-of-geek-science-meets-pop-culture",
-    "day": "Friday",
-    "title": "Den of Geek: Science Meets Pop Culture Live Podcast (Not Yet Announced)",
-    "category": "Meetup",
-    "subcategory": "Live Podcast",
-    "time": "7:00 PM",
-    "endTime": "",
-    "location": "Mission Brewery",
-    "address": "1441 L St, San Diego, CA 92101",
-    "price": "Free",
-    "free": true,
-    "badgeRequired": false,
-    "ticketRequired": false,
-    "familyFriendly": true,
-    "website": "",
-    "ticketLink": "",
-    "googleMaps": "",
-    "description": "Live podcast featuring Fourth Wing video and board game discussion.",
-    "notes": "",
-    "tags": [
-      "Podcast",
-      "Fourth Wing",
-      "Science"
     ]
   },
   {
