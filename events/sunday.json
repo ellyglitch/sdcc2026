@@ -1,5 +1,37 @@
 [
   {
+  "id": "silo-experience-sunday",
+  "series": "silo-experience",
+  "day": "Sunday",
+  "title": "The Silo Experience",
+  "category": "Activation",
+  "subcategory": "TV",
+  "time": "11:00 AM",
+  "endTime": "7:00 PM",
+  "location": "The Lot @ 1st & J",
+  "address": "450 2nd Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Step into the underground world of Apple TV+'s 'Silo' in an immersive, multi-sensory experience that transports visitors inside the mysterious silo to explore the tension, intrigue, and atmosphere of the acclaimed series.",
+  "notes": "Free and open to all San Diego Comic-Con attendees and the general public. Hours listed as 11:00 AM–7:00 PM (schedule subject to change).",
+  "tags": [
+    "Silo",
+    "Apple TV+",
+    "Activation",
+    "Immersive",
+    "TV",
+    "Photo Opportunity",
+    "Free",
+    "No Badge Required"
+  ]
+},
+  {
   "id": "sdcc-gaming-lounge-sunday",
   "series": "sdcc-gaming-lounge",
   "day": "Sunday",
