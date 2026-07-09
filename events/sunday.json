@@ -1,8 +1,8 @@
 [
   {
-  "id": "sdcc-gaming-lounge-saturday",
+  "id": "sdcc-gaming-lounge-sunday",
   "series": "sdcc-gaming-lounge",
-  "day": "Saturday",
+  "day": "Sunday",
   "title": "SDCC Gaming Lounge",
   "category": "Activation",
   "subcategory": "Gaming",
@@ -32,7 +32,7 @@
     "Marriott Marquis",
     "Family Friendly"
   ]
-}
+},
   {
   "id": "peanuts-super7-pop-up-sunday",
   "series": "peanuts-super7-pop-up",
