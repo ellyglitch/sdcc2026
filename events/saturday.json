@@ -1,6 +1,42 @@
 
 [
   {
+  "id": "devotion-comic-con-weekend",
+  "series": "devotion-comic-con-weekend",
+  "day": "Saturday",
+  "title": "DEVOTION: When Passion Becomes Community",
+  "category": "Meetup",
+  "subcategory": "Community",
+  "time": "11:00 AM",
+  "endTime": "2:00 PM",
+  "location": "RSVP for Location",
+  "address": "San Diego, CA",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": true,
+  "website": "",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Celebrate San Diego Comic-Con weekend with San Diego NFT Friends at DEVOTION, a community meetup bringing together fans, collectors, creators, and newcomers to celebrate VeeFriends, Pudgy Penguins, and the communities built around them.",
+  "notes": "Registration and host approval required. Complimentary meal tickets are limited to confirmed RSVPs. Admission includes appetizers, a choice of gourmet Tijuana-style hot dog or smash burger, fries, fountain drink or Mexican horchata or Jamaica, and fresh churros for dessert. Guests without a meal ticket are still welcome and may purchase food and beverages at the venue. Alcoholic beverages are available next door through The Lost Abbey. Outdoor event with limited shade; ride-sharing is recommended due to limited parking.",
+  "tags": [
+    "Meetup",
+    "Community",
+    "VeeFriends",
+    "Pudgy Penguins",
+    "NFT",
+    "Web3",
+    "Red Rug Edutainment",
+    "Free",
+    "Registration Required",
+    "Approval Required",
+    "Food Included",
+    "Outdoor"
+  ]
+},
+  {
   "id": "lanterns-training-headquarters-saturday",
   "series": "lanterns-training-headquarters",
   "day": "Saturday",
