@@ -1,6 +1,41 @@
 
 [
    {
+  "id": "lanterns-training-headquarters-friday",
+  "series": "lanterns-training-headquarters",
+  "day": "Friday",
+  "title": "LANTERNS Training Headquarters",
+  "category": "Activation",
+  "subcategory": "TV",
+  "time": "11:00 AM",
+  "endTime": "9:00 PM",
+  "location": "Venue 808",
+  "address": "808 J St, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": false,
+  "website": "https://hbomax.com/lanternstraininghq",
+  "ticketLink": "https://hbomax.com/lanternstraininghq",
+  "googleMaps": "",
+  "description": "Train to become a member of the Green Lantern Corps in HBO Max's immersive LANTERNS Training Headquarters. Guests complete a series of interactive challenges inspired by the upcoming DC Studios series while testing their courage, teamwork, and problem-solving skills.",
+  "notes": "Reservations required. Sign-ups open July 13 at 9:00 AM PT on a first-come, first-served basis. Guests must be 18 or older. Includes Guardian briefing, target practice, trust challenges, maze navigation, escape room-style scenarios, a custom Green Lantern ring, Snapchat-powered interactive mirror, exclusive merchandise, and nearby Lantern Recharge Stations with surprise swag throughout the Gaslamp Quarter.",
+  "tags": [
+    "HBO Max",
+    "DC Studios",
+    "Lanterns",
+    "Green Lantern",
+    "Interactive",
+    "Immersive",
+    "Escape Room",
+    "Photo Opportunity",
+    "Merchandise",
+    "Reservations Required",
+    "18+"
+  ]
+},
+   {
   "id": "stuart-fails-to-save-the-universe-friday",
   "series": "stuart-fails-to-save-the-universe",
   "day": "Friday",
