@@ -127,33 +127,6 @@
     ]
   },
   {
-    "id": "friday-dungeon-crawler-carl-event (Not Yet Announced)",
-    "series": "dungeon-crawler-carl-event",
-    "day": "Friday",
-    "title": "Unannounced Dungeon Crawler Carl Event",
-    "category": "Activation",
-    "subcategory": "Pop-Up",
-    "time": "12:00 PM",
-    "endTime": "6:00 PM",
-    "location": "TBA",
-    "address": "",
-    "price": "Free",
-    "free": true,
-    "badgeRequired": false,
-    "ticketRequired": false,
-    "familyFriendly": true,
-    
-    "website": "",
-    "ticketLink": "",
-    "googleMaps": "",
-    "description": "",
-    "notes": "Possible activation - probable flash mob.",
-    "tags": [
-      "Dungeon Crawler Carl",
-      "Pop-Up"
-    ]
-  },
-  {
     "id": "friday-heinlein-blood-drive",
     "series": "heinlein-blood-drive",
     "day": "Friday",
