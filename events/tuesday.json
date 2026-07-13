@@ -1,5 +1,38 @@
 [
   {
+  "id": "el-chingon-pokemon-trading-card-night",
+  "series": "el-chingon-pokemon-trading-card-night",
+  "day": "Tuesday",
+  "title": "Pokémon Trading Card Night",
+  "category": "Event",
+  "subcategory": "Trading Cards",
+  "time": "5:00 PM",
+  "location": "El Chingon",
+  "address": "560 Fifth Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": true,
+  "website": "",
+  "ticketLink": "https://www.eventbrite.com/e/pokemon-trading-card-game-night-el-chingon-san-diego-tickets-1992578854994",
+  "googleMaps": "",
+  "description": "Bring your latest and greatest Pokémon Trading Cards to trade with fellow collectors in the heart of the Gaslamp District. Enjoy food and drink specials while connecting with other Pokémon fans during Comic-Con week.",
+  "notes": "Guests who RSVP receive either a complimentary Charizard Cocktail or a taco. Food and drink specials available throughout the event.",
+  "tags": [
+    "Pokemon",
+    "Pokémon",
+    "Trading Cards",
+    "TCG",
+    "Meetup",
+    "Gaming",
+    "Collectors",
+    "El Chingon",
+    "Free",
+    "RSVP Required"
+  ]
+},
+  {
     "id": "tuesday-shredding-the-multiverse",
     "series": "shredding-the-multiverse",
     "day": "Tuesday",
