@@ -1,5 +1,37 @@
 [
   {
+  "id": "lunar-landing-bar-wednesday",
+  "series": "lunar-landing-bar",
+  "day": "Wednesday",
+  "title": "Lunar Landing Bar",
+  "category": "Food",
+  "subcategory": "Pop-Up Bar",
+  "location": "LandShark Bar & Grill",
+  "address": "435 Sixth Ave, San Diego, CA 92101",
+  "price": "Free Entry",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "",
+  "ticketLink": "https://www.eventbrite.com/e/landshark-lunar-landing-bar-comic-con-pop-up-experience-tickets-1993704056502?aff=oddtdtcreator&keep_tld=true&_ga-ft=alFVRQ.AA.AA.AA.AA.fg3u_gMYQpeqNPK8lfJ6vA..2.40385.",
+  "googleMaps": "",
+  "description": "LandShark Bar & Grill transforms into the Lunar Landing Bar, an immersive tropical spaceport where ocean breezes meet intergalactic adventure. Guests can enjoy cocktails inspired by the cosmos, celestial décor and atmospheric lighting, interactive photo moments, and live entertainment throughout Comic-Con week.",
+  "notes": "Runs July 22–26. RSVP is encouraged but not required.",
+  "tags": [
+    "Food",
+    "Pop-Up Bar",
+    "Cocktails",
+    "Comic-Con Specials",
+    "Immersive",
+    "Photo Opportunity",
+    "Gaslamp",
+    "Margaritaville",
+    "Live Entertainment",
+    "RSVP"
+  ]
+},
+  {
     "id": "wednesday-paramount-lodge",
     "series": "paramount-lodge",
     "day": "Wednesday",
