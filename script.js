@@ -36,11 +36,11 @@ const CATEGORY_COLORS = {
 
     Meetup: "#8B5CF6",
 
-    Signing: "#C056D8",
+    Signing: "#FFD700",
 
     Party: "#F68B2C",
 
-    Show: "#E24848"
+    Show: "#C056D8",
 
 };
 
