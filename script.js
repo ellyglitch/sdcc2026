@@ -58,7 +58,7 @@ let events = [];
 
 let allEvents = [];
 
-let currentDay = "Tuesday";
+let currentDay = "All";
 
 let activeFilters = [];
 
@@ -171,15 +171,11 @@ function isScheduled(id) {
 
 }
 
-
-
 function isFavorite(id) {
 
     return planner.favorites.includes(id);
 
 }
-
-
 
 function isCompleted(id) {
 
@@ -187,19 +183,15 @@ function isCompleted(id) {
 
 }
 
-
-
 function toggleSchedule(event) {
 
     if (planner.schedule.includes(event.id)) {
 
-        planner.schedule =
+        planner.schedule = planner.schedule.filter(
 
-            planner.schedule.filter(
+            id => id !== event.id
 
-                id => id !== event.id
-
-            );
+        );
 
     }
 
@@ -213,19 +205,15 @@ function toggleSchedule(event) {
 
 }
 
-
-
 function toggleFavorite(id) {
 
     if (planner.favorites.includes(id)) {
 
-        planner.favorites =
+        planner.favorites = planner.favorites.filter(
 
-            planner.favorites.filter(
+            favorite => favorite !== id
 
-                favorite => favorite !== id
-
-            );
+        );
 
     }
 
@@ -239,19 +227,15 @@ function toggleFavorite(id) {
 
 }
 
-
-
 function toggleCompleted(id) {
 
     if (planner.completed.includes(id)) {
 
-        planner.completed =
+        planner.completed = planner.completed.filter(
 
-            planner.completed.filter(
+            completed => completed !== id
 
-                completed => completed !== id
-
-            );
+        );
 
     }
 
@@ -277,87 +261,157 @@ async function loadEvents(day) {
 
         const files = Object.values(DAY_FILES);
 
-const json = [];
+        const json = [];
 
-for (const file of files) {
+        for (const file of files) {
 
-    const response = await fetch(file);
+            const response = await fetch(file);
 
-    if (!response.ok) {
+            if (!response.ok) {
 
-        throw new Error(`Failed to load ${file}`);
+                throw new Error(`Failed to load ${file}`);
 
-    }
+            }
 
-    const text = await response.text();
+            const text = await response.text();
 
-    const data = JSON.parse(text);
+            const data = JSON.parse(text);
 
-    json.push(data);
-
-}
-
-allEvents = json.flat();
-        
-if (day === "Planner") {
-
-    const dayOrder = {
-
-        Tuesday: 0,
-        Wednesday: 1,
-        Thursday: 2,
-        Friday: 3,
-        Saturday: 4,
-        Sunday: 5
-
-    };
-
-    events = planner.schedule
-
-        .map(id =>
-
-            allEvents.find(event => event.id === id)
-
-        )
-
-        .filter(Boolean);
-
-    events.sort((a, b) => {
-
-        const dayA = dayOrder[a.day] ?? 999;
-
-        const dayB = dayOrder[b.day] ?? 999;
-
-        if (dayA !== dayB) {
-
-            return dayA - dayB;
+            json.push(data);
 
         }
 
-        return convertTime(a.time) - convertTime(b.time);
+        allEvents = json.flat();
 
-    });
+        const dayOrder = {
 
-}
-    
-else {
+            Tuesday: 0,
 
-    events = allEvents.filter(
-        event => event.day === day
-    );
+            Wednesday: 1,
 
-}
+            Thursday: 2,
+
+            Friday: 3,
+
+            Saturday: 4,
+
+            Sunday: 5
+
+        };
+
+
+
+        // ==============================
+        // PLANNER
+        // ==============================
+
+        if (day === "Planner") {
+
+            events = planner.schedule
+
+                .map(id =>
+
+                    allEvents.find(event => event.id === id)
+
+                )
+
+                .filter(Boolean);
+
+            events.sort((a, b) => {
+
+                const dayDifference =
+
+                    (dayOrder[a.day] ?? 999) -
+
+                    (dayOrder[b.day] ?? 999);
+
+                if (dayDifference !== 0) {
+
+                    return dayDifference;
+
+                }
+
+                return convertTime(a.time) -
+
+                    convertTime(b.time);
+
+            });
+
+        }
+
+
+
+        // ==============================
+        // ALL EVENTS
+        // ==============================
+
+        else if (day === "All") {
+
+            events = [...allEvents];
+
+            events.sort((a, b) => {
+
+                const dayDifference =
+
+                    (dayOrder[a.day] ?? 999) -
+
+                    (dayOrder[b.day] ?? 999);
+
+                if (dayDifference !== 0) {
+
+                    return dayDifference;
+
+                }
+
+                return convertTime(a.time) -
+
+                    convertTime(b.time);
+
+            });
+
+        }
+
+
+
+        // ==============================
+        // SINGLE DAY
+        // ==============================
+
+        else {
+
+            events = allEvents.filter(
+
+                event => event.day === day
+
+            );
+
+            events.sort((a, b) =>
+
+                convertTime(a.time) -
+
+                convertTime(b.time)
+
+            );
+
+        }
+
     }
 
     catch (error) {
 
-    console.error("Failed loading events:", error);
+        console.error(
 
-    events = [];
+            "Failed loading events:",
 
-    allEvents = [];
+            error
 
-}
+        );
+
+        events = [];
+
+        allEvents = [];
+
+    }
 
 }
 
@@ -375,6 +429,8 @@ document.addEventListener(
         await loadEvents(currentDay);
 
         displayEvents();
+
+        updatePlannerCounter();
 
         initializeDayButtons();
 
@@ -748,13 +804,15 @@ function displayEvents() {
 
         // Planner day headings
 
-        if (
+       if (
 
-            currentDay === "Planner" &&
+    (currentDay === "Planner" ||
 
-            event.day !== currentHeading
+     currentDay === "All") &&
 
-        ) {
+    event.day !== currentHeading
+
+) {
 
             currentHeading = event.day;
 
@@ -786,11 +844,13 @@ function displayEvents() {
 
         if (
 
-            currentDay !== "Planner" &&
+    currentDay !== "Planner" &&
 
-            (index + 1) % 12 === 0
+    currentDay !== "All" &&
 
-        ) {
+    (index + 1) % 12 === 0
+
+) {
 
             const ad = document.createElement("div");
 
