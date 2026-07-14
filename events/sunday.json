@@ -1,5 +1,35 @@
 [
   {
+  "id": "sunday-percy-jackson-and-the-olympians-experience",
+  "series": "percy-jackson-and-the-olympians-experience",
+  "day": "Sunday",
+  "title": "Percy Jackson and the Olympians Experience",
+  "category": "Activation",
+  "subcategory": "Immersive Experience",
+  "time": "9:30 AM",
+  "endTime": "5:00 PM",
+  "location": "Gaslamp Triangle",
+  "address": "170 Sixth Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://sdccblog.com/events-default/percy-jackson-and-the-olympians-experience/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Disney is bringing back Percy Jackson and the Olympians for another mythological adventure that begins by entering Poseidon’s trident before choosing one of three paths inspired by Percy, Annabeth, or Thalia. The activation ties into the upcoming third season, based on Rick Riordan’s The Titan’s Curse.",
+  "notes": "",
+  "tags": [
+    "Disney",
+    "Percy Jackson",
+    "Immersive",
+    "Fantasy",
+    "Rick Riordan",
+    "Photo Opportunity"
+  ]
+},
+  {
   "id": "star-trek-fleet-command-archives-sunday",
   "series": "star-trek-fleet-command-archives",
   "day": "Sunday",
