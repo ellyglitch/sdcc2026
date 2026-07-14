@@ -42,6 +42,8 @@ const CATEGORY_COLORS = {
 
     Party: "#F68B2C",
 
+    Event: "#F68B2C",
+
     Show: "#E24848",
 
 };
