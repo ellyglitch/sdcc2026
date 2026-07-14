@@ -232,7 +232,7 @@ header {
 
     width: 100%;
 
-    height: 58px;
+    height: 72px;
 
     background: white;
 
@@ -242,13 +242,13 @@ header {
 
     display: flex;
 
+    flex-direction: column;
+
     justify-content: center;
 
     align-items: center;
 
     text-align: center;
-
-    font-weight: 600;
 
     cursor: pointer;
 
@@ -256,7 +256,15 @@ header {
 
     box-shadow: 0 3px 12px rgba(0,0,0,.08);
 
-    white-space: nowrap;
+    line-height: 1.2;
+
+}
+
+.day strong {
+
+    font-size: 16px;
+
+    font-weight: 700;
 
 }
 
@@ -274,17 +282,23 @@ header {
 
 }
 
-.day span{
+.day.active span {
 
-    display:block;
+    color: rgba(255,255,255,.9);
 
-    margin-top:5px;
+}
 
-    font-size:13px;
+.day span {
 
-    font-weight:400;
+    display: block;
 
-    opacity:.85;
+    margin-top: 4px;
+
+    font-size: 13px;
+
+    font-weight: 400;
+
+    color: #666;
 
 }
 
@@ -876,13 +890,19 @@ footer p{
 
 .day {
 
-    width: 100%;
+    height: 66px;
 
-    min-width: 0;
+}
 
-    height: 54px;
+.day strong {
 
     font-size: 15px;
+
+}
+
+.day span {
+
+    font-size: 12px;
 
 }
 
@@ -954,15 +974,19 @@ footer p{
 
 .day {
 
-    width: 100%;
+    height: 62px;
 
-    min-width: 0;
+}
 
-    height: 52px;
+.day strong {
 
     font-size: 14px;
 
-    padding: 0;
+}
+
+.day span {
+
+    font-size: 11px;
 
 }
 
