@@ -992,33 +992,43 @@
     "Merchandise"
   ]
 },
-  {
-  "id": "den-of-geek-fan-hq-event",
-  "series": "den-of-geek",
+ {
+  "id": "friday-wattpad-the-fandom-writing-club",
+  "series": "wattpad-the-fandom-writing-club",
   "day": "Friday",
-  "title": "Den of Geek Fan HQ Event",
+  "title": "Wattpad Presents: The Fandom Writing Club",
   "category": "Event",
-  "subcategory": "",
-  "time": "7:00 PM",
-  "endTime": "9:00 PM",
+  "subcategory": "Writing Workshop",
+  "time": "4:00 PM",
+  "endTime": "7:00 PM",
   "location": "Mission Brewery",
-  "address": "131 14th St, San Diego, CA 92101",
-  "price": "Free",
+  "address": "1441 L St, San Diego, CA 92101",
+  "price": "Free - RSVP",
   "free": true,
   "badgeRequired": false,
-  "ticketRequired": false,
-  "familyFriendly": true,
+  "ticketRequired": true,
+  "familyFriendly": false,
   "website": "",
-  "ticketLink": "",
+  "ticketLink": "https://partiful.com/e/holpS2bPxRZQ2bGs41rJ?",
   "googleMaps": "",
-  "description": "As San Diego Comic Con winds down for the day, let the stories you’ve discovered inspire the one you’ll write next. Wattpad and Den of Geek are teaming up to host an exclusive, writer-focused evening at Mission Brewery, where the best stories start with a prompt, a page, and a pint. <br> Led by Wattpad’s Head of Content, we’re transforming the brewery into the ultimate writing lounge. Seasoned authors, aspiring storytellers, and fanfiction enthusiast, and avid readers welcome!",
-    "notes": "",
-    "tags": [
-      "Podcast",
-      "Fourth Wing",
-      "Science"
-    ]
-  },
+  "description": "The convention center might be closing for the day, but your post-panel creative spark is just getting started. Got an alternate universe living rent-free in your mind? A canon-divergence WIP haunting your drafts? Or maybe you just want to debate your wildest headcanon over a drink with friends! This is the perfect after-hours vibe for you. Wattpad and Den of Geek are taking over Mission Brewery and transforming it into the ultimate writing lounge. Led by Wattpad’s Head of Content, this is a creative, writer-focused evening where the best stories start with a prompt, a page, and a pint. Whether you’re a seasoned author, a hobbyist, an aspiring novelist, or a fanfic enthusiast, your people are here.",
+  "notes": "Features timed writing sprints, a Den of Geek magazine publication contest, an appearance by Wattpad author E.M. Wilson with signed advance copies of Break Up For Two, and one complimentary beer for attendees who show their Wattpad account. Strictly 21+. Government-issued ID required. Bring a laptop, notebook, or phone to participate.",
+  "tags": [
+    "Wattpad",
+    "Den of Geek",
+    "Writing",
+    "Fan Fiction",
+    "Authors",
+    "Creative Writing",
+    "Writing Workshop",
+    "Mission Brewery",
+    "E.M. Wilson",
+    "Books",
+    "21+",
+    "Free Beer",
+    "RSVP"
+  ]
+},
   {
     "id": "friday-heinlein-blood-drive",
     "series": "heinlein-blood-drive",
