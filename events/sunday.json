@@ -1,5 +1,37 @@
 [
   {
+  "id": "sunday-alliance-authentic-pop-up",
+  "series": "alliance-authentic-pop-up",
+  "day": "Sunday",
+  "title": "Alliance Authentic Pop-Up",
+  "category": "Activation",
+  "subcategory": "Pop-Up Shop",
+  "time": "12:00 PM",
+  "endTime": "8:00 PM",
+  "location": "Hard Rock Hotel",
+  "address": "207 Fifth Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://sdccblog.com/2026/07/alliance-authentic-announces-san-diego-comic-con-pop-up-more/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Visitors can shop preserved, Certified Uncirculated vinyl records and collectible figures from Funko and Handmade by Robots, while Comic-Con badge holders can also claim and register a free Handmade by Robots figure. Every guest who visits can enter for a chance to win one of Alliance Authentic’s preserved collectibles.",
+  "notes": "Free Handmade by Robots figure available for Comic-Con badge holders while supplies last.",
+  "tags": [
+    "Alliance Authentic",
+    "Funko",
+    "Handmade by Robots",
+    "Vinyl Records",
+    "Collectibles",
+    "Shopping",
+    "Giveaways",
+    "Hard Rock Hotel"
+  ]
+},
+  {
   "id": "sunday-percy-jackson-and-the-olympians-experience",
   "series": "percy-jackson-and-the-olympians-experience",
   "day": "Sunday",
