@@ -1,5 +1,37 @@
 [
   {
+  "id": "thursday-final-space-comedy-screening-meetup",
+  "series": "final-space-comedy-screening-meetup",
+  "day": "Thursday",
+  "title": "Final Space Comedy Screening & Meetup",
+  "category": "Event",
+  "subcategory": "Comedy & Screening",
+  "time": "9:00 PM",
+  "endTime": "",
+  "location": "Laugh Factory San Diego",
+  "address": "432 F St, San Diego, CA 92101",
+  "price": "Free - Sold Out",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": false,
+  "website": "https://finalspaceends.com/products/see-you-in-the-star-dust-jacket-free-download-copy",
+  "ticketLink": "https://finalspaceends.com/products/see-you-in-the-star-dust-jacket-free-download-copy",
+  "googleMaps": "",
+  "description": "Come hang out for a little comedy, a special screening of episode 1 and episode 36, and then a meet up. It's free with a two drink minimum (it's a comedy club).",
+  "notes": "21+ only. Two-drink minimum required. Limited to two reservations per customer. Event is currently sold out.",
+  "tags": [
+    "Final Space",
+    "Comedy",
+    "Episode Screening",
+    "Meetup",
+    "Laugh Factory",
+    "Adult",
+    "21+",
+    "Sold Out"
+  ]
+},
+  {
   "id": "thursday-alliance-authentic-pop-up",
   "series": "alliance-authentic-pop-up",
   "day": "Thursday",
