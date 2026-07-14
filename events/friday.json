@@ -1,6 +1,40 @@
 
 [
    {
+  "id": "friday-super-troopers-3-pop-up",
+  "series": "super-troopers-3-pop-up",
+  "day": "Friday",
+  "title": "Super Troopers 3 Pop-Up",
+  "category": "Food",
+  "subcategory": "Activation",
+  "time": "9:00 AM",
+  "endTime": "5:00 PM",
+  "location": "Hasta Mañana Cantina",
+  "address": "310 Fifth Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://sdccblog.com/2026/07/super-troopers-3-pulls-over-at-san-diego-comic-con-2026-for-pop-up-free-pancakes-more/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Fans can start each morning with complimentary pancakes and Crown Maple syrup, test their skills on the Bogey Bros putting green, pick up exclusive merch giveaways, and check out an Apocalypse Hellfire 6×6 truck decked out for the upcoming film.",
+  "notes": "",
+  "tags": [
+    "Super Troopers 3",
+    "Food",
+    "Free Pancakes",
+    "Crown Maple",
+    "Movie",
+    "Merch",
+    "Giveaways",
+    "Putting Green",
+    "Photo Opportunity",
+    "Gaslamp"
+  ]
+},
+   {
   "id": "friday-the-spongebob-movie-search-for-squarepants-screening",
   "series": "the-spongebob-movie-search-for-squarepants-screening",
   "day": "Friday",
