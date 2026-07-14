@@ -646,6 +646,18 @@ function initializeSearch() {
 function displayEvents() {
 
     const container = document.getElementById("events");
+    
+    const plannerControls =
+    document.getElementById("planner-controls");
+
+if (plannerControls) {
+
+    plannerControls.style.display =
+        currentDay === "Planner"
+            ? "flex"
+            : "none";
+
+}
 
     container.innerHTML = "";
 
