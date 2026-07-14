@@ -212,59 +212,85 @@ header {
    DAY BUTTONS
 ===================================================== */
 
-.calendar {
+.calendar{
 
-    display: grid;
+    display:flex;
 
-    grid-template-columns: repeat(4, 1fr);
+    justify-content:center;
 
-    gap: 12px;
+    flex-wrap:wrap;
 
-    max-width: 800px;
+    gap:12px;
 
-    margin: 25px auto;
+    max-width:1200px;
 
-    padding: 0 20px;
+    margin:25px auto;
 
-}
-
-.day {
-
-    width: 100%;
-
-    height: 72px;
-
-    background: white;
-
-    border: none;
-
-    border-radius: 14px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-
-    align-items: center;
-
-    text-align: center;
-
-    cursor: pointer;
-
-    transition: .25s;
-
-    box-shadow: 0 3px 12px rgba(0,0,0,.08);
-
-    line-height: 1.2;
+    padding:0 20px;
 
 }
 
-.day strong {
+.day{
 
-    font-size: 16px;
+    width:145px;
 
-    font-weight: 700;
+    height:72px;
+
+    background:white;
+
+    border:none;
+
+    border-radius:14px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+
+    line-height:1.2;
+
+    flex-shrink:0;
+
+}
+
+.day strong{
+
+    font-size:16px;
+
+    font-weight:700;
+
+}
+
+.day span{
+
+    margin-top:4px;
+
+    font-size:13px;
+
+    color:#666;
+
+    font-weight:400;
+
+}
+
+.day.nav{
+
+    font-size:16px;
+
+    font-weight:700;
+
+    line-height:1.3;
 
 }
 
@@ -282,23 +308,9 @@ header {
 
 }
 
-.day.active span {
+.day.active span{
 
-    color: rgba(255,255,255,.9);
-
-}
-
-.day span {
-
-    display: block;
-
-    margin-top: 4px;
-
-    font-size: 13px;
-
-    font-weight: 400;
-
-    color: #666;
+    color:rgba(255,255,255,.9);
 
 }
 
@@ -886,26 +898,31 @@ footer p{
 
     gap: 10px;
 
-}
+.day{
 
-.day {
+    width:140px;
 
-    height: 66px;
-
-}
-
-.day strong {
-
-    font-size: 15px;
+    height:68px;
 
 }
 
-.day span {
+.day strong{
 
-    font-size: 12px;
+    font-size:15px;
 
 }
 
+.day span{
+
+    font-size:12px;
+
+}
+
+.day.nav{
+
+    font-size:15px;
+
+}
     .filters{
 
         padding:0 12px;
@@ -971,24 +988,31 @@ footer p{
 
     }
 
-.day {
+.day{
 
-    height: 62px;
+    width:130px;
 
-}
-
-.day strong {
-
-    font-size: 14px;
+    height:64px;
 
 }
 
-.day span {
+.day strong{
 
-    font-size: 11px;
+    font-size:14px;
 
 }
 
+.day span{
+
+    font-size:11px;
+
+}
+
+.day.nav{
+
+    font-size:14px;
+
+}
     .filter{
 
         width:100%;
