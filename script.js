@@ -1145,26 +1145,206 @@ function initializePlanner() {
     const clearButton =
         document.getElementById("clear-planner");
 
-    if (!clearButton) return;
+    const exportButton =
+        document.getElementById("export-calendar");
 
-    clearButton.addEventListener("click", () => {
+    if (clearButton) {
 
-        if (!confirm("Clear your entire schedule?"))
-            return;
+        clearButton.addEventListener("click", () => {
 
-        planner.schedule = [];
+            if (!confirm("Clear your entire schedule?"))
+                return;
 
-        savePlanner();
+            planner.schedule = [];
 
-        if (currentDay === "Planner") {
+            savePlanner();
 
-            events = [];
+            if (currentDay === "Planner") {
+
+                events = [];
+
+            }
+
+            displayEvents();
+
+            updatePlannerCounter();
+
+        });
+
+    }
+
+    if (exportButton) {
+
+        exportButton.addEventListener(
+
+            "click",
+
+            exportPlannerToICS
+
+        );
+
+    }
+
+}
+
+// ======================================================
+// EXPORT PLANNER (.ICS)
+// ======================================================
+
+function exportPlannerToICS() {
+
+    const scheduledEvents = planner.schedule
+
+        .map(id =>
+
+            allEvents.find(event => event.id === id)
+
+        )
+
+        .filter(Boolean);
+
+    if (scheduledEvents.length === 0) {
+
+        alert("Your schedule is empty.");
+
+        return;
+
+    }
+
+    const dayMap = {
+
+        Tuesday: "20260721",
+
+        Wednesday: "20260722",
+
+        Thursday: "20260723",
+
+        Friday: "20260724",
+
+        Saturday: "20260725",
+
+        Sunday: "20260726"
+
+    };
+
+    let ics = [
+
+        "BEGIN:VCALENDAR",
+
+        "VERSION:2.0",
+
+        "PRODID:-//SDCC Off-Sites//Planner//EN"
+
+    ];
+
+    scheduledEvents.forEach(event => {
+
+        const date = dayMap[event.day];
+
+        if (!date) return;
+
+        let start = "090000";
+        let end = "100000";
+
+        if (event.time) {
+
+            const match = event.time.match(
+
+                /(\d{1,2}):(\d{2})\s*(AM|PM)/i
+
+            );
+
+            if (match) {
+
+                let hour = parseInt(match[1]);
+
+                const minute = match[2];
+
+                const period = match[3].toUpperCase();
+
+                if (period === "PM" && hour !== 12)
+
+                    hour += 12;
+
+                if (period === "AM" && hour === 12)
+
+                    hour = 0;
+
+                start =
+
+                    `${String(hour).padStart(2,"0")}${minute}00`;
+
+                const endHour =
+
+                    hour + 1;
+
+                end =
+
+                    `${String(endHour).padStart(2,"0")}${minute}00`;
+
+            }
 
         }
 
-        displayEvents();
+        ics.push(
+
+            "BEGIN:VEVENT",
+
+            `UID:${event.id}@sdccoffsites.com`,
+
+            `DTSTAMP:${date}T000000Z`,
+
+            `DTSTART:${date}T${start}`,
+
+            `DTEND:${date}T${end}`,
+
+            `SUMMARY:${event.title}`,
+
+            `LOCATION:${event.address || event.location || ""}`,
+
+            `DESCRIPTION:${(event.description || "").replace(/\n/g," ")}`,
+
+            event.website
+
+                ? `URL:${event.website}`
+
+                : "",
+
+            "END:VEVENT"
+
+        );
 
     });
+
+    ics.push("END:VCALENDAR");
+
+    const blob = new Blob(
+
+        [ics.filter(Boolean).join("\r\n")],
+
+        {
+
+            type: "text/calendar"
+
+        }
+
+    );
+
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement("a");
+
+    link.href = url;
+
+    link.download = "SDCC-OffSites-2026.ics";
+
+    document.body.appendChild(link);
+
+    link.click();
+
+    document.body.removeChild(link);
+
+    URL.revokeObjectURL(url);
 
 }
 
