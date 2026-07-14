@@ -1339,6 +1339,46 @@ body.dark-mode a{
 }
 
 /* =====================================================
+   KEEP DAY BUTTON TEXT DARK
+===================================================== */
+
+body.dark-mode .day{
+
+    color:#2B2B2B;
+
+}
+
+body.dark-mode .day strong{
+
+    color:#2B2B2B;
+
+}
+
+body.dark-mode .day span{
+
+    color:#666;
+
+}
+
+body.dark-mode .day.active{
+
+    color:white;
+
+}
+
+body.dark-mode .day.active strong{
+
+    color:white;
+
+}
+
+body.dark-mode .day.active span{
+
+    color:rgba(255,255,255,.9);
+
+}
+
+/* =====================================================
    HERO
 ===================================================== */
 
