@@ -230,9 +230,11 @@ header {
 
     width:145px;
 
-    height:52px;
+    height:58px;
 
-    background:white;
+    background:#222;
+
+    color:white;
 
     border:none;
 
@@ -250,8 +252,6 @@ header {
 
     font-weight:700;
 
-    color:#2B2B2B;
-
     cursor:pointer;
 
     transition:.25s;
@@ -259,7 +259,6 @@ header {
     box-shadow:0 3px 12px rgba(0,0,0,.08);
 
 }
-
 #theme-toggle:hover{
 
     transform:translateY(-3px);
@@ -268,9 +267,9 @@ header {
 
 #theme-toggle.active{
 
-    background:#6C4CE6;
+    background:#fff4d1;
 
-    color:white;
+    color:#2B2B2B;
 
 }
 /* =====================================================
