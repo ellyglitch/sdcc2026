@@ -218,25 +218,39 @@ header {
 
     justify-content:center;
 
-    margin:-10px 0 30px;
+    align-items:center;
+
+    width:100%;
+
+    margin:0 auto 25px;
 
 }
 
 #theme-toggle{
 
-    background:#222;
+    width:145px;
 
-    color:white;
+    height:52px;
+
+    background:white;
 
     border:none;
 
-    border-radius:999px;
+    border-radius:14px;
 
-    padding:12px 22px;
+    display:flex;
 
-    font-size:15px;
+    justify-content:center;
 
-    font-weight:600;
+    align-items:center;
+
+    font-family:'Poppins',sans-serif;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    color:#2B2B2B;
 
     cursor:pointer;
 
@@ -248,10 +262,17 @@ header {
 
 #theme-toggle:hover{
 
-    transform:translateY(-2px);
+    transform:translateY(-3px);
 
 }
 
+#theme-toggle.active{
+
+    background:#6C4CE6;
+
+    color:white;
+
+}
 /* =====================================================
    DAY BUTTONS
 ===================================================== */
@@ -972,6 +993,16 @@ footer p{
         font-size:16px;
 
     }
+
+   #theme-toggle{
+
+    width:140px;
+
+    height:48px;
+
+    font-size:15px;
+
+}
 .calendar,
 .filters{
 
@@ -1066,6 +1097,16 @@ footer p{
         font-size:.92rem;
 
     }
+
+   #theme-toggle{
+
+    width:130px;
+
+    height:46px;
+
+    font-size:14px;
+
+}
 
    .calendar,
 .filters{
