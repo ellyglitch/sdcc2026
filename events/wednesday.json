@@ -1,5 +1,35 @@
 [
   {
+  "id": "wednesday-nickelodeons-fun-flows-here-preview",
+  "series": "nickelodeons-fun-flows-here",
+  "day": "Wednesday",
+  "title": "Nickelodeon's Fun Flows Here Preview Night",
+  "category": "Activation",
+  "subcategory": "Preview Event",
+  "time": "",
+  "endTime": "",
+  "location": "The New Children's Museum Park",
+  "address": "200 W Island Ave, San Diego, CA 92101",
+  "price": "Museum Members Only",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": true,
+  "website": "https://sdccblog.com/events-default/nickelodeon-takes-over-the-new-childrens-museum-park/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Museum members will get an early look at Nickelodeon's Fun Flows Here during a special preview event before the public opening.",
+  "notes": "Exclusive preview for New Children's Museum members only.",
+  "tags": [
+    "Nickelodeon",
+    "Preview",
+    "Museum Members",
+    "Exclusive",
+    "SpongeBob SquarePants",
+    "Family Friendly"
+  ]
+},
+  {
   "id": "wednesday-mega64-gamer-warz-screening",
   "series": "mega64-gamer-warz-screening",
   "day": "Wednesday",
