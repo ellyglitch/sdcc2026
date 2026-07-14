@@ -1,6 +1,35 @@
 
 [
    {
+  "id": "friday-the-spongebob-movie-search-for-squarepants-screening",
+  "series": "the-spongebob-movie-search-for-squarepants-screening",
+  "day": "Friday",
+  "title": "The SpongeBob Movie: Search for SquarePants Outdoor Screening",
+  "category": "Event",
+  "subcategory": "Movie Screening",
+  "time": "7:00 PM",
+  "endTime": "",
+  "location": "The New Children's Museum Park",
+  "address": "200 W Island Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://sdccblog.com/events-default/nickelodeon-takes-over-the-new-childrens-museum-park/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Enjoy an outdoor screening of The SpongeBob Movie: Search for SquarePants as part of Nickelodeon's Fun Flows Here activation.",
+  "notes": "",
+  "tags": [
+    "Nickelodeon",
+    "SpongeBob SquarePants",
+    "Movie Screening",
+    "Outdoor Movie",
+    "Family Friendly"
+  ]
+},
+   {
   "id": "friday-nickelodeons-fun-flows-here",
   "series": "nickelodeons-fun-flows-here",
   "day": "Friday",
