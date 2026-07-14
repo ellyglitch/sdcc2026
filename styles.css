@@ -454,17 +454,17 @@ main{
 
     display:flex;
 
-    justify-content:flex-end;
+    justify-content:center;
+
+    align-items:center;
+
+    gap:12px;
 
     margin-bottom:20px;
 
 }
 
-#clear-planner{
-
-    background:#E24848;
-
-    color:white;
+#planner-controls button{
 
     border:none;
 
@@ -476,13 +476,29 @@ main{
 
     font-weight:600;
 
-    transition:.2s;
+    transition:.25s;
 
 }
 
-#clear-planner:hover{
+#planner-controls button:hover{
 
     transform:translateY(-2px);
+
+}
+
+#clear-planner{
+
+    background:#E24848;
+
+    color:white;
+
+}
+
+#export-calendar{
+
+    background:#2EAF5D;
+
+    color:white;
 
 }
 
