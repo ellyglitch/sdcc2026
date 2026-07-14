@@ -716,49 +716,50 @@ function displayEvents() {
     // Sort planner by day first, then by time.
     // Sort individual day pages by time only.
 
-    if (currentDay === "Planner") {
+const dayOrder = {
 
-        const dayOrder = {
+    Tuesday: 0,
+    Wednesday: 1,
+    Thursday: 2,
+    Friday: 3,
+    Saturday: 4,
+    Sunday: 5
 
-            Tuesday: 0,
+};
 
-            Wednesday: 1,
+if (currentDay === "Planner" || currentDay === "All") {
 
-            Thursday: 2,
+    filteredEvents.sort((a, b) => {
 
-            Friday: 3,
+        const dayDifference =
 
-            Saturday: 4,
+            (dayOrder[a.day] ?? 999) -
 
-            Sunday: 5
+            (dayOrder[b.day] ?? 999);
 
-        };
+        if (dayDifference !== 0) {
 
-        filteredEvents.sort((a, b) => {
+            return dayDifference;
 
-            const dayDifference =
+        }
 
-                dayOrder[a.day] - dayOrder[b.day];
+        return convertTime(a.time) -
 
-            if (dayDifference !== 0) {
+               convertTime(b.time);
 
-                return dayDifference;
+    });
 
-            }
+} else {
 
-            return convertTime(a.time) - convertTime(b.time);
+    filteredEvents.sort((a, b) =>
 
-        });
+        convertTime(a.time) -
 
-    } else {
+        convertTime(b.time)
 
-        filteredEvents.sort((a, b) =>
+    );
 
-            convertTime(a.time) - convertTime(b.time)
-
-        );
-
-    }
+}
 
     if (filteredEvents.length === 0) {
 
