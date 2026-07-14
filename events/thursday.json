@@ -1,5 +1,34 @@
 [
   {
+  "id": "thursday-avengers-cosplay-meet-up",
+  "series": "marvel-cosplay-meet-ups",
+  "day": "Thursday",
+  "title": "Avengers Cosplay Meet-Up",
+  "category": "Cosplay",
+  "subcategory": "Meet-Up",
+  "time": "11:30 AM",
+  "endTime": "",
+  "location": "Marvel Booth #2329",
+  "address": "San Diego Convention Center, 111 W Harbor Dr, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": true,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://www.marvel.com/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Marvel cosplay meet-up for Avengers cosplayers and fans at Marvel Booth #2329.",
+  "notes": "Check-in begins at 11:20 AM.",
+  "tags": [
+    "Marvel",
+    "Avengers",
+    "Cosplay",
+    "Meet-Up",
+    "Convention Floor"
+  ]
+},
+  {
   "id": "thursday-tor-books-party",
   "series": "tor-books-party",
   "day": "Thursday",
