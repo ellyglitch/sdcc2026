@@ -416,7 +416,61 @@ async function loadEvents(day) {
     }
 
 }
+// ======================================================
+// DARK MODE
+// ======================================================
 
+function initializeTheme() {
+
+    const themeButton =
+        document.getElementById("theme-toggle");
+
+    if (!themeButton) return;
+
+    const savedTheme =
+        localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+
+        document.body.classList.add("dark-mode");
+
+        themeButton.classList.add("active");
+
+        themeButton.textContent =
+            "☀️ Light Mode";
+
+    }
+
+    themeButton.addEventListener("click", () => {
+
+        document.body.classList.toggle("dark-mode");
+
+        const darkMode =
+            document.body.classList.contains("dark-mode");
+
+        themeButton.classList.toggle(
+            "active",
+            darkMode
+        );
+
+        themeButton.textContent =
+            darkMode
+                ? "☀️ Light Mode"
+                : "🌙 Dark Mode";
+
+        localStorage.setItem(
+
+            "theme",
+
+            darkMode
+                ? "dark"
+                : "light"
+
+        );
+
+    });
+
+}
 
 // ======================================================
 // INITIALIZATION
@@ -441,6 +495,8 @@ document.addEventListener(
         initializeSearch();
 
         initializePlanner();
+        
+        initializeTheme();
 
     }
 );
