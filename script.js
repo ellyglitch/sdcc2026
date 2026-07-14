@@ -36,6 +36,8 @@ const CATEGORY_COLORS = {
 
     Meetup: "#8B5CF6",
 
+    Cosplay: "#FF4FA3",
+
     Signing: "#C056D8",
 
     Party: "#F68B2C",
