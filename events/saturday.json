@@ -1,6 +1,39 @@
 
 [
   {
+  "id": "saturday-attack-of-the-killer-tomatoes-party",
+  "series": "attack-of-the-killer-tomatoes-party",
+  "day": "Saturday",
+  "title": "Attack of the Killer Tomatoes Party",
+  "category": "Party",
+  "subcategory": "After Party",
+  "time": "7:00 PM",
+  "endTime": "11:00 PM",
+  "location": "Good Night John Boy",
+  "address": "",
+  "price": "TBA - Food & Drink Available for Purchase",
+  "free": false,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": false,
+  "website": "https://www.eventbrite.com/e/attack-of-the-killer-tomatoes-the-official-after-party-tickets-1993558653598?aff=oddtdtcreator#location",
+  "ticketLink": "https://www.eventbrite.com/e/attack-of-the-killer-tomatoes-the-official-after-party-tickets-1993558653598?aff=oddtdtcreator#location",
+  "googleMaps": "",
+  "description": "Join us for the Attack of the Killer Comic-Con After Party, celebrating Attack of the Killer Tomatoes: Organic Intelligence, the wild new chapter of the cult classic that started in San Diego back in 1978. We’re taking over Good Night John Boy in the heart of the Gaslamp for a night of retro-radness featuring cast meet & greets, killer cosplay, exclusive giveaways, ripe DJs and specialty themed cocktails and bites (*available for purchase). Whether you’ve loved the tomatoes since ’78, you’re here for the brand-new Attack of the Killer Tomatoes: Organic Intelligence, or you're looking to party after Comic-Con, this is a Saturday-night bash you don't wanna miss.",
+  "notes": "Food and drinks available for purchase.",
+  "tags": [
+    "Attack of the Killer Tomatoes",
+    "Movie",
+    "After Party",
+    "Cosplay",
+    "Meet & Greets",
+    "Giveaways",
+    "DJ",
+    "Gaslamp",
+    "Good Night John Boy"
+  ]
+},
+  {
   "id": "star-trek-fleet-command-archives-saturday",
   "series": "star-trek-fleet-command-archives",
   "day": "Saturday",
