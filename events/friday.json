@@ -1,6 +1,42 @@
 
 [
    {
+  "id": "friday-the-walking-dead-dead-city-season-3-advance-screening",
+  "series": "the-walking-dead-dead-city-season-3-advance-screening",
+  "day": "Friday",
+  "title": "The Walking Dead: Dead City Season 3 Advance Screening",
+  "category": "Event",
+  "subcategory": "Advance Screening",
+  "time": "6:30 PM",
+  "endTime": "8:30 PM",
+  "location": "The Loft at Petco Park",
+  "address": "100 Park Blvd, San Diego, CA 92101",
+  "price": "Free - RSVP",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": false,
+  "website": "https://1iota.com/show/3987/the-walking-dead-dead-city-season-3",
+  "ticketLink": "https://1iota.com/show/3987/the-walking-dead-dead-city-season-3",
+  "googleMaps": "",
+  "description": "Join executive producers and cast for an advance screening of The Walking Dead: Dead City Season 3 at San Diego’s iconic Petco Park. Enjoy complimentary concessions, exclusive giveaways, and be among the very first to experience the thrilling new season before its official premiere.",
+  "notes": "Hosted at The Loft at Petco Park. Complimentary concessions and exclusive giveaways included with admission. Advance RSVP required through 1iota.",
+  "tags": [
+    "The Walking Dead",
+    "Dead City",
+    "AMC",
+    "Advance Screening",
+    "TV",
+    "Cast Appearance",
+    "Executive Producers",
+    "Petco Park",
+    "Giveaways",
+    "Free Food",
+    "1iota",
+    "RSVP"
+  ]
+},
+   {
   "id": "friday-super-troopers-3-pop-up",
   "series": "super-troopers-3-pop-up",
   "day": "Friday",
