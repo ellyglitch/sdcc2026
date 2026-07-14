@@ -1,6 +1,36 @@
 
 [
   {
+  "id": "saturday-super-heroes-vs-villains-cosplay-meet-up",
+  "series": "marvel-cosplay-meet-ups",
+  "day": "Saturday",
+  "title": "Super Heroes vs. Villains Cosplay Meet-Up",
+  "category": "Cosplay",
+  "subcategory": "Meet-Up",
+  "time": "11:30 AM",
+  "endTime": "",
+  "location": "Marvel Booth #2329",
+  "address": "San Diego Convention Center, 111 W Harbor Dr, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": true,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://www.marvel.com/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Marvel cosplay meet-up for heroes, villains, and everyone in between at Marvel Booth #2329.",
+  "notes": "Check-in begins at 11:20 AM.",
+  "tags": [
+    "Marvel",
+    "Super Heroes",
+    "Villains",
+    "Cosplay",
+    "Meet-Up",
+    "Convention Floor"
+  ]
+},
+  {
   "id": "saturday-nickelodeons-fun-flows-here",
   "series": "nickelodeons-fun-flows-here",
   "day": "Saturday",
