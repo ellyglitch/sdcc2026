@@ -209,6 +209,50 @@ header {
 }
 
 /* =====================================================
+   DARK MODE TOGGLE
+===================================================== */
+
+.theme-toggle{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin:-10px 0 30px;
+
+}
+
+#theme-toggle{
+
+    background:#222;
+
+    color:white;
+
+    border:none;
+
+    border-radius:999px;
+
+    padding:12px 22px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+
+}
+
+#theme-toggle:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* =====================================================
    DAY BUTTONS
 ===================================================== */
 
