@@ -184,35 +184,6 @@
     ]
   },
   {
-    "id": "wednesday-spongebob-childrens-museum",
-    "series": "spongebob-childrens-museum",
-    "day": "Wednesday",
-    "title": "SpongeBob SquarePants at New Children's Museum",
-    "category": "Activation",
-    "subcategory": "Museum Exhibit",
-    "time": "Details TBA",
-    "endTime": "",
-    "location": "New Children's Museum",
-    "address": "200 W Island Ave, San Diego, CA 92101",
-    "price": "TBA",
-    "free": false,
-    "badgeRequired": false,
-    "ticketRequired": false,
-    "familyFriendly": true,
-    
-    "website": "https://sdccblog.com/2026/06/nickelodeon-celebrating-spongebob-squarepants-birthday-at-san-diego-comic-con/",
-    "ticketLink": "",
-    "googleMaps": "",
-    "description": "SpongeBob-themed activation at the New Children's Museum.",
-    "notes": "",
-    "tags": [
-      "Nickelodeon",
-      "SpongeBob",
-      "Museum",
-      "Family"
-    ]
-  },
-  {
     "id": "wednesday-clash-of-clans",
     "series": "clash-of-clans",
     "day": "Wednesday",
