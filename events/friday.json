@@ -1,6 +1,39 @@
 
 [
    {
+  "id": "friday-thom-tran-and-the-comedy-nerds",
+  "series": "thom-tran-and-the-comedy-nerds",
+  "day": "Friday",
+  "title": "Thom Tran & The Comedy Nerds",
+  "category": "Show",
+  "subcategory": "Comedy",
+  "time": "8:00 PM",
+  "endTime": "",
+  "location": "Laugh Factory San Diego",
+  "address": "432 F St, San Diego, CA 92101",
+  "price": "$28-$40",
+  "free": false,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": false,
+  "website": "https://www.laughfactory.com/san-diego",
+  "ticketLink": "https://www.laughfactory.com/san-diego",
+  "googleMaps": "",
+  "description": "Stand-up comedy showcase hosted by Thom Tran featuring Eddie Pence, Jen Saunderson, Martin Morrow, and Josh Snyder.",
+  "notes": "Featured performers include Eddie Pence (The Ralph Report), Jen Saunderson (America's Got Talent), Martin Morrow (B4 The Bell Wrestling Podcast), and Josh Snyder (Oberth Class).",
+  "tags": [
+    "Comedy",
+    "Stand-Up",
+    "Thom Tran",
+    "Eddie Pence",
+    "Jen Saunderson",
+    "Martin Morrow",
+    "Josh Snyder",
+    "Laugh Factory",
+    "Star Trek"
+  ]
+},
+   {
   "id": "friday-the-walking-dead-dead-city-season-3-advance-screening",
   "series": "the-walking-dead-dead-city-season-3-advance-screening",
   "day": "Friday",
