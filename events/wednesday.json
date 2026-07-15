@@ -1,5 +1,37 @@
 [
   {
+  "id": "wednesday-star-trek-away-team-landing-party",
+  "series": "star-trek-away-team-landing-party",
+  "day": "Wednesday",
+  "title": "Star Trek Away Team Landing Party",
+  "category": "Meetup",
+  "subcategory": "Fan Meetup",
+  "time": "9:00 PM",
+  "endTime": "11:00 PM",
+  "location": "The Landing Bar, Manchester Grand Hyatt San Diego",
+  "address": "1 Market Pl, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://fb.me/e/bhiL1Wl2L",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "SDCC Star Trek fans are invited to kick off Comic-Con with an Away Team Landing Party after Preview Night at The Landing, the Manchester Grand Hyatt's lobby bar.",
+  "notes": "Food and drinks are available for purchase from The Landing. Held after Preview Night to celebrate the start of San Diego Comic-Con.",
+  "tags": [
+    "Star Trek",
+    "Fan Meetup",
+    "Party",
+    "Preview Night",
+    "Manchester Grand Hyatt",
+    "The Landing",
+    "Sci-Fi",
+    "Community"
+  ]
+},
+  {
   "id": "wednesday-nickelodeons-fun-flows-here-preview",
   "series": "nickelodeons-fun-flows-here",
   "day": "Wednesday",
