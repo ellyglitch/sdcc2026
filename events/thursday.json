@@ -1,5 +1,38 @@
 [
   {
+  "id": "thursday-thom-tran-and-the-comedy-nerds",
+  "series": "thom-tran-and-the-comedy-nerds",
+  "day": "Thursday",
+  "title": "Thom Tran & The Comedy Nerds",
+  "category": "Show",
+  "subcategory": "Comedy",
+  "time": "8:00 PM",
+  "endTime": "",
+  "location": "Laugh Factory San Diego",
+  "address": "432 F St, San Diego, CA 92101",
+  "price": "Paid",
+  "free": false,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": false,
+  "website": "https://www.laughfactory.com/san-diego",
+  "ticketLink": "https://www.laughfactory.com/san-diego/date/2026-07-23",
+  "googleMaps": "",
+  "description": "Stand-up comedy showcase hosted by Thom Tran featuring Ryan Niemiller, Keenan Baker, Martin Morrow, and Josh Snyder.",
+  "notes": "Featured performers include Ryan Niemiller (America's Got Talent), Keenan Baker (AnimeShun Podcast), Martin Morrow (B4 The Bell Wrestling Podcast), and Josh Snyder (Oberth Class).",
+  "tags": [
+    "Comedy",
+    "Stand-Up",
+    "Thom Tran",
+    "Ryan Niemiller",
+    "Keenan Baker",
+    "Martin Morrow",
+    "Josh Snyder",
+    "Laugh Factory",
+    "Star Trek"
+  ]
+},
+  {
   "id": "thursday-her-universe-fashion-show",
   "series": "her-universe-fashion-show",
   "day": "Thursday",
