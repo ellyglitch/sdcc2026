@@ -737,21 +737,34 @@ if (plannerControls) {
 
                 const matchesSearch =
 
-                    (event.title || "")
-                        .toLowerCase()
-                        .includes(searchText)
+    (event.title || "")
+        .toLowerCase()
+        .includes(searchText)
 
-                    ||
+    ||
 
-                    (event.location || "")
-                        .toLowerCase()
-                        .includes(searchText)
+    (event.location || "")
+        .toLowerCase()
+        .includes(searchText)
 
-                    ||
+    ||
 
-                    (event.description || "")
-                        .toLowerCase()
-                        .includes(searchText);
+    (event.description || "")
+        .toLowerCase()
+        .includes(searchText)
+
+    ||
+
+    (event.category || "")
+        .toLowerCase()
+        .includes(searchText)
+
+    ||
+
+    (event.tags || [])
+        .join(" ")
+        .toLowerCase()
+        .includes(searchText);
 
                 const matchesCategory =
 
