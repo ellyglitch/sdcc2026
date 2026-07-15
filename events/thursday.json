@@ -1,5 +1,36 @@
 [
   {
+  "id": "thursday-sean-solomon-wabie",
+  "series": "sean-solomon-wabie",
+  "day": "Thursday",
+  "title": "Sean Solomon, Wabie",
+  "category": "Show",
+  "subcategory": "Concert",
+  "time": "9:30 PM",
+  "endTime": "",
+  "location": "Music Box",
+  "address": "1337 India Street, San Diego, CA 92101",
+  "price": "Free - Sold Out",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": true,
+  "website": "https://www.ticketweb.com/event/sean-solomon-wabie-music-box-tickets/14262464",
+  "ticketLink": "https://www.ticketweb.com/event/sean-solomon-wabie-music-box-tickets/14262464",
+  "googleMaps": "",
+  "description": "Sean Solomon headlines an evening performance at Music Box with special guest Wabie during San Diego Comic-Con weekend.",
+  "notes": "Doors open at 9:00 PM. Free with RSVP, subject to venue capacity. Standing room only.",
+  "tags": [
+    "Sean Solomon",
+    "Wabie",
+    "Concert",
+    "Live Music",
+    "Music Box",
+    "RSVP",
+    "Free"
+  ]
+},
+  {
   "id": "thursday-the-guild-backer-exclusive-raid",
   "series": "the-guild-backer-exclusive-raid",
   "day": "Thursday",
