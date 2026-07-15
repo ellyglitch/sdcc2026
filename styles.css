@@ -1441,6 +1441,7 @@ body.dark-mode .event-price{
     color:white;
 
 }
+
 /* =====================================================
    BUTTONS
 ===================================================== */
@@ -1456,6 +1457,17 @@ body.dark-mode .details-btn{
 body.dark-mode .favorite-btn{
 
     background:#2A2A2A;
+
+    color:white;
+
+}
+
+/* =====================================================
+   EVENT LINKS
+===================================================== */
+
+body.dark-mode .event-links a,
+body.dark-mode .event-links a:visited{
 
     color:white;
 
