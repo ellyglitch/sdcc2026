@@ -2033,6 +2033,33 @@
       "Live Reading"
     ]
   },
+   {
+    "id": "friday-adult-swim-cosplay-dance-party",
+    "series": "adult-swim-cosplay-dance-party",
+    "day": "Friday",
+    "title": "Adult Swim on the Green: Cosplay Dance Party",
+    "category": "Party",
+    "subcategory": "Cosplay",
+    "time": "9:00 PM",
+    "endTime": "10:00 PM",
+    "location": "Bayfront Park - Behind the Convention Center",
+    "address": "Bayfront Park, San Diego, CA",
+    "price": "Free",
+    "free": true,
+    "badgeRequired": false,
+    "ticketRequired": false,
+    "familyFriendly": false,
+    "website": "https://www.adultswim.com/sdcc",
+    "ticketLink": "",
+    "googleMaps": "",
+    "description": "Adult Swim's Friday night event Cosplay Dance Party on the Green",
+    "notes": "",
+    "tags": [
+      "Adult Swim",
+      "Rick and Morty",
+      "Live Reading"
+    ]
+  },
   {
     "id": "friday-toy-tubers-unite-at-nite",
     "series": "toy-tubers-unite-at-nite",
