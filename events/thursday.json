@@ -1961,6 +1961,38 @@
   ]
 },
   {
+  "id": "thursday-adult-swim-cosplay-dance-party",
+  "series": "adult-swim-on-the-green",
+  "day": "Thursday",
+  "title": "Adult Swim on the Green: Cosplay Dance Party",
+  "category": "Party",
+  "subcategory": "Cosplay",
+  "time": "9:00 PM",
+  "endTime": "10:00 PM",
+  "location": "Bayfront Park",
+  "address": "Behind the San Diego Convention Center, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": false,
+  "website": "https://www.adultswim.com/sdcc",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Adult Swim's Thursday night DJ Dance Party from 9:00 PM–10:00 PM. Event is 18+.",
+  "notes": "",
+  "tags": [
+    "Adult Swim",
+    "Exclusive Screening",
+    "Animation",
+    "TV",
+    "DJ",
+    "Nightlife",
+    "Free",
+    "Warner Bros."
+  ]
+},
+  {
     "id": "thursday-david-koechner",
     "series": "david-koechner",
     "day": "Thursday",
