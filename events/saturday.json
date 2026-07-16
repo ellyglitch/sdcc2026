@@ -1,6 +1,37 @@
 
 [
   {
+  "id": "saturday-doctor-who-worlds-of-wonder",
+  "series": "doctor-who-worlds-of-wonder",
+  "day": "Saturday",
+  "title": "Doctor Who: Worlds of Wonder Exhibit",
+  "category": "Activation",
+  "subcategory": "Exhibit",
+  "time": "10:00 AM",
+  "endTime": "5:00 PM",
+  "location": "Comic-Con Museum",
+  "address": "2131 Pan American Plaza, San Diego, CA 92101",
+  "price": "$15-$30",
+  "free": false,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": true,
+  "website": "",
+  "ticketLink": "https://115455a.blackbaudhosting.com/115455a/page.aspx?pid=213&tab=2&txobjid=fe0d1225-9996-44f3-8180-76a42aceff9e",
+  "googleMaps": "",
+  "description": "Step into the TARDIS and explore the Doctor’s thrilling adventures and iconic characters while discovering the real-life science behind the long-running series.",
+  "notes": "Runs daily Tuesday through Sunday during Comic-Con week.",
+  "tags": [
+    "Doctor Who",
+    "BBC",
+    "Exhibit",
+    "Museum",
+    "TARDIS",
+    "Science",
+    "Family Friendly"
+  ]
+},
+  {
   "id": "saturday-nickelodeons-fun-flows-here",
   "series": "nickelodeons-fun-flows-here",
   "day": "Saturday",
