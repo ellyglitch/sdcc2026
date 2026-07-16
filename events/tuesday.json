@@ -1,68 +1,68 @@
 [
   {
-  "id": "tuesday-doctor-who-worlds-of-wonder",
-  "series": "doctor-who-worlds-of-wonder",
-  "day": "Tuesday",
-  "title": "Doctor Who: Worlds of Wonder Exhibit",
-  "category": "Activation",
-  "subcategory": "Exhibit",
-  "time": "10:00 AM",
-  "endTime": "5:00 PM",
-  "location": "Comic-Con Museum",
-  "address": "2131 Pan American Plaza, San Diego, CA 92101",
-  "price": "$15-$30",
-  "free": false,
-  "badgeRequired": false,
-  "ticketRequired": true,
-  "familyFriendly": true,
-  "website": "",
-  "ticketLink": "https://115455a.blackbaudhosting.com/115455a/page.aspx?pid=213&tab=2&txobjid=fe0d1225-9996-44f3-8180-76a42aceff9e",
-  "googleMaps": "",
-  "description": "Step into the TARDIS and explore the Doctor’s thrilling adventures and iconic characters while discovering the real-life science behind the long-running series.",
-  "notes": "Runs daily Tuesday through Sunday during Comic-Con week.",
-  "tags": [
-    "Doctor Who",
-    "BBC",
-    "Exhibit",
-    "Museum",
-    "TARDIS",
-    "Science",
-    "Family Friendly"
-  ]
-},
+    "id": "tuesday-doctor-who-worlds-of-wonder",
+    "series": "doctor-who-worlds-of-wonder",
+    "day": "Tuesday",
+    "title": "Doctor Who: Worlds of Wonder Exhibit",
+    "category": "Activation",
+    "subcategory": "Exhibit",
+    "time": "10:00 AM",
+    "endTime": "5:00 PM",
+    "location": "Comic-Con Museum",
+    "address": "2131 Pan American Plaza, San Diego, CA 92101",
+    "price": "$15-$30",
+    "free": false,
+    "badgeRequired": false,
+    "ticketRequired": true,
+    "familyFriendly": true,
+    "website": "",
+    "ticketLink": "https://115455a.blackbaudhosting.com/115455a/page.aspx?pid=213&tab=2&txobjid=fe0d1225-9996-44f3-8180-76a42aceff9e",
+    "googleMaps": "",
+    "description": "Explore an exhibit celebrating Doctor Who through props, characters, and interactive displays while examining the real-world science and ideas that have inspired the long-running series.",
+    "notes": "Runs daily Tuesday through Sunday during Comic-Con week.",
+    "tags": [
+      "Doctor Who",
+      "BBC",
+      "Exhibit",
+      "Museum",
+      "TARDIS",
+      "Science",
+      "Family Friendly"
+    ]
+  },
   {
-  "id": "el-chingon-pokemon-trading-card-night",
-  "series": "el-chingon-pokemon-trading-card-night",
-  "day": "Tuesday",
-  "title": "Pokémon Trading Card Night",
-  "category": "Event",
-  "subcategory": "Trading Cards",
-  "time": "5:00 PM",
-  "location": "El Chingon",
-  "address": "560 Fifth Ave, San Diego, CA 92101",
-  "price": "Free",
-  "free": true,
-  "badgeRequired": false,
-  "ticketRequired": true,
-  "familyFriendly": true,
-  "website": "",
-  "ticketLink": "https://www.eventbrite.com/e/pokemon-trading-card-game-night-el-chingon-san-diego-tickets-1992578854994",
-  "googleMaps": "",
-  "description": "Bring your latest and greatest Pokémon Trading Cards to trade with fellow collectors in the heart of the Gaslamp District. Enjoy food and drink specials while connecting with other Pokémon fans during Comic-Con week.",
-  "notes": "Guests who RSVP receive either a complimentary Charizard Cocktail or a taco. Food and drink specials available throughout the event.",
-  "tags": [
-    "Pokemon",
-    "Pokémon",
-    "Trading Cards",
-    "TCG",
-    "Meetup",
-    "Gaming",
-    "Collectors",
-    "El Chingon",
-    "Free",
-    "RSVP Required"
-  ]
-},
+    "id": "el-chingon-pokemon-trading-card-night",
+    "series": "el-chingon-pokemon-trading-card-night",
+    "day": "Tuesday",
+    "title": "Pokémon Trading Card Night",
+    "category": "Event",
+    "subcategory": "Trading Cards",
+    "time": "5:00 PM",
+    "location": "El Chingon",
+    "address": "560 Fifth Ave, San Diego, CA 92101",
+    "price": "Free",
+    "free": true,
+    "badgeRequired": false,
+    "ticketRequired": true,
+    "familyFriendly": true,
+    "website": "",
+    "ticketLink": "https://www.eventbrite.com/e/pokemon-trading-card-game-night-el-chingon-san-diego-tickets-1992578854994",
+    "googleMaps": "",
+    "description": "Meet fellow Pokémon Trading Card Game players and collectors for an evening of trading and community during Comic-Con week. Food and drink specials are available for attendees throughout the event.",
+    "notes": "Guests who RSVP receive either a complimentary Charizard Cocktail or a taco. Food and drink specials available throughout the event.",
+    "tags": [
+      "Pokemon",
+      "Pokémon",
+      "Trading Cards",
+      "TCG",
+      "Meetup",
+      "Gaming",
+      "Collectors",
+      "El Chingon",
+      "Free",
+      "RSVP Required"
+    ]
+  },
   {
     "id": "tuesday-shredding-the-multiverse",
     "series": "shredding-the-multiverse",
@@ -82,7 +82,7 @@
     "website": "",
     "ticketLink": "https://artpower.ucsd.edu/event/shredding-the-multiverse/",
     "googleMaps": "",
-    "description": "kick off your convention week with “Shredding the Multiverse”, a high-energy live performance featuring composer Mick Giacchino (The Penguin, Muppet Mayhem), along with musicians/composers Zach Robinson and Leo Birenberg (Cobrai Cai). Expect a genre-hopping set that pulls from across film, TV, and beyond, including Your Friendly Neighborhood Spider-Man, Star Wars: Skeleton Crew, Cobrai Cai, The Penguin, and more",
+    "description": "Composer Mick Giacchino joins composers Zach Robinson and Leo Birenberg for a live concert featuring music from film and television projects, including selections connected to Spider-Man, Star Wars, Cobra Kai, The Penguin, and other productions.",
     "notes": "Advance purchase ticket required.",
     "tags": [
       "Live Performance",
@@ -109,7 +109,7 @@
     "website": "",
     "ticketLink": "https://calendar.ucsd.edu/event/clarion-science-fiction-and-fantasy-writers-masterclass-5724#",
     "googleMaps": "",
-    "description": "An immersive, day-long experience exploring the craft and power of speculative fiction. Attendees will learn the fundamentals of speculative fiction from faculty and recent alumni of the Clarion Writers' Workshop. Instructors include T.K. Rex (The Wildcraft Drones), Sumayyah Beck (Airrelle of the Maroon Witches), and keynote speaker Abbey Mei Otis (Alien Virus Love Disaster).",
+    "description": "This day-long workshop focuses on writing speculative fiction through presentations, instructional sessions, and discussions led by Clarion Writers' Workshop faculty, alumni, and guest speakers.",
     "notes": "13 Miles from Gaslamp. Includes breakfast and lunch, morning masterclass session, keynote lunch speaker, and afternoon masterclass session.",
     "tags": [
       "Writing",
@@ -120,7 +120,7 @@
       "Free"
     ]
   },
-  {
+    {
     "id": "tuesday-enhypen-blood-saga-world-tour",
     "series": "enhypen-blood-saga-world-tour",
     "day": "Tuesday",
@@ -139,7 +139,7 @@
     "website": "",
     "ticketLink": "https://www.ticketmaster.com/event/0A00648BD78EC21F?spMailingID=13662656&spUserID=NzA5OTA0MjY3NzQ5S0&spJobID=2440366260&spReportId=MjQ0MDM2NjI2MAS2",
     "googleMaps": "",
-    "description": "ENHYPEN brings its 'Blood Saga' World Tour to Snapdragon Stadium.",
+    "description": "K-pop group ENHYPEN brings its 'Blood Saga' World Tour to Snapdragon Stadium for an evening concert during Comic-Con week.",
     "notes": "Advance purchase ticket required.",
     "tags": [
       "Concert",
@@ -167,7 +167,7 @@
     "website": "",
     "ticketLink": "https://bardsandcards.com/collections/event-reservations/products/disney-lorcana-attack-of-the-vine-prerelease-sat-jul-18-disney-lorcana",
     "googleMaps": "",
-    "description": "Play Disney Lorcana: Attack of the Vine before its official release. Open a Pre-release Box, build a 40-card deck, and compete in three rounds against fellow Illumineers. Everyone keeps what they open and wins prize packs.",
+    "description": "Play the newest Disney Lorcana set before its official release. Participants receive a pre-release box, build a deck from the included cards, and compete in tournament rounds while keeping everything they open.",
     "notes": "Advance purchase ticket required.",
     "tags": [
       "Disney Lorcana",
@@ -195,7 +195,7 @@
     "website": "",
     "ticketLink": "https://go.seated.com/tour-events/26ebe274-7b89-42f7-8a28-9575f5c73ad2?utm_referrer=https%3A%2F%2Fwww.edsheeran.com%2F",
     "googleMaps": "",
-    "description": "Ed Sheeran performs as part of his LOOP Tour in San Diego.",
+    "description": "Ed Sheeran performs at Petco Park as part of his LOOP Tour.",
     "notes": "Advance purchase ticket required.",
     "tags": [
       "Concert",
@@ -222,7 +222,7 @@
     "website": "",
     "ticketLink": "https://www.eventbrite.com/e/pawmicon-2026-tickets-1992599309173?aff=ebdssbdestsearch",
     "googleMaps": "",
-    "description": "Bring your furry friend (or yourself) to President's Way Lawn in front of the Comic-Con Museum for pet cosplay, vendors, and activities for pets and humans.",
+    "description": "Bring your pet—or come on your own—for an outdoor gathering featuring pet cosplay, vendors, and activities near the Comic-Con Museum in Balboa Park.",
     "notes": "Pet costume contest registration is $20 with categories including Flying Solo, Dynamic Duos & Trios & More, and Fantastic Floats. Registration available through the event website.",
     "tags": [
       "Pets",
@@ -250,7 +250,7 @@
     "website": "",
     "ticketLink": "https://patrickballesteros.com/new-page",
     "googleMaps": "",
-    "description": "Artist Patrick Ballesteros' annual afternoon pop-up gallery and shop.",
+    "description": "Visit Patrick Ballesteros' annual pop-up event to browse artwork and shop for pieces during this afternoon appearance at Mnemonic Coffee.",
     "notes": "",
     "tags": [
       "Art",
@@ -259,7 +259,7 @@
       "Shopping"
     ]
   },
-  {
+    {
     "id": "tuesday-rooftop-cinema-love-jones",
     "series": "rooftop-cinema-club",
     "day": "Tuesday",
@@ -275,11 +275,10 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": false,
-    
     "website": "",
     "ticketLink": "https://rooftopcinemaclub.com/us/san-diego/little-italy",
     "googleMaps": "",
-    "description": "Outdoor rooftop screening of Love Jones.",
+    "description": "Watch a rooftop screening of Love Jones at Rooftop Cinema Club's Little Italy location.",
     "notes": "",
     "tags": [
       "Movie",
@@ -303,11 +302,10 @@
     "badgeRequired": false,
     "ticketRequired": true,
     "familyFriendly": false,
-    
     "website": "",
     "ticketLink": "https://rooftopcinemaclub.com/us/san-diego/little-italy",
     "googleMaps": "",
-    "description": "Outdoor rooftop screening of There's Something About Mary.",
+    "description": "Enjoy an evening rooftop showing of There's Something About Mary at Rooftop Cinema Club in Little Italy.",
     "notes": "Advance purchase ticket required.",
     "tags": [
       "Movie",
@@ -332,11 +330,10 @@
     "badgeRequired": false,
     "ticketRequired": false,
     "familyFriendly": true,
-    
     "website": "",
     "ticketLink": "https://sdccblog.com/events-default/yesterdays-party-at-stone-brewing/",
     "googleMaps": "",
-    "description": "Celebrate Stone Brewing's 30th anniversary with Yesterdays during Comic-Con week. Enjoy a live DJ, tacos, exclusive merchandise pickup, and anniversary collectibles.",
+    "description": "Celebrate Yesterdays and Stone Brewing's 30th anniversary with an evening gathering featuring music, food, and opportunities to pick up eligible Comic-Con merchandise and anniversary items.",
     "notes": "Attendees who pre-ordered Yesterdays SDCC exclusives may pick them up during the event. A single queue will be used for Tuesday exclusives. A commemorative 30th Anniversary Stone Brewing pin will also be available for purchase from the Tap House bar.",
     "tags": [
       "Party",
