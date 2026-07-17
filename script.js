@@ -287,6 +287,7 @@ try {
     console.error(err);
     throw err;
 }
+        }
 
         allEvents = json.flat();
 
