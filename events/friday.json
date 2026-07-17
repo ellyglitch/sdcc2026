@@ -423,35 +423,6 @@
   ]
 },
 {
-  "id": "friday-idw-party",
-  "series": "idw-party",
-  "day": "Friday",
-  "title": "IDW Party",
-  "category": "Party",
-  "subcategory": "Industry Party",
-  "time": "7:00 PM",
-  "endTime": "",
-  "location": "Vin De Syrah",
-  "address": "901 5th Ave, San Diego, CA 92101",
-  "price": "Free - Invite Only",
-  "free": true,
-  "badgeRequired": false,
-  "ticketRequired": true,
-  "familyFriendly": true,
-  "website": "",
-  "ticketLink": "",
-  "googleMaps": "",
-  "description": "Invite-only Comic-Con gathering hosted by IDW for invited guests and industry attendees.",
-  "notes": "Invite only.",
-  "tags": [
-    "IDW",
-    "Comics",
-    "Industry",
-    "Party",
-    "Invite Only"
-  ]
-},
-{
   "id": "friday-gungnir-books-laugh-factory-party",
   "series": "gungnir-books-laugh-factory-party",
   "day": "Friday",
