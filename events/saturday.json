@@ -1,6 +1,40 @@
 
 [
     {
+  "id": "saturday-level-up-lounge",
+  "series": "level-up-lounge",
+  "day": "Saturday",
+  "title": "Level Up Lounge",
+  "category": "Food",
+  "subcategory": "Pop-Up Bar",
+  "time": "11:00 AM",
+  "endTime": "11:00 PM",
+  "location": "Wild Hare Bar Garden",
+  "address": "2615 Kettner Blvd, San Diego, CA 92101",
+  "price": "Food & Drinks for Purchase",
+  "free": false,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://www.wildharebargarden.com/event/come-join-us-at-the-wild-hare-bar-garden-and-experience-the-level-up-lounge/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Wild Hare Bar Garden transforms into the Level Up Lounge, a retro gaming-inspired Comic-Con pop-up featuring pixel-art décor, themed cocktails, local craft beer, themed food, and interactive photo opportunities.",
+  "notes": "Open daily during Comic-Con week from 11:00 AM–11:00 PM. No SDCC badge required. Walk-ins welcome on a first-come, first-served basis.",
+  "tags": [
+    "Level Up Lounge",
+    "Wild Hare Bar Garden",
+    "Retro Gaming",
+    "Video Games",
+    "Pop-Up",
+    "Cocktails",
+    "Craft Beer",
+    "Photo Opportunity",
+    "Comic-Con Food",
+    "No Badge Required"
+  ]
+},
+    {
   "id": "saturday-blunt-objects-party",
   "series": "blunt-objects-party",
   "day": "Saturday",
