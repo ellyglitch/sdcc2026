@@ -1,5 +1,37 @@
 [
     {
+  "id": "wednesday-book-swap-social",
+  "series": "book-swap-social",
+  "day": "Wednesday",
+  "title": "Book Swap Social",
+  "category": "Meetup",
+  "subcategory": "Book Club",
+  "time": "3:00 PM",
+  "endTime": "4:00 PM",
+  "location": "Bon Cha",
+  "address": "330 G St, San Diego, CA 92101",
+  "price": "Free (RSVP Requested)",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": true,
+  "website": "",
+  "ticketLink": "https://www.eventbrite.com/e/book-swap-social-3pm-tickets-1994263026396?aff=erellivmlt",
+  "googleMaps": "",
+  "description": "Join fellow readers for a free Comic-Con week Book Swap Social hosted by @Joshuas_Space. Bring books to trade, meet other book lovers, and enjoy an afternoon of community during SDCC week.",
+  "notes": "Free RSVP available through Eventbrite. Donations are optional to help cover the cost of complimentary bookmarks. Hosted at Bon Cha.",
+  "tags": [
+    "Books",
+    "Book Swap",
+    "Reading",
+    "BookTok",
+    "Community",
+    "Meetup",
+    "Free",
+    "RSVP"
+  ]
+},
+    {
   "id": "wednesday-le-charcuterie-bar-comic-con-specials",
   "series": "le-charcuterie-bar-comic-con-specials",
   "day": "Wednesday",
