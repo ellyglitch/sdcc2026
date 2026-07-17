@@ -1,6 +1,40 @@
 
 [
     {
+  "id": "saturday-blunt-objects-party",
+  "series": "blunt-objects-party",
+  "day": "Saturday",
+  "title": "Blunt Objects Party",
+  "category": "Party",
+  "subcategory": "After Party",
+  "time": "9:00 PM",
+  "endTime": "12:00 AM",
+  "location": "Vin de Syrah",
+  "address": "901 Fifth Ave, San Diego, CA 92101",
+  "price": "Free - Invite Only",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": false,
+  "website": "",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Nitrate Games and Sassy Chap Games present Blunt Objects, a Comic-Con 2026 after party celebrating the newly announced games Jay and Silent Bob's Joint Venture and Date Everything!",
+  "notes": "",
+  "tags": [
+    "Nitrate Games",
+    "Sassy Chap Games",
+    "Jay and Silent Bob",
+    "Joint Venture",
+    "Date Everything!",
+    "Video Games",
+    "After Party",
+    "Free",
+    "RSVP Required",
+      "IDW"
+  ]
+}
+    {
   "id": "saturday-le-charcuterie-bar-comic-con-specials",
   "series": "le-charcuterie-bar-comic-con-specials",
   "day": "Saturday",
