@@ -279,11 +279,14 @@ async function loadEvents(day) {
 
             const text = await response.text();
 
-            const data = JSON.parse(text);
-
-            json.push(data);
-
-        }
+try {
+    const data = JSON.parse(text);
+    json.push(data);
+} catch (err) {
+    console.error("JSON error in:", file);
+    console.error(err);
+    throw err;
+}
 
         allEvents = json.flat();
 
