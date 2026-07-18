@@ -1,6 +1,39 @@
 
 [
      {
+  "id": "saturday-den-of-geek-frank-miller-charity-auction",
+  "series": "den-of-geek-frank-miller-charity-auction",
+  "day": "Saturday",
+  "title": "Den of Geek x Frank Miller Charity Batman Auction",
+  "category": "Event",
+  "subcategory": "Charity Auction",
+  "time": "10:45 AM",
+  "endTime": "11:45 AM",
+  "location": "Ignition Pavilion at the San Diego Wine & Culinary Center",
+  "address": "200 Harbor Dr #120, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://www.ebay.com/ebaylive/events/wUtGSfk5pQjnrm3Z?utm_source=denofgeek.beehiiv.com&utm_medium=newsletter&utm_campaign=spider-man-brand-new-day-featured-on-den-of-geek-s-collectible-variant-magazine-covers&_bhlid=eb29d03eda84033dd5d36b02a4d415dd35eec944",
+  "ticketLink": "https://www.ebay.com/ebaylive/events/wUtGSfk5pQjnrm3Z?utm_source=denofgeek.beehiiv.com&utm_medium=newsletter&utm_campaign=spider-man-brand-new-day-featured-on-den-of-geek-s-collectible-variant-magazine-covers&_bhlid=eb29d03eda84033dd5d36b02a4d415dd35eec944",
+  "googleMaps": "",
+  "description": "Join legendary comic creator Frank Miller for a special charity auction featuring rare collectibles, original artwork, and autographed items spanning his iconic career, hosted in partnership with Den of Geek and eBay Live.",
+  "notes": "Make sure to hit 'Remind Me' on the link not to miss out on these once in a lifetime items!",
+  "tags": [
+    "Frank Miller",
+    "Batman",
+    "Den of Geek",
+    "eBay Live",
+    "Charity",
+    "Auction",
+    "Comics",
+    "Autographs",
+    "Collectibles"
+  ]
+},
+     {
   "id": "saturday-losophe",
   "series": "aisha-tyler-losophe-event",
   "day": "Saturday",
