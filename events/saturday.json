@@ -1,5 +1,39 @@
 
 [
+     {
+  "id": "saturday-losophe",
+  "series": "aisha-tyler-losophe-event",
+  "day": "Saturday",
+  "title": "Aisha Tyler's Losophe Event",
+  "category": "Food",
+  "subcategory": "Pop-Up Bar",
+  "time": "12:00 PM",
+  "endTime": "3:00 PM",
+  "location": "Revealed to those with tickets",
+  "address": "",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://www.wildharebargarden.com/event/come-join-us-at-the-wild-hare-bar-garden-and-experience-the-level-up-lounge/",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "First 300 people to text SDCC26 to 844-769-0591 will get tickets! Aisha Tyler will be pouring samples of her Losophe margaritas and mojitos and signing memorobilia, taking photos, and handing out fun fan swag.",
+  "notes": "Bring a pre-purchased bottle to be signed by Aisha!",
+  "tags": [
+    "Losophe",
+    "Aisha Tyler",
+    "Cocktails",
+    "Bar",
+    "Pop-Up",
+    "Free alcohol",
+    "Craft Beer",
+    "Photo Opportunity",
+    "Comic-Con Food",
+    "No Badge Required"
+  ]
+},
     {
   "id": "saturday-level-up-lounge",
   "series": "level-up-lounge",
