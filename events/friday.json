@@ -2469,34 +2469,6 @@
   ]
 },
 {
-  "id": "friday-den-of-geek-science-meets-pop-culture",
-  "series": "den-of-geek-science-meets-pop-culture",
-  "day": "Friday",
-  "title": "Den of Geek: Science Meets Pop Culture Live Podcast",
-  "category": "Meetup",
-  "subcategory": "Live Podcast",
-  "time": "7:00 PM",
-  "endTime": "",
-  "location": "Mission Brewery",
-  "address": "1441 L St, San Diego, CA 92101",
-  "price": "Free",
-  "free": true,
-  "badgeRequired": false,
-  "ticketRequired": false,
-  "familyFriendly": true,
-  "website": "",
-  "ticketLink": "",
-  "googleMaps": "",
-  "description": "Join Den of Geek for a live discussion exploring science, fandom, and pop culture with special guests during Comic-Con weekend.",
-  "notes": "",
-  "tags": [
-    "Podcast",
-    "Science",
-    "Den of Geek",
-    "Pop Culture"
-  ]
-},
-{
   "id": "friday-rainbow-kitten-surprise",
   "series": "rainbow-kitten-surprise",
   "day": "Friday",
