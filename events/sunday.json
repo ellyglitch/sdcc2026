@@ -1178,26 +1178,28 @@
   "day": "Sunday",
   "title": "The Vampire Lestat / Interview with the Vampire Fan Meetup",
   "category": "Meetup",
-  "subcategory": "Fan Meetup",
+  "subcategory": "Cosplay Photoshoot",
   "time": "11:00 AM",
   "endTime": "",
-  "location": "TBA",
+  "location": "Outside Hilton Gaslamp",
   "address": "",
   "price": "Free",
   "free": true,
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
-  
   "website": "",
   "ticketLink": "",
   "googleMaps": "",
-  "description": "Meet fellow fans of The Vampire Lestat and Interview with the Vampire.",
-  "notes": "",
+  "description": "Kerry Dixton of Unofficial UBlog hosts this meeting of 'Interview with a Vampire' and 'The Vampire Lestat' fans, featuring cosplay, trivia, and prizes.",
+  "notes": "Cosplay photo will be taken in front of the Pendry at the end of the meet-up",
   "tags": [
     "Interview with the Vampire",
     "AMC",
-    "Vampires"
+    "Vampires",
+      "The Vampire Lestat", 
+      "Cosplay",
+      "Trivia"
   ]
 },
 {
