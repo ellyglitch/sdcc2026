@@ -1,5 +1,34 @@
 [
     {
+  "id": "sunday-rsvlts-moxy-activation",
+  "series": "rsvlts-moxy-activation",
+  "day": "Sunday",
+  "title": "RSVLTS x Moxy Activation",
+  "category": "Activation",
+  "subcategory": "Pop-Up Shop",
+  "time": "10:00 AM",
+  "endTime": "6:00 PM",
+  "location": "Moxy San Diego Downtown/Gaslamp Quarter",
+  "address": "831 Sixth Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://www.instagram.com/p/Da31a1jPQyr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Visit the RSVLTS x Moxy activation during Comic-Con for themed experiences, shopping, and exclusive fan activities.",
+  "notes": "",
+  "tags": [
+    "RSVLTS",
+    "Moxy Hotel",
+    "Shopping",
+    "Activation",
+    "Comic-Con"
+  ]
+},
+    {
   "id": "sunday-level-up-lounge",
   "series": "level-up-lounge",
   "day": "Sunday",
