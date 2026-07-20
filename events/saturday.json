@@ -1,6 +1,35 @@
 
 [
      {
+  "id": "saturday-rsvlts-moxy-activation",
+  "series": "rsvlts-moxy-activation",
+  "day": "Saturday",
+  "title": "RSVLTS x Moxy Activation",
+  "category": "Activation",
+  "subcategory": "Pop-Up Shop",
+  "time": "10:00 AM",
+  "endTime": "2:00 AM",
+  "location": "Moxy San Diego Downtown/Gaslamp Quarter",
+  "address": "831 Sixth Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://www.instagram.com/p/Da31a1jPQyr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Visit the RSVLTS x Moxy activation during Comic-Con for themed experiences, shopping, and exclusive fan activities.",
+  "notes": "Extended hours until 2:00 AM.",
+  "tags": [
+    "RSVLTS",
+    "Moxy Hotel",
+    "Shopping",
+    "Activation",
+    "Comic-Con"
+  ]
+},
+     {
   "id": "saturday-den-of-geek-frank-miller-charity-auction",
   "series": "den-of-geek-frank-miller-charity-auction",
   "day": "Saturday",
