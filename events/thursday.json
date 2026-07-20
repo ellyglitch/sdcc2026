@@ -1,5 +1,34 @@
 [
     {
+  "id": "thursday-king-trivia-superhero-edition",
+  "series": "king-trivia-superhero-edition",
+  "day": "Thursday",
+  "title": "King Trivia Live: Superhero Edition",
+  "category": "Event",
+  "subcategory": "Trivia Night",
+  "time": "6:00 PM",
+  "endTime": "",
+  "location": "Moxy San Diego Downtown/Gaslamp Quarter",
+  "address": "831 Sixth Ave, San Diego, CA 92101",
+  "price": "Free",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": false,
+  "familyFriendly": true,
+  "website": "https://www.instagram.com/p/Da31a1jPQyr/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Test your superhero knowledge during a live Comic-Con themed trivia night hosted by King Trivia.",
+  "notes": "",
+  "tags": [
+    "King Trivia",
+    "Superheroes",
+    "Trivia",
+    "Moxy Hotel",
+    "Free"
+  ]
+},
+    {
   "id": "thursday-rsvlts-moxy-activation",
   "series": "rsvlts-moxy-activation",
   "day": "Thursday",
