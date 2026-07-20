@@ -905,16 +905,16 @@
   "endTime": "7:00 PM",
   "location": "Swing Social",
   "address": "527 Fifth Ave, San Diego, CA 92101",
-  "price": "Free",
+  "price": "Free - Sold Out",
   "free": true,
   "badgeRequired": false,
   "ticketRequired": false,
   "familyFriendly": true,
   "website": "https://sdccblog.com/2026/07/audible-levels-up-san-diego-comic-con-2026-with-dungeon-crawler-carl-kate-mckinnon-offsite-more/",
-  "ticketLink": "",
+  "ticketLink": "https://leveluploungeexperience.splashthat.com/ ",
   "googleMaps": "",
-  "description": "Audible's interactive Level Up Lounge celebrates Dungeon Crawler Carl and Bobiverse with themed experiences, exclusive prizes, listening lounges, cosplay touch-up stations, phone charging, photo opportunities, and more.",
-  "notes": "Guests can complete themed activities to earn XP, redeemable for exclusive loot and prizes. Features include a Bobiverse-inspired BobNet zone, Dungeon Crawler Carl survival station, listening lounges, cosplay repair station, charging stations, and photo opportunities.",
+  "description": "Audible's interactive Level Up Lounge celebrates Dungeon Crawler Carl and Bobiverse with themed experiences, exclusive prizes, listening lounges, cosplay touch-up stations, phone charging, photo opportunities, and more. Guests can complete themed activities to earn XP, redeemable for exclusive loot and prizes. Features include a Bobiverse-inspired BobNet zone, Dungeon Crawler Carl survival station, listening lounges, cosplay repair station, charging stations, and photo opportunities.",
+  "notes": "Matt Dinnamon Meet & Greet at 4pm - 5:30pm. Ticketed on website.",
   "tags": [
     "Audible",
     "Dungeon Crawler Carl",
@@ -924,7 +924,7 @@
     "Cosplay",
     "LitRPG",
     "Gaming",
-    "Free"
+    "DCC"
   ]
 },
    {
