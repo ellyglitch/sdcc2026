@@ -1,6 +1,35 @@
 
 [
      {
+  "id": "saturday-star-trek-fleet-command-community-party",
+  "series": "star-trek-fleet-command-community-party",
+  "day": "Saturday",
+  "title": "Star Trek Fleet Command Community Party",
+  "category": "Party",
+  "subcategory": "Fan Party",
+  "time": "7:30 PM",
+  "endTime": "11:30 PM",
+  "location": "The Sinclair on G Street",
+  "address": "643 G St, San Diego, CA 92101",
+  "price": "Free - Invite Only",
+  "free": true,
+  "badgeRequired": false,
+  "ticketRequired": true,
+  "familyFriendly": true,
+  "website": "",
+  "ticketLink": "",
+  "googleMaps": "",
+  "description": "Invite-only community event for Star Trek Fleet Command players and invited guests.",
+  "notes": "Invite only. Time TBD.",
+  "tags": [
+    "Star Trek",
+    "Fleet Command",
+    "Community",
+    "Party",
+    "Invite Only"
+  ]
+},
+     {
   "id": "saturday-rsvlts-moxy-activation",
   "series": "rsvlts-moxy-activation",
   "day": "Saturday",
